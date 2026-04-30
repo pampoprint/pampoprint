@@ -239,10 +239,9 @@ function displayCart() {
               </button>
             </div>
           </div>
-          ${cartCount > 1 ? 
-          `<div onclick="clearItem('${pvk}')" class="hidden sm:flex flex-col items-starts h-60">
+          <div onclick="clearItem('${pvk}')" class="hidden sm:flex flex-col items-starts h-60">
             <button class="text-gray-500 dark:text-gray-400 hover:text-red-500 text-xl cursor-pointer">&times;</button>
-          </div>` : ''}
+          </div>
         `;
 
         cartItems.appendChild(itemDiv);

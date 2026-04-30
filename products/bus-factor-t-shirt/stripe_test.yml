@@ -372,3 +372,25 @@ bus-factor-t-shirt-natural-xl:
     GBP:
       id: price_1TRxzhFh1LRw8QtvTiOjIErq
       unit_amount: 2399
+bus-factor-t-shirt-natural-2xl:
+  color: Natural
+  size: 2XL
+  stripe_id: prod_UQtjXu82W4uA33
+  stripe_prices:
+    USD:
+      id: price_1TS1wQFh1LRw8QtvTMqGFKeY
+      unit_amount: 3499
+    GBP:
+      id: price_1TS1wQFh1LRw8QtvZ6V3cFnC
+      unit_amount: 2599
+bus-factor-t-shirt-natural-3xl:
+  color: Natural
+  size: 3XL
+  stripe_id: prod_UQtjSSsRj0YZSp
+  stripe_prices:
+    USD:
+      id: price_1TS1wRFh1LRw8Qtv6KXJwnLn
+      unit_amount: 3699
+    GBP:
+      id: price_1TS1wRFh1LRw8QtvpieGRker
+      unit_amount: 2699
