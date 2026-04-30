@@ -22,12 +22,12 @@ export function copyDirSync(src, dest) {
   }
 }
 
-const dataDir = path.join(process.cwd(), 'data');
+const productsDir = path.join(process.cwd(), 'products');
 const buildDir = path.join(process.cwd(), 'build');
 const imageExtensions = /\.(png|jpe?g|webp|gif|bmp|svg)$/i;
 
 export function copyProductImages(pk, folder) {
-  const srcDir = path.join(dataDir, pk, 'images', folder);
+  const srcDir = path.join(productsDir, pk, 'images', folder);
   const destDir = path.join(buildDir, 'img', 'products', pk, folder);
 
   if (!fs.existsSync(srcDir)) {

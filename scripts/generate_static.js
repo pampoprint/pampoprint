@@ -3,7 +3,7 @@ import path from 'path';
 import fs from 'fs';
 import fsExtra from 'fs-extra';
 import ejs from 'ejs';
-import config from '../src/config.js';
+import config, {env} from '../src/config.js';
 import {getProductsWithStripePrices, getProductPrice, getProductOldPrice} from '../src/products.js';
 import {getBlogs} from '../src/blogs.js';
 import {encryptValues} from '../src/utils.js';
@@ -26,9 +26,12 @@ const policies = ['privacy-policy', 'refund-policy', 'shipping-policy', 'terms-o
 const blogs = getBlogs();
 
 const locals = {
+  env,
   getProductPrice,
   getProductOldPrice,
   site: config,
+  hasBlogs: blogs.length > 0,
+  hasTestimonials: Array.isArray(config.testimonials) && config.testimonials.length > 0,
   formatCurrency: config.formatCurrency,
   countries,
   currencies,

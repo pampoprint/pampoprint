@@ -1,0 +1,35 @@
+company: PampoPrint
+companyHeaderTitleHtml: |-
+  <span class="flex items-center leading-none [text-shadow:0_0_2px_white] font-bold tracking-tight">
+    <span class="text-purple-700">pampo</span>
+    <span class="text-lime-400">print</span>
+    <span class="text-purple-700">.com</span>
+  </span>
+emoji: 👕
+logoImg: logo.png
+domain: pampoprint.com
+email: info@pampoprint.com
+mainBgColor: bg-indigo-800
+headerTitleClass: text-3xl font-medium text-lime-300
+pageTitleColor: text-indigo-700 dark:text-indigo-300
+mainBtnColor: bg-lime-500 hover:bg-lime-600 active:bg-lime-400
+secondBtnColor: bg-violet-600 hover:bg-violet-500 active:bg-violet-700
+linkColor: text-indigo-600 dark:text-indigo-400 hover:text-indigo-800
+  dark:hover:text-indigo-300
+heroImg: hero.webp
+aboutImg: about.webp
+sloganHTML: |-
+  <h2 class="max-w-md text-center text-4xl font-bold text-slate-900 sm:text-left sm:text-5xl dark:text-white">
+    Thoughtfully Curated Products.<br />
+    <span class="text-indigo-700 dark:text-indigo-300">Elevate Everyday Living</span>
+    with PampoPrint!
+  </h2>
+  <p class="mt-4 max-w-md text-center text-2xl text-slate-700 sm:text-left dark:text-slate-400">Find simple, beautiful, and useful items designed to make your daily life a little better.</p>
+about: |-
+  At PampoPrint, we believe in thoughtful simplicity. We carefully select every product to help you live more intentionally, whether it's something useful, inspiring, or just plain joyful.
+  Our team is driven by curiosity and craftsmanship — not by trends. Whether you're shopping for your home, a loved one, or yourself, we're here to offer lasting value over flashy hype. From handmade goods to smart everyday essentials, PampoPrint helps turn ordinary routines into something meaningful.
+defaultCountry: UK
+currencyUnit: GBP
+locale: en-GB
+supportedCurrencies: [ USD, GBP ]
+supportedCountries: [ UA, PL, GB, US ]
