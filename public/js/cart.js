@@ -1,6 +1,7 @@
 const MAX_PRODUCT_COUNT = 10;
 let cart;
 let country;
+const imageIndex = {};
 
 function loadCart() {
   const savedCart = JSON.parse(localStorage.getItem('cart') || '{}');
@@ -83,6 +84,8 @@ function selectColor(currentElement, pk) {
     element.classList.remove('active');
   }
   currentElement.classList.add('active');
+  imageIndex[pk] = 0;
+  renderImage(pk);
 }
 
 function selectSize(currentElement, pk) {
@@ -102,8 +105,8 @@ function addProductToCart(pk) {
   const pvk = getProductVariant(pk);
   const qty = getProductQty(pk);
   const productName = products[pk].title;
-  const productImg = products[pk].image;
   const color = document.querySelector(`.productColor-${pk}.active`)?.getAttribute('data-value');
+  const productImg = products[pk].imagesByColor[color]?.[0] || products[pk].images[0];
   const size = document.querySelector(`.productSize-${pk}.active`)?.getAttribute('data-value');
   // const size = products[pk].size;
   const price = products[pk].isSizeBasedPrice ? products[pk].price[size] : products[pk].price;
@@ -141,6 +144,7 @@ function restoreProductsQty() {
           element.classList.remove('active');
         }
         document.getElementById(`productColor-${item.pk}-${item.color}`)?.classList.add('active');
+        renderImage(item.pk);
       }
       if (item.size) {
         const productSizes = document.getElementsByClassName(`productSize-${item.pk}`);
@@ -465,4 +469,31 @@ function urgencyMessage() {
     const index = Math.floor(Math.random() * messages.length);
     urgencyElem.textContent = messages[index];
   }
+}
+
+function getProductVariantImages(pk) {
+  const color = document.querySelector(`.productColor-${pk}.active`)?.getAttribute('data-value');
+  const colorImages = products[pk].imagesByColor[color];
+  return colorImages && colorImages.length > 0 ? colorImages : products[pk].images;
+}
+
+function renderImage(pk) {
+  const images = getProductVariantImages(pk);
+  const imgEl = document.getElementById(`carouselImage-${pk}`);
+
+  imgEl.src = images[imageIndex[pk] ?? 0];
+}
+
+function nextSlide(pk) {
+  const n = getProductVariantImages(pk).length;
+
+  imageIndex[pk] = ((imageIndex[pk] ?? 0) + 1) % n;
+  renderImage(pk);
+}
+
+function prevSlide(pk) {
+  const n = getProductVariantImages(pk).length;
+
+  imageIndex[pk] = ((imageIndex[pk] ?? 0) - 1 + n) % n;
+  renderImage(pk);
 }

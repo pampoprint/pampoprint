@@ -66,7 +66,8 @@ function imageOrderComparator(a, b) {
 function getProductImages(pk, folder = 'main') {
   const imagesChildDir = path.join(productsDir, pk, 'images', folder);
 
-  if (!fs.existsSync(imagesChildDir)) return [];
+  if (!fs.existsSync(imagesChildDir))
+    return folder === 'main' ? ['/img/noimg.webp'] : [];
 
   const images = fs.readdirSync(imagesChildDir)
     .filter((filename) => imageExtensions.test(filename))
@@ -82,18 +83,16 @@ function getProductImages(pk, folder = 'main') {
 function getProductImagesByColor(pk, colors) {
   const folder = 'main';
   const imagesChildDir = path.join(productsDir, pk, 'images', folder);
-  if (!colors ||!fs.existsSync(imagesChildDir)) return;
+  const res = {};
+  if (!colors ||!fs.existsSync(imagesChildDir)) return res;
 
   const allFilenames = fs.readdirSync(imagesChildDir)
     .filter((filename) => imageExtensions.test(filename));
 
-  const res = {}
   for (const color of colors) {
     const colorKey = color.toLowerCase().replaceAll(' ', '-');
     const colorImages = allFilenames
-      .filter((filename) => {
-        return filename.toLowerCase().includes(`-${colorKey}-`)
-      })
+      .filter((filename) => filename.toLowerCase().includes(colorKey))
       .sort(imageOrderComparator)
       .map((filename) => `/img/products/${pk}/${folder}/${filename}`)
 

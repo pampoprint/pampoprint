@@ -5,7 +5,7 @@
     <div class="flex flex-col md:flex-row -mx-4">
       <div class="md:flex-1 px-4">
         <div class="h-[460px] rounded-lg mb-2">
-          <%- include('carousel') %>
+          <%- include('carousel1') %>
         </div>
         <%- include('add_to_cart_buttons_small') %>
       </div>
@@ -61,7 +61,7 @@
         <% if (product.disabled) { %>
         <script>products['<%- product.pk %>'] = <%- JSON.stringify({price: product.price, isSizeBasedPrice: product.isSizeBasedPrice, size: product.size}) %>;</script>
         <% } else { %>
-        <script>products['<%- product.pk %>'] = <%- JSON.stringify({title: product.title, image: product.images[0], price: product.price, stripePrices: encryptValues(product.stripePrices, site.encryptionKey), isSizeBasedPrice: product.isSizeBasedPrice, size: product.size}) %>;</script>
+        <script>products['<%- product.pk %>'] = <%- JSON.stringify({title: product.title, images: product.images, imagesByColor: product.imagesByColor, colors: product.colors, price: product.price, stripePrices: encryptValues(product.stripePrices, site.encryptionKey), isSizeBasedPrice: product.isSizeBasedPrice, size: product.size}) %>;</script>
         <% } %>
       </div>
     </div>
