@@ -262,3 +262,64 @@ works-on-my-machine-developer-t-shirt-military_green-3xl:
     GBP:
       id: price_1TRxzYFh1LRw8Qtv9fGKyfqp
       unit_amount: 2799
+
+works-on-my-machine-developer-t-shirt-s:
+  size: S
+  stripe_id: prod_URcc69BA7lHgM3
+  stripe_prices:
+    USD:
+      id: price_1TSjMwFh1LRw8QtvNPDPuZ0e
+      unit_amount: 3399
+    GBP:
+      id: price_1TSjMwFh1LRw8Qtvlf58XmQR
+      unit_amount: 2499
+works-on-my-machine-developer-t-shirt-m:
+  size: M
+  stripe_id: prod_URccPOPT9V4KiD
+  stripe_prices:
+    USD:
+      id: price_1TSjMxFh1LRw8QtvLj9VwE4y
+      unit_amount: 3399
+    GBP:
+      id: price_1TSjMxFh1LRw8QtvQVQP9yWq
+      unit_amount: 2499
+works-on-my-machine-developer-t-shirt-l:
+  size: L
+  stripe_id: prod_URcc2jDYFMiIRp
+  stripe_prices:
+    USD:
+      id: price_1TSjMyFh1LRw8QtvPVVGHrVc
+      unit_amount: 3399
+    GBP:
+      id: price_1TSjMyFh1LRw8QtvzTwhNN66
+      unit_amount: 2499
+works-on-my-machine-developer-t-shirt-xl:
+  size: XL
+  stripe_id: prod_URcc8RMGvOLMEL
+  stripe_prices:
+    USD:
+      id: price_1TSjMzFh1LRw8QtvJaxHXCg5
+      unit_amount: 3399
+    GBP:
+      id: price_1TSjMzFh1LRw8QtvnstMuASb
+      unit_amount: 2499
+works-on-my-machine-developer-t-shirt-2xl:
+  size: 2XL
+  stripe_id: prod_URccLVQgA0xGJV
+  stripe_prices:
+    USD:
+      id: price_1TSjMzFh1LRw8QtvEbUA5raR
+      unit_amount: 3699
+    GBP:
+      id: price_1TSjN0Fh1LRw8Qtv2wCybULF
+      unit_amount: 2699
+works-on-my-machine-developer-t-shirt-3xl:
+  size: 3XL
+  stripe_id: prod_URccGcAkfeciOR
+  stripe_prices:
+    USD:
+      id: price_1TSjN0Fh1LRw8QtvpqpzT2dd
+      unit_amount: 3799
+    GBP:
+      id: price_1TSjN1Fh1LRw8QtvSX0KWXfG
+      unit_amount: 2799

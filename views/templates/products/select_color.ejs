@@ -17,13 +17,3 @@
   <% }) %>
   </div>
 </div>
-
-<!-- COLOR BUTTONS -->
-<div class="flex mt-4">
-  <% product.colors.forEach((color) => { %>
-    <button onclick="selectColor1('<%= color %>')" class="color-btn mr-2 px-4 py-2 rounded-full bg-gray-200"
-      data-color="<%= color %>">
-      <%= color %>
-    </button>
-  <% }) %>
-</div>

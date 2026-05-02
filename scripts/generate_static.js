@@ -52,60 +52,61 @@ const pages = [
 
 async function generateStaticSite() {
   const publicDir = path.join(process.cwd(), 'public');
-  const buildDir = path.join(process.cwd(), 'build');
+  const buildFolder = env !== 'test' ? 'build' : 'build_test';
+  const buildDir = path.join(process.cwd(), buildFolder);
   const productsDir = path.join(buildDir, 'products');
   const policiesDir = path.join(buildDir, 'policies');
   const blogsDir = path.join(buildDir, 'blogs');
   await fsExtra.ensureDir(buildDir);
-  console.log('📁 Created dir ./build/');
+  console.log(`📁 Created dir ./${buildFolder}/`);
 
   copyDirSync(publicDir, buildDir);
   console.log('💽 Copy public dir complete.');
-  uglifyJSfile(path.join(buildDir, 'js', 'cart.js')) && console.log('🗜️ UglifyJS minified ./build/js/cart.js');
+  uglifyJSfile(path.join(buildDir, 'js', 'cart.js')) && console.log(`🗜️ UglifyJS minified ./${buildFolder}/js/cart.js`);
 
   for (const page of pages) {
     const filePath = path.join(buildDir, page.output);
     const content = await ejs.renderFile(`views/${page.route}.ejs`, locals);
     fs.writeFileSync(filePath, await minifyHTML(content), 'utf-8');
-    console.log(`🌐 Generated: ./build/${page.output}`);
+    console.log(`🌐 Generated: ./${buildFolder}/${page.output}`);
   }
 
   await fsExtra.ensureDir(productsDir);
-  console.log('📂 Created dir ./build/products/');
+  console.log(`📂 Created dir ./${buildFolder}/products/`);
 
   for (const product of products) {
-    copyProductImages(product.pk, 'main');
-    copyProductImages(product.pk, 'description');
+    copyProductImages(buildFolder, product.pk, 'main');
+    copyProductImages(buildFolder, product.pk, 'description');
 
     const filePath = path.join(productsDir, `${product.pk}.html`);
     const content = await ejs.renderFile('views/product.ejs', {...locals, product});
     fs.writeFileSync(filePath, await minifyHTML(content), 'utf-8');
-    console.log(`🌐 Generated: ./build/products/${product.pk}.html`);
+    console.log(`🌐 Generated: ./${buildFolder}/products/${product.pk}.html`);
   }
 
   await fsExtra.ensureDir(policiesDir);
-  console.log('📂 Created dir ./build/policies/');
+  console.log(`📂 Created dir ./${buildFolder}/policies/`);
 
   for (const policy of policies) {
     const filePath = path.join(policiesDir, `${policy}.html`);
     const content = await ejs.renderFile('views/policy.ejs', {...locals, policy});
     fs.writeFileSync(filePath, await minifyHTML(content), 'utf-8');
-    console.log(`🏛️ Generated: ./build/policies/${policy}.html`);
+    console.log(`🏛️ Generated: ./${buildFolder}/policies/${policy}.html`);
   }
 
   await fsExtra.ensureDir(blogsDir);
-  console.log('📂 Created dir ./build/blogs/');
+  console.log(`📂 Created dir ./${buildFolder}/blogs/`);
 
   for (const blog of blogs) {
     const filePath = path.join(blogsDir, `${blog.handle}.html`);
     const content = await ejs.renderFile('views/blog.ejs', {...locals, blog});
     fs.writeFileSync(filePath, await minifyHTML(content), 'utf-8');
-    console.log(`🌐 Generated: ./build/blogs/${blog.handle}.html`);
+    console.log(`🌐 Generated: ./${buildFolder}/blogs/${blog.handle}.html`);
   }
 
   const filePath = path.join(buildDir, 'CNAME');
   fs.writeFileSync(filePath, `${config.domain}\n`, 'utf-8');
-  console.log('🌏 Generated: ./build/blogs/CNAME');
+  console.log(`🌏 Generated: ./${buildFolder}/blogs/CNAME`);
 
   console.log('✅ Static site generation complete!');
 }
