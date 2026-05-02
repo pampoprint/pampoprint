@@ -13,7 +13,7 @@
     <script src="/js/menu-button.js" defer></script>
     <script src="https://js.stripe.com/v3"></script>
     <script src="/js/cart.js" defer></script>
-  <% if (site.paypalClientID ) { %>
+  <% if (site.paypalClientID && !site.paypalClientID.startsWith('YOUR_PAYPAL')) { %>
     <script src="https://www.paypal.com/sdk/js?client-id=<%- site.paypalClientID %>&currency=USD"></script>
   <% } %>
   </head>

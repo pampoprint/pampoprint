@@ -2,7 +2,7 @@ import fs from 'fs-extra';
 import path from 'path';
 import yaml from 'js-yaml';
 
-const encryptionKey = 'v8aNKRf7NaTT';
+const defaultEncryptionKey = 'v8aNKRf7NaTT';
 
 const envRaw = process.env.ENV ?? 'test';
 const testEnv = 'test';
@@ -28,7 +28,7 @@ function getConfig() {
   config.aboutLines = config.about.split(/\r?\n/);
   config.formatCurrency = (number) =>
     new Intl.NumberFormat(config.locale, { style: 'currency', currency: config.baseCurrency }).format(number);
-  config.encryptionKey ||= encryptionKey;
+  config.encryptionKey ||= defaultEncryptionKey;
   return config;
 }
 

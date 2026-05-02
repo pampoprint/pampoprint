@@ -7,7 +7,7 @@ import {getProduct, getProductVariants, getProductPrice} from './products.js';
 import site, {env} from './config.js';
 
 const productsDir = path.join(process.cwd(), 'products');
-const envSuffix = env === 'production' ? 'live' : env;
+const envSuffix = env === 'production' ? 'live' : 'test';
 const stripeFileName = `stripe_${envSuffix}.yml`;
 const stripeArchiveFolder = `stripe_archive_${envSuffix}`;
 

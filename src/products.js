@@ -2,7 +2,7 @@ import fs from 'fs-extra';
 import path, { normalize } from 'path';
 import yaml from 'js-yaml';
 import {writeYamlFile, convertDescriptionTxtToHtml} from './utils.js';
-import config from './config.js';
+import config, {env} from './config.js';
 
 const {company, baseCurrency, supportedCurrencies} = config;
 export const productsDir = path.join(process.cwd(), 'products');
@@ -223,7 +223,8 @@ export function getProductWithStripePrices(pk) {
 }
 
 function getStripePrices(pk) {
-  const filePath = path.join(productsDir, pk, 'stripe.yml');
+  const envSuffix = env === 'production' ? 'live' : 'test';
+  const filePath = path.join(productsDir, pk, `stripe_${envSuffix}.yml`);
   if (!fs.existsSync(filePath)) return {};
 
   const stripeData = yaml.load(fs.readFileSync(filePath, 'utf8'));
