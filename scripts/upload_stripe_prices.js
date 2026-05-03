@@ -8,7 +8,7 @@ if (!envRaw) throw new Error('ENV variable is not set. Please set it to "test" o
 
 // Usage:
 //     ENV=test node scripts/upload_stripe_prices.js --product=<product-handle>
-//     ENV=live node scripts/upload_stripe_prices.js
+//     ENV=prod node scripts/upload_stripe_prices.js
 //
 const exchRates = await fetchExchRates(cfg.exchangerateApiKey, cfg.currencyUnit);
 if (!exchRates) throw new Error('Cannot get exchRates') ;

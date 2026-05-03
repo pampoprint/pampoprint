@@ -1,0 +1,60 @@
+security-leek-t-shirt-s:
+  size: S
+  stripe_id: prod_URuwuxzMjCuLI2
+  stripe_prices:
+    USD:
+      id: price_1TT16aFh1LRw8QtvEZ5DBcQN
+      unit_amount: 3299
+    GBP:
+      id: price_1TT16aFh1LRw8QtvC9ZZakja
+      unit_amount: 2399
+security-leek-t-shirt-m:
+  size: M
+  stripe_id: prod_URuwz47dPK8bCx
+  stripe_prices:
+    USD:
+      id: price_1TT16bFh1LRw8Qtvl9kgmgWB
+      unit_amount: 3299
+    GBP:
+      id: price_1TT16bFh1LRw8Qtvdt89fzLj
+      unit_amount: 2399
+security-leek-t-shirt-l:
+  size: L
+  stripe_id: prod_URuwysQBdJUQlL
+  stripe_prices:
+    USD:
+      id: price_1TT16cFh1LRw8QtvKDg3wQLR
+      unit_amount: 3299
+    GBP:
+      id: price_1TT16cFh1LRw8QtvGG5OljtI
+      unit_amount: 2399
+security-leek-t-shirt-xl:
+  size: XL
+  stripe_id: prod_URuwR3yqNOswHv
+  stripe_prices:
+    USD:
+      id: price_1TT16cFh1LRw8QtvGxvfjD8w
+      unit_amount: 3299
+    GBP:
+      id: price_1TT16dFh1LRw8Qtv5Qhi6VRD
+      unit_amount: 2399
+security-leek-t-shirt-2xl:
+  size: 2XL
+  stripe_id: prod_URuw7OuzBuQNKA
+  stripe_prices:
+    USD:
+      id: price_1TT16dFh1LRw8QtvcTNvC5wD
+      unit_amount: 3599
+    GBP:
+      id: price_1TT16eFh1LRw8Qtvnjmw3boa
+      unit_amount: 2599
+security-leek-t-shirt-3xl:
+  size: 3XL
+  stripe_id: prod_URuwMkBVI55C7X
+  stripe_prices:
+    USD:
+      id: price_1TT16eFh1LRw8QtvG4lvyYPy
+      unit_amount: 3699
+    GBP:
+      id: price_1TT16fFh1LRw8QtvolZfHj3j
+      unit_amount: 2699
