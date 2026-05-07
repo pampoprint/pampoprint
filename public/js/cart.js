@@ -42,7 +42,7 @@ function getProductVariant(pk) {
   const color = document.querySelector(`.productColor-${pk}.active`)?.getAttribute('data-value');
   const size = document.querySelector(`.productSize-${pk}.active`)?.getAttribute('data-value');
   // const size = products[pk].size;
-  return [pk, color, size].filter(Boolean).map((v) => v.toLowerCase()).join('-');
+  return [pk, color, size].filter(Boolean).map((v) => v.toLowerCase()).join('-').replaceAll(' ', '_');
 }
 
 function getProductQty(pk) {
