@@ -145,6 +145,21 @@ Update images:
 * `public/img/hero.webp`
 * `public/img/about.webp`
 
+Other config files are in `.gitignore` - Do NOT push them to public repos. Even better, do NOT push to any repos at all:
+
+* `config/secrets.yml` - loaded in all environments
+* `config/test.yml` - loaded in test environment
+* `config/production.yml` - loaded for production/live environment
+
+You can pass custom configs:
+
+```sh
+CONFIG=theme/green.yml ENV=test npm run dev
+```
+```sh
+CONFIG=theme/orange.yml ENV=test npm run dev
+```
+
 ---
 
 ## 📁 Product Data Structure
@@ -176,6 +191,8 @@ Add `.txt` files to `/blogs` and images to `/public/img/blog`.
 
 ## 💱 Exchange Rate API
 
+Add into `config/secrets.yml` (loaded in both `test` and `production` environments)
+
 ```yml
 exchangerateApiKey: 'YOUR-KEY'
 ```
@@ -189,7 +206,7 @@ npm run convert-prices
 
 ## 💳 Stripe Integration
 
-Add into `./config/test.yml`
+Add into `config/test.yml`
 
 ```yml
 stripeApiPublishableKey: 'pk_test_...'
@@ -200,7 +217,7 @@ stripeApiSecretKey: 'sk_test_...'
 ENV=test npm run stripe
 ```
 
-and `./config/production.yml`
+and `config/production.yml`
 
 ```yml
 stripeApiPublishableKey: 'pk_live_...'
@@ -215,7 +232,7 @@ ENV=prod npm run sync-stripe
 
 ## 💰 PayPal Integration
 
-Add into `./config/test.yml` and `./config/production.yml`
+Add into `config/test.yml` and `config/production.yml`
 
 ```yml
 paypalClientID: '...'
