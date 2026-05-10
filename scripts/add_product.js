@@ -6,6 +6,7 @@ const productsFolder = 'products';
 //
 // Usage:
 //     node scripts/add_product.js foldable-cat-hammock
+//     npm run add-product small-breaks-strong-habits
 //
 const productName = process.argv.slice(2).join('-');
 
@@ -25,11 +26,34 @@ const productTitle = pk
   .join(' ');
 
 const infoYmlContent = `title: ${productTitle}
+sale: true
 colors:
-  - White
-  - Gray
+  - Black
+  - Navy
+  - Irish Green
+  - Natural
+sizes:
+  - S
+  - M
+  - L
+  - XL
+  - 2XL
+  - 3XL
 price:
-  USD: 27.99
+  S:
+    GBP: 24.99
+  M:
+    GBP: 24.99
+  L:
+    GBP: 24.99
+  XL:
+    GBP: 24.99
+  2XL:
+    GBP: 26.99
+  3XL:
+    GBP: 27.99
+compare_at_price_offset: 4
+round_calculated_prices_to_99_cents: true
 `;
 
 fs.writeFileSync(path.join(folderPath, 'info.yml'), infoYmlContent);
