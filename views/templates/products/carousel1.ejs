@@ -1,5 +1,5 @@
-<div class="relative w-full h-[400px] overflow-hidden rounded-xl bg-gray-100 flex items-center justify-center">
-  <img id="carouselImage-<%- product.pk %>" class="max-h-full object-contain" src="<%- product.images[0] %>" alt="Product image">
+<div class="relative w-full h-100 overflow-hidden rounded-xl bg-gray-100 flex items-center justify-center">
+  <img id="carouselImage-<%- product.pk %>" class="max-h-full object-contain" src="<%- Array.isArray(product.colors) && product.colors.length > 0 && product.imagesByColor[product.colors[0]].length > 0 ? product.imagesByColor[product.colors[0]][0] : product.images[0] %>" alt="Product image">
 
   <!-- Prev -->
   <button onclick="prevSlide('<%- product.pk %>')" class="absolute left-2 top-1/2 -translate-y-1/2 bg-white/70 px-3 py-1 rounded-full">
