@@ -6,7 +6,7 @@ const productsFolder = 'products';
 //
 // Usage:
 //     node scripts/add_product.js foldable-cat-hammock
-//     npm run add-product small-breaks-strong-habits
+//     npm run add-product small-breaks-strong-habits-t-shirt
 //
 const productName = process.argv.slice(2).join('-');
 
@@ -27,6 +27,9 @@ const productTitle = pk
 
 const infoYmlContent = `title: ${productTitle}
 sale: true
+featuring_product: false
+star_rating: 4.8
+review_count: 9
 colors:
   - Black
   - Navy
@@ -52,7 +55,7 @@ price:
     GBP: 26.99
   3XL:
     GBP: 27.99
-compare_at_price_offset: 4
+compare_at_price_offset: 5
 round_calculated_prices_to_99_cents: true
 `;
 
