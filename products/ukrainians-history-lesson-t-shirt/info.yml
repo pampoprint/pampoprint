@@ -9,39 +9,40 @@ sizes:
 price:
   S:
     GBP: 24.99
-    USD: 34.03
+    USD: 33.99
   M:
     GBP: 24.99
-    USD: 34.03
+    USD: 33.99
   L:
     GBP: 24.99
-    USD: 34.03
+    USD: 33.99
   XL:
     GBP: 24.99
-    USD: 34.03
+    USD: 33.99
   2XL:
     GBP: 26.99
-    USD: 36.75
+    USD: 36.99
   3XL:
     GBP: 27.99
-    USD: 38.11
+    USD: 37.99
 compare_at_price_offset: 4
+round_calculated_prices_to_99_cents: true
 compare_at_price:
   S:
     GBP: 28.99
-    USD: 39.47
+    USD: 39.99
   M:
     GBP: 28.99
-    USD: 39.47
+    USD: 39.99
   L:
     GBP: 28.99
-    USD: 39.47
+    USD: 39.99
   XL:
     GBP: 28.99
-    USD: 39.47
+    USD: 39.99
   2XL:
     GBP: 30.99
-    USD: 42.2
+    USD: 42.99
   3XL:
     GBP: 31.99
-    USD: 43.56
+    USD: 43.99
