@@ -345,7 +345,7 @@ function updateAllProductsPrices() {
   const oldPriceElems = document.getElementsByClassName('productOldPrice');
   for (const oldPriceElem of oldPriceElems) {
     const pk = oldPriceElem.getAttribute('data-pk');
-    oldPriceElem.textContent = formatCurrency(getProductOldPrice(pk));
+    oldPriceElem.textContent = formatCurrency(getProductCompareAtPrice(pk));
   }
 }
 
@@ -357,7 +357,7 @@ function updateProductPrice(pk) {
 
   const oldPriceElems = document.querySelectorAll(`.productOldPrice[data-pk="${pk}"]`);
   for (const oldPriceElem of oldPriceElems) {
-    oldPriceElem.textContent = formatCurrency(getProductOldPrice(pk));
+    oldPriceElem.textContent = formatCurrency(getProductCompareAtPrice(pk));
   }
 }
 
@@ -367,8 +367,8 @@ function getProductPrice(pk) {
   return products[pk].isSizeBasedPrice ? products[pk].price[products[pk].size][currency] : products[pk].price[currency];
 }
 
-function getProductOldPrice(pk) {
-  return getProductPrice(pk) * 2;
+function getProductCompareAtPrice(pk) {
+  return products[pk].isSizeBasedPrice ? products[pk].compareAtPrice?.[products[pk].size]?.[currency] : products[pk].compareAtPrice?.[currency];
 }
 
 function getCurrencyFromLocale() {

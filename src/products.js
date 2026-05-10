@@ -120,13 +120,11 @@ function getProductDescriptionTxt(pk) {
 }
 
 export function getProductPrice(product, currency = baseCurrency, size = product.size) {
-  // return Math.floor(product.price[currency] + 0.5) * 2;
   return product.isSizeBasedPrice ? product.price[size][currency] : product.price[currency];
 }
 
-export function getProductOldPrice(product) {
-  // return Math.floor(product.price[currency] + 0.5) * 2;
-  return getProductPrice(product) * 2;
+export function getProductCompareAtPrice(product, currency = baseCurrency, size = product.size) {
+  return product.isSizeBasedPrice ? product.compare_at_price?.[size]?.[currency] : product.compare_at_price?.[currency];
 }
 
 function getProductReviews(pk) {
@@ -171,10 +169,31 @@ export function updateAllProductsPrices(exchRates) {
   productDirs.forEach((pk) => updateProductPrices(pk, exchRates));
 }
 
+function roundPrice(value) {
+  return Math.round((value + Number.EPSILON) * 100) / 100;
+}
+
+function calculateCompareAtBasePrice(basePrice, compareAtPriceOffset, compareAtPriceRatio) {
+  if (compareAtPriceOffset !== undefined) {
+    return roundPrice(basePrice + compareAtPriceOffset);
+  }
+  if (compareAtPriceRatio !== undefined) {
+    return roundPrice(basePrice * compareAtPriceRatio);
+  }
+  return undefined;
+}
+
+function calculateConvertedPrice(value, exchangeRate, roundCalculatedPricesTo99Cents) {
+  if (roundCalculatedPricesTo99Cents) {
+    return Math.floor(exchangeRate * value * 1.01 + 0.5) - 0.01;
+  }
+  return roundPrice(exchangeRate * value);
+}
+
 export function updateProductPrices(pk, exchRates) {
   const filePath = path.join(productsDir, pk, 'info.yml');
   if (!fs.existsSync(filePath)) {
-    console.log(`File ${filePath} doesn't exist. Ignoring folder.`)
+    console.log(`File ${filePath} doesn't exist. Ignoring folder.`);
     return;
   }
 
@@ -187,25 +206,89 @@ export function updateProductPrices(pk, exchRates) {
 
       for (const currency of supportedCurrencies) {
         if (currency !== baseCurrency) {
-          productData.price[size][currency] = Math.floor(exchRates[currency] * baseSizePrice * 1.01 + 0.5) - 0.01;
+          productData.price[size][currency] = calculateConvertedPrice(baseSizePrice, exchRates[currency], productData.round_calculated_prices_to_99_cents);
         }
       }
     }
   } else {
     const basePrice = productData.price[baseCurrency];
     if (!basePrice) {
-      console.log(`Base price for product ${pk} doesn't exist.`)
+      console.log(`Base price for product ${pk} doesn't exist.`);
       return;
     }
 
     for (const currency of supportedCurrencies) {
       if (currency !== baseCurrency) {
-        productData.price[currency] = Math.floor(exchRates[currency] * basePrice * 1.01 + 0.5) - 0.01;
+        productData.price[currency] = calculateConvertedPrice(basePrice, exchRates[currency], productData.round_calculated_prices_to_99_cents);
       }
     }
   }
+
+  updaateProductCompareAtPrices(productData, exchRates);
+
   console.log(`Writing ${filePath}...`);
   writeYamlFile(filePath, productData);
+}
+
+function updaateProductCompareAtPrices(product, exchRates) {
+  const hasCompareAtConfig = product.compare_at_price_offset !== undefined || product.compare_at_price_ratio !== undefined || product.compare_at_price !== undefined;
+  if (!hasCompareAtConfig) {
+    return;
+  }
+
+  if (!product.compare_at_price) {
+    product.compare_at_price = {};
+  }
+
+  if (doesPriceDependOnSize(product)) {
+    for (const size of product.sizes) {
+      const basePrice = product.price[size][baseCurrency];
+
+      if (!product.compare_at_price[size]) {
+        product.compare_at_price[size] = {};
+      }
+
+      const existingBaseCompareAtPrice = product.compare_at_price[size][baseCurrency];
+      if (!existingBaseCompareAtPrice || existingBaseCompareAtPrice <= basePrice) {
+        const calculatedBaseCompareAtPrice = calculateCompareAtBasePrice(basePrice, product.compare_at_price_offset, product.compare_at_price_ratio);
+        if (calculatedBaseCompareAtPrice !== undefined) {
+          product.compare_at_price[size][baseCurrency] = calculatedBaseCompareAtPrice;
+        }
+      }
+
+      const compareAtBasePrice = product.compare_at_price[size][baseCurrency];
+      if (!compareAtBasePrice) {
+        continue;
+      }
+
+      for (const currency of supportedCurrencies) {
+        if (currency !== baseCurrency) {
+          product.compare_at_price[size][currency] = calculateConvertedPrice(compareAtBasePrice, exchRates[currency], product.round_calculated_prices_to_99_cents);
+        }
+      }
+    }
+  } else {
+    const basePrice = product.price[baseCurrency];
+
+    const existingBaseCompareAtPrice = product.compare_at_price[baseCurrency];
+    if (!existingBaseCompareAtPrice || existingBaseCompareAtPrice <= basePrice) {
+      const calculatedBaseCompareAtPrice = calculateCompareAtBasePrice(basePrice, product.compare_at_price_offset, product.compare_at_price_ratio);
+      if (calculatedBaseCompareAtPrice !== undefined) {
+        product.compare_at_price[baseCurrency] = calculatedBaseCompareAtPrice;
+      }
+    }
+
+    const compareAtBasePrice = product.compare_at_price[baseCurrency];
+    if (!compareAtBasePrice) {
+      return;
+    }
+
+    for (const currency of supportedCurrencies) {
+      if (currency !== baseCurrency) {
+        product.compare_at_price[currency] = calculateConvertedPrice(compareAtBasePrice, exchRates[currency], product.round_calculated_prices_to_99_cents);
+      }
+    }
+  }
 }
 
 export function getProductsWithStripePrices() {

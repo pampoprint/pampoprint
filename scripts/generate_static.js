@@ -4,7 +4,7 @@ import fs from 'fs';
 import fsExtra from 'fs-extra';
 import ejs from 'ejs';
 import config, {env} from '../src/config.js';
-import {getProductsWithStripePrices, getProductPrice, getProductOldPrice} from '../src/products.js';
+import {getProductsWithStripePrices, getProductPrice, getProductCompareAtPrice} from '../src/products.js';
 import {getBlogs} from '../src/blogs.js';
 import {encryptValues} from '../src/utils.js';
 import {copyDirSync, copyProductImages, minifyHTML, uglifyJSfile} from '../src/utils2.js';
@@ -28,7 +28,7 @@ const blogs = getBlogs();
 const locals = {
   env,
   getProductPrice,
-  getProductOldPrice,
+  getProductCompareAtPrice,
   site: config,
   hasBlogs: blogs.length > 0,
   hasTestimonials: Array.isArray(config.testimonials) && config.testimonials.length > 0,
