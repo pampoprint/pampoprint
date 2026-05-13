@@ -32,8 +32,11 @@
         <% if (product.sizes) { %>
           <%- include('select_size') %>
         <% } %>
-        <% if (product.colors) { %>
+        <% if (product.colors && product.use_color_names) { %>
           <%- include('select_color') %>
+        <% } %>
+        <% if (product.colors && !product.use_color_names) { %>
+          <%- include('select_color_swatches') %>
         <% } %>
         <div class="mb-4">
           <label for="quantity-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Quantity:</label>
