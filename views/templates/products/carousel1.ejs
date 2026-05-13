@@ -1,13 +1,61 @@
-<div class="relative w-full h-100 overflow-hidden rounded-xl bg-gray-100 flex items-center justify-center">
-  <img id="carouselImage-<%- product.pk %>" class="max-h-full object-contain" src="<%- Array.isArray(product.colors) && product.colors.length > 0 && product.imagesByColor[product.colors[0]].length > 0 ? product.imagesByColor[product.colors[0]][0] : product.images[0] %>" alt="Product image">
+<div class="
+    relative
+    aspect-square
+    w-full
+    max-w-162.5
+    overflow-hidden
+    rounded-2xl
+    bg-zinc-100
+    dark:bg-zinc-900
+  ">
+
+  <img id="carouselImage-<%- product.pk %>" class="
+      h-full
+      w-full
+      object-cover
+      transition
+      duration-300
+      hover:scale-[1.02]
+    "
+    src="<%- Array.isArray(product.colors) && product.colors.length > 0 && product.imagesByColor[product.colors[0]].length > 0 ? product.imagesByColor[product.colors[0]][0] : product.images[0] %>"
+    alt="Product image">
 
   <!-- Prev -->
-  <button onclick="prevSlide('<%- product.pk %>')" class="absolute left-2 top-1/2 -translate-y-1/2 bg-white/70 px-3 py-1 rounded-full">
+  <button onclick="prevSlide('<%- product.pk %>')" class="
+      absolute
+      left-3
+      top-1/2
+      -translate-y-1/2
+      rounded-full
+      bg-white/80
+      px-4
+      py-2
+      text-xl
+      shadow-lg
+      backdrop-blur
+      transition
+      hover:scale-110
+    ">
     ‹
   </button>
 
   <!-- Next -->
-  <button onclick="nextSlide('<%- product.pk %>')" class="absolute right-2 top-1/2 -translate-y-1/2 bg-white/70 px-3 py-1 rounded-full">
+  <button onclick="nextSlide('<%- product.pk %>')" class="
+      absolute
+      right-3
+      top-1/2
+      -translate-y-1/2
+      rounded-full
+      bg-white/80
+      px-4
+      py-2
+      text-xl
+      shadow-lg
+      backdrop-blur
+      transition
+      hover:scale-110
+    ">
     ›
   </button>
+
 </div>

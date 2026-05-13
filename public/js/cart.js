@@ -1,4 +1,5 @@
 const MAX_PRODUCT_COUNT = 10;
+const ACTIVE_COLOR_CLASSES = ['active', 'ring-4', 'ring-offset-2', 'ring-zinc-400'];
 let cart;
 let country;
 const imageIndex = {};
@@ -81,11 +82,19 @@ function validateAndSetProductQuntity(pk) {
 function selectColor(currentElement, pk) {
   const productColors = document.getElementsByClassName(`productColor-${pk}`);
   for (const element of productColors) {
-    element.classList.remove('active');
+    element.classList.remove(...ACTIVE_COLOR_CLASSES);
   }
-  currentElement.classList.add('active');
+  currentElement.classList.add(...ACTIVE_COLOR_CLASSES);
   imageIndex[pk] = 0;
   renderImage(pk);
+  selectColorLabel(pk, currentElement.dataset.value);
+}
+
+function selectColorLabel(pk, color) {
+  const label = document.getElementById(`selectedColorLabel-${pk}`);
+  if (label) {
+    label.textContent = color;
+  }
 }
 
 function selectSize(currentElement, pk) {
@@ -141,10 +150,11 @@ function restoreProductsQty() {
       if (item.color) {
         const productColors = document.getElementsByClassName(`productColor-${item.pk}`);
         for (const element of productColors) {
-          element.classList.remove('active');
+          element.classList.remove(...ACTIVE_COLOR_CLASSES);
         }
-        document.getElementById(`productColor-${item.pk}-${item.color}`)?.classList.add('active');
+        document.getElementById(`productColor-${item.pk}-${item.color}`)?.classList.add(...ACTIVE_COLOR_CLASSES);
         renderImage(item.pk);
+        selectColorLabel(item.pk, item.color);
       }
       if (item.size) {
         const productSizes = document.getElementsByClassName(`productSize-${item.pk}`);

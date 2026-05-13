@@ -2,10 +2,9 @@
   <span class="font-bold text-gray-700 dark:text-gray-300">
     Select Color:
   </span>
-
   <div class="mt-3 flex flex-wrap gap-3">
     <% product.colors.forEach((color, index) => { %>
-      <button id="productColor-<%- product.pk %>-<%- color %>" onclick="selectColorSwatch(this, '<%- product.pk %>')"
+      <button id="productColor-<%- product.pk %>-<%- color %>" onclick="selectColor(this, '<%- product.pk %>')"
         data-value="<%- color %>" title="<%- color %>" aria-label="<%- color %>" class="
           productColor-<%- product.pk %>
           relative
@@ -32,25 +31,7 @@
       </button>
     <% }) %>
   </div>
-
   <p id="selectedColorLabel-<%- product.pk %>" class="mt-3 text-sm text-zinc-500">
     <%- product.colors[0] %>
   </p>
 </div>
-
-<script>
-function selectColorSwatch(button, pk) {
-  const buttons = document.getElementsByClassName(`productColor-${pk}`);
-  for (const btn of buttons) {
-    btn.classList.remove('ring-4', 'ring-offset-2', 'ring-zinc-400')
-  }
-  button.classList.add('ring-4', 'ring-offset-2', 'ring-zinc-400');
-
-  const label = document.getElementById(`selectedColorLabel-${pk}`);
-  if (label) {
-    const color = button.dataset.value;
-    label.textContent = color;
-  }
-  selectColor(button, pk);
-}
-</script>
