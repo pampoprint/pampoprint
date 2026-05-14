@@ -3,6 +3,22 @@
 **ShopBrick** is a static e-commerce framework — deploy anywhere with zero backend infrastructure.
 Receive your orders directly via **Stripe** or **PayPal**, and manage everything locally with version-controlled product data.
 
+![ShopBrick's Mascot - Brick](https://raw.githubusercontent.com/shopbrick/shopbrick/refs/heads/main/doc/img/brick-mascot.png "ShopBrick's Mascot - Brick")
+
+---
+
+## 🚀 Quick Start (5 minutes)
+
+```sh
+git clone git@github.com:shopbrick/shopbrick.git my-shop
+cd my-shop
+npm install
+npm run init
+npm run dev
+```
+
+Open: http://localhost:3000
+
 ---
 
 ## 🚀 Quick Start (5 minutes)
