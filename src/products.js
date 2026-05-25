@@ -1,7 +1,7 @@
 import fs from 'fs-extra';
 import path, { normalize } from 'path';
 import yaml from 'js-yaml';
-import {writeYamlFile, convertDescriptionTxtToHtml, lowercaseKeys} from './utils.js';
+import {writeYamlFile, convertDescriptionTxtToHtml, lowercaseKeys, encryptValues} from './utils.js';
 import config, {env} from './config.js';
 
 const {company, baseCurrency, supportedCurrencies} = config;
@@ -323,4 +323,23 @@ function getStripePrices(pk) {
     res[pvk] = pvData;
   }
   return res;
+}
+
+export function serializeProduct(product, opts = {}) {
+  const serialized = {
+    price: product.price,
+    compareAtPrice: product.compare_at_price,
+    isSizeBasedPrice: product.isSizeBasedPrice,
+    size: product.size,
+  };
+  if (!opts.inCatalog) {
+    serialized.title = product.title;
+    serialized.images = product.images;
+    serialized.imagesByColor = product.imagesByColor;
+    serialized.colors = product.colors;
+    if (!product.disabled && !product.out_of_stock) {
+      serialized.stripePrices = encryptValues(product.stripePrices, config.encryptionKey);
+    }
+  }
+  return `<script>products['${product.pk}'] = ${JSON.stringify(serialized)};</script>`;
 }
