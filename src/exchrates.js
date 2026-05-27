@@ -9,7 +9,8 @@ async function fetchExchangeRates(apiKey, baseCurrency) {
   const filePath = path.join(process.cwd(), 'src', 'exchrates', fileName);
 
   if (fs.existsSync(filePath)) {
-    console.log(`Using exchange rates from existing file: ${filePath}`)
+    const relativePath = path.relative(process.cwd(), filePath);
+    console.log(`Using exchange rates from existing file: ${relativePath}`)
     const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
     return data.conversion_rates;
   }

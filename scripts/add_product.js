@@ -56,7 +56,7 @@ price:
   3XL:
     GBP: 27.99
 compare_at_price_offset: 5
-round_calculated_prices_to_99_cents: true
+price_rounding_cents: [49, 99]
 `;
 
 fs.writeFileSync(path.join(folderPath, 'info.yml'), infoYmlContent);

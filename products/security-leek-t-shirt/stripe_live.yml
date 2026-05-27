@@ -3,41 +3,185 @@ security-leek-t-shirt-s:
   stripe_id: prod_URuwuxzMjCuLI2
   stripe_prices:
     USD:
-      id: price_1TT16aFh1LRw8QtvEZ5DBcQN
-      unit_amount: 3299
+      id: price_1Tbm9KFh1LRw8QtvQWcHV4df
+      unit_amount: 3249
     GBP:
       id: price_1TT16aFh1LRw8QtvC9ZZakja
       unit_amount: 2399
+    EUR:
+      id: price_1Tbm9KFh1LRw8Qtvb0GujEA9
+      unit_amount: 2799
+    AUD:
+      id: price_1Tbm9LFh1LRw8QtviLNSkpNl
+      unit_amount: 4549
+    CAD:
+      id: price_1Tbm9LFh1LRw8QtvrnngGvUO
+      unit_amount: 4449
+    NZD:
+      id: price_1Tbm9LFh1LRw8QtvXEa3cJ1G
+      unit_amount: 5549
+    PLN:
+      id: price_1Tbm9MFh1LRw8QtvlQTNfPBH
+      unit_amount: 11749
+    UAH:
+      id: price_1Tbm9MFh1LRw8Qtv5q5ar8WK
+      unit_amount: 143149
+    CZK:
+      id: price_1Tbm9NFh1LRw8QtvlwxHbhkx
+      unit_amount: 67349
+    DKK:
+      id: price_1Tbm9NFh1LRw8Qtv7wH6JZEr
+      unit_amount: 20749
+    HUF:
+      id: price_1Tbm9NFh1LRw8QtvExDLy1tt
+      unit_amount: 987699
+    NOK:
+      id: price_1Tbm9NFh1LRw8Qtvj7JytPWl
+      unit_amount: 29949
+    RON:
+      id: price_1Tbm9OFh1LRw8QtvmxrgTcPQ
+      unit_amount: 14549
+    SEK:
+      id: price_1Tbm9PFh1LRw8QtvsyTZCRmL
+      unit_amount: 30049
 security-leek-t-shirt-m:
   size: M
   stripe_id: prod_URuwz47dPK8bCx
   stripe_prices:
     USD:
-      id: price_1TT16bFh1LRw8Qtvl9kgmgWB
-      unit_amount: 3299
+      id: price_1Tbm9QFh1LRw8Qtvw4LLjBos
+      unit_amount: 3249
     GBP:
       id: price_1TT16bFh1LRw8Qtvdt89fzLj
       unit_amount: 2399
+    EUR:
+      id: price_1Tbm9QFh1LRw8Qtvfrj4m6Ik
+      unit_amount: 2799
+    AUD:
+      id: price_1Tbm9QFh1LRw8Qtv72RzrAy7
+      unit_amount: 4549
+    CAD:
+      id: price_1Tbm9RFh1LRw8QtvGrqh4rCd
+      unit_amount: 4449
+    NZD:
+      id: price_1Tbm9RFh1LRw8QtvCkHkc0wc
+      unit_amount: 5549
+    PLN:
+      id: price_1Tbm9RFh1LRw8Qtv2ZYp74v2
+      unit_amount: 11749
+    UAH:
+      id: price_1Tbm9SFh1LRw8QtvTGUdcshO
+      unit_amount: 143149
+    CZK:
+      id: price_1Tbm9SFh1LRw8QtvLtVitddu
+      unit_amount: 67349
+    DKK:
+      id: price_1Tbm9SFh1LRw8QtvWP7gNoId
+      unit_amount: 20749
+    HUF:
+      id: price_1Tbm9TFh1LRw8Qtv8fuDS8gV
+      unit_amount: 987699
+    NOK:
+      id: price_1Tbm9TFh1LRw8Qtve52ZdtcF
+      unit_amount: 29949
+    RON:
+      id: price_1Tbm9TFh1LRw8QtvmtaDG0ta
+      unit_amount: 14549
+    SEK:
+      id: price_1Tbm9UFh1LRw8QtvftSREAg7
+      unit_amount: 30049
 security-leek-t-shirt-l:
   size: L
   stripe_id: prod_URuwysQBdJUQlL
   stripe_prices:
     USD:
-      id: price_1TT16cFh1LRw8QtvKDg3wQLR
-      unit_amount: 3299
+      id: price_1Tbm9VFh1LRw8Qtvi7Nk8O50
+      unit_amount: 3249
     GBP:
       id: price_1TT16cFh1LRw8QtvGG5OljtI
       unit_amount: 2399
+    EUR:
+      id: price_1Tbm9VFh1LRw8QtvopYm5ISE
+      unit_amount: 2799
+    AUD:
+      id: price_1Tbm9VFh1LRw8QtvI3vFuhq0
+      unit_amount: 4549
+    CAD:
+      id: price_1Tbm9WFh1LRw8QtvlegLAdwm
+      unit_amount: 4449
+    NZD:
+      id: price_1Tbm9WFh1LRw8QtvNveFrDY5
+      unit_amount: 5549
+    PLN:
+      id: price_1Tbm9WFh1LRw8QtvoERfYHP8
+      unit_amount: 11749
+    UAH:
+      id: price_1Tbm9XFh1LRw8QtvKVvDELeW
+      unit_amount: 143149
+    CZK:
+      id: price_1Tbm9XFh1LRw8QtvEnlPn41v
+      unit_amount: 67349
+    DKK:
+      id: price_1Tbm9XFh1LRw8QtvQW3BjbTT
+      unit_amount: 20749
+    HUF:
+      id: price_1Tbm9YFh1LRw8QtvQAE6B2cU
+      unit_amount: 987699
+    NOK:
+      id: price_1Tbm9YFh1LRw8Qtvg2IU46rU
+      unit_amount: 29949
+    RON:
+      id: price_1Tbm9YFh1LRw8Qtv8zJG29hA
+      unit_amount: 14549
+    SEK:
+      id: price_1Tbm9ZFh1LRw8Qtv82gRidJ4
+      unit_amount: 30049
 security-leek-t-shirt-xl:
   size: XL
   stripe_id: prod_URuwR3yqNOswHv
   stripe_prices:
     USD:
-      id: price_1TT16cFh1LRw8QtvGxvfjD8w
-      unit_amount: 3299
+      id: price_1Tbm9aFh1LRw8QtvN91zY1PE
+      unit_amount: 3249
     GBP:
       id: price_1TT16dFh1LRw8Qtv5Qhi6VRD
       unit_amount: 2399
+    EUR:
+      id: price_1Tbm9aFh1LRw8QtvrdLPq1h8
+      unit_amount: 2799
+    AUD:
+      id: price_1Tbm9aFh1LRw8QtvHOfYwGQ7
+      unit_amount: 4549
+    CAD:
+      id: price_1Tbm9bFh1LRw8QtvHuBpH37L
+      unit_amount: 4449
+    NZD:
+      id: price_1Tbm9bFh1LRw8Qtv9vG8hjOz
+      unit_amount: 5549
+    PLN:
+      id: price_1Tbm9bFh1LRw8Qtv96CYT7OQ
+      unit_amount: 11749
+    UAH:
+      id: price_1Tbm9cFh1LRw8Qtv71kjX7BY
+      unit_amount: 143149
+    CZK:
+      id: price_1Tbm9cFh1LRw8QtvFAukp2qw
+      unit_amount: 67349
+    DKK:
+      id: price_1Tbm9cFh1LRw8QtvwqvbGSPU
+      unit_amount: 20749
+    HUF:
+      id: price_1Tbm9dFh1LRw8QtvDcErKHTD
+      unit_amount: 987699
+    NOK:
+      id: price_1Tbm9dFh1LRw8Qtvvs2DKnNN
+      unit_amount: 29949
+    RON:
+      id: price_1Tbm9eFh1LRw8QtvVkSXtAim
+      unit_amount: 14549
+    SEK:
+      id: price_1Tbm9eFh1LRw8QtvRhDHMPng
+      unit_amount: 30049
 security-leek-t-shirt-2xl:
   size: 2XL
   stripe_id: prod_URuw7OuzBuQNKA
@@ -48,13 +192,85 @@ security-leek-t-shirt-2xl:
     GBP:
       id: price_1TT16eFh1LRw8Qtvnjmw3boa
       unit_amount: 2599
+    EUR:
+      id: price_1Tbm9fFh1LRw8Qtv3Dtvr9az
+      unit_amount: 3049
+    AUD:
+      id: price_1Tbm9fFh1LRw8QtvjxtEwC7R
+      unit_amount: 4899
+    CAD:
+      id: price_1Tbm9fFh1LRw8QtvCj8abtlT
+      unit_amount: 4849
+    NZD:
+      id: price_1Tbm9fFh1LRw8QtvAyW7vFJh
+      unit_amount: 5999
+    PLN:
+      id: price_1Tbm9gFh1LRw8QtvOlDvqYqs
+      unit_amount: 12749
+    UAH:
+      id: price_1Tbm9gFh1LRw8Qtv7INHbXfE
+      unit_amount: 155099
+    CZK:
+      id: price_1Tbm9gFh1LRw8QtvOShydgA6
+      unit_amount: 72949
+    DKK:
+      id: price_1Tbm9hFh1LRw8QtvpwffCQok
+      unit_amount: 22449
+    HUF:
+      id: price_1Tbm9hFh1LRw8QtvHeB764no
+      unit_amount: 1070049
+    NOK:
+      id: price_1Tbm9hFh1LRw8Qtv5U1LmGJM
+      unit_amount: 32449
+    RON:
+      id: price_1Tbm9iFh1LRw8QtvcCupGDkv
+      unit_amount: 15749
+    SEK:
+      id: price_1Tbm9iFh1LRw8QtvlUtwKfyE
+      unit_amount: 32549
 security-leek-t-shirt-3xl:
   size: 3XL
   stripe_id: prod_URuwMkBVI55C7X
   stripe_prices:
     USD:
-      id: price_1TT16eFh1LRw8QtvG4lvyYPy
-      unit_amount: 3699
+      id: price_1Tbm9jFh1LRw8QtvwAybRFLK
+      unit_amount: 3649
     GBP:
       id: price_1TT16fFh1LRw8QtvolZfHj3j
       unit_amount: 2699
+    EUR:
+      id: price_1Tbm9jFh1LRw8Qtv5m1AZqsz
+      unit_amount: 3149
+    AUD:
+      id: price_1Tbm9kFh1LRw8QtvmEqqGW6N
+      unit_amount: 5049
+    CAD:
+      id: price_1Tbm9kFh1LRw8QtvK9tO2fHe
+      unit_amount: 5049
+    NZD:
+      id: price_1Tbm9lFh1LRw8Qtvt8vdoSVD
+      unit_amount: 6249
+    PLN:
+      id: price_1Tbm9lFh1LRw8QtvXfjqKXYV
+      unit_amount: 13249
+    UAH:
+      id: price_1Tbm9lFh1LRw8QtvydcMXGYL
+      unit_amount: 161049
+    CZK:
+      id: price_1Tbm9lFh1LRw8QtvgOLVHB6s
+      unit_amount: 75799
+    DKK:
+      id: price_1Tbm9mFh1LRw8Qtv66RD4oSg
+      unit_amount: 23349
+    HUF:
+      id: price_1Tbm9mFh1LRw8Qtv9YaKkIkp
+      unit_amount: 1111249
+    NOK:
+      id: price_1Tbm9mFh1LRw8Qtv3CaXXr5M
+      unit_amount: 33649
+    RON:
+      id: price_1Tbm9nFh1LRw8QtvbfH2TDxY
+      unit_amount: 16349
+    SEK:
+      id: price_1Tbm9nFh1LRw8QtvwpWmUmZH
+      unit_amount: 33799

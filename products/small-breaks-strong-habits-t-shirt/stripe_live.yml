@@ -4,261 +4,1125 @@ small-breaks-strong-habits-t-shirt-black-s:
   stripe_id: prod_UUYa7kF49UKb5z
   stripe_prices:
     USD:
-      id: price_1TVZT7Fh1LRw8QtvlGVOfEus
-      unit_amount: 3399
+      id: price_1Tbm9oFh1LRw8QtvgvfLVKqy
+      unit_amount: 3349
     GBP:
       id: price_1TVZT7Fh1LRw8QtvAFZDLuJE
       unit_amount: 2499
+    EUR:
+      id: price_1Tbm9pFh1LRw8QtvgYGTbhZK
+      unit_amount: 2899
+    AUD:
+      id: price_1Tbm9pFh1LRw8QtvUKEEJVoU
+      unit_amount: 4699
+    CAD:
+      id: price_1Tbm9pFh1LRw8Qtv3AxyCDzT
+      unit_amount: 4649
+    NZD:
+      id: price_1Tbm9qFh1LRw8Qtv9vdpoD4c
+      unit_amount: 5749
+    PLN:
+      id: price_1Tbm9qFh1LRw8QtvaqnkXTyX
+      unit_amount: 12249
+    UAH:
+      id: price_1Tbm9qFh1LRw8QtvfUK6AazQ
+      unit_amount: 149149
+    CZK:
+      id: price_1Tbm9rFh1LRw8QtvkLgMpO2X
+      unit_amount: 70149
+    DKK:
+      id: price_1Tbm9rFh1LRw8QtvBpSq9oZa
+      unit_amount: 21599
+    HUF:
+      id: price_1Tbm9rFh1LRw8QtvOTNMp5pk
+      unit_amount: 1028849
+    NOK:
+      id: price_1Tbm9sFh1LRw8Qtv6VnAJzOm
+      unit_amount: 31149
+    RON:
+      id: price_1Tbm9sFh1LRw8QtvYe1XbNwV
+      unit_amount: 15149
+    SEK:
+      id: price_1Tbm9sFh1LRw8QtvEMCVy18P
+      unit_amount: 31299
 small-breaks-strong-habits-t-shirt-black-m:
   color: Black
   size: M
   stripe_id: prod_UUYabLUB05DLc1
   stripe_prices:
     USD:
-      id: price_1TVZT8Fh1LRw8QtvrS0FHPN8
-      unit_amount: 3399
+      id: price_1Tbm9tFh1LRw8Qtvv5f9saXx
+      unit_amount: 3349
     GBP:
       id: price_1TVZT9Fh1LRw8QtvA1fgf9ec
       unit_amount: 2499
+    EUR:
+      id: price_1Tbm9uFh1LRw8QtvdokjIwPo
+      unit_amount: 2899
+    AUD:
+      id: price_1Tbm9uFh1LRw8QtvprinTuWk
+      unit_amount: 4699
+    CAD:
+      id: price_1Tbm9uFh1LRw8QtvLZGoOJBX
+      unit_amount: 4649
+    NZD:
+      id: price_1Tbm9vFh1LRw8QtvuDo9Zd95
+      unit_amount: 5749
+    PLN:
+      id: price_1Tbm9vFh1LRw8QtvuBw47O84
+      unit_amount: 12249
+    UAH:
+      id: price_1Tbm9vFh1LRw8QtvI7ES4E2h
+      unit_amount: 149149
+    CZK:
+      id: price_1Tbm9wFh1LRw8Qtvo8mX681x
+      unit_amount: 70149
+    DKK:
+      id: price_1Tbm9wFh1LRw8Qtv8cB27EKg
+      unit_amount: 21599
+    HUF:
+      id: price_1Tbm9wFh1LRw8Qtv2TOFMUVO
+      unit_amount: 1028849
+    NOK:
+      id: price_1Tbm9xFh1LRw8Qtv7YZy21kI
+      unit_amount: 31149
+    RON:
+      id: price_1Tbm9xFh1LRw8Qtvurum77F9
+      unit_amount: 15149
+    SEK:
+      id: price_1Tbm9xFh1LRw8QtvwlS8Eh8K
+      unit_amount: 31299
 small-breaks-strong-habits-t-shirt-black-l:
   color: Black
   size: L
   stripe_id: prod_UUYaR1sZVlyOpI
   stripe_prices:
     USD:
-      id: price_1TVZTAFh1LRw8QtvTRrbsmdM
-      unit_amount: 3399
+      id: price_1Tbm9yFh1LRw8QtvLRPyZItP
+      unit_amount: 3349
     GBP:
       id: price_1TVZTAFh1LRw8QtvKeatlPe3
       unit_amount: 2499
+    EUR:
+      id: price_1Tbm9zFh1LRw8QtvCzNHpjtg
+      unit_amount: 2899
+    AUD:
+      id: price_1Tbm9zFh1LRw8Qtv4o5gMe5d
+      unit_amount: 4699
+    CAD:
+      id: price_1Tbm9zFh1LRw8Qtvne0bazev
+      unit_amount: 4649
+    NZD:
+      id: price_1TbmA0Fh1LRw8QtvKqsWA7dl
+      unit_amount: 5749
+    PLN:
+      id: price_1TbmA0Fh1LRw8QtvZux2va0I
+      unit_amount: 12249
+    UAH:
+      id: price_1TbmA0Fh1LRw8QtvDUredw0n
+      unit_amount: 149149
+    CZK:
+      id: price_1TbmA1Fh1LRw8QtvuHdvaJiI
+      unit_amount: 70149
+    DKK:
+      id: price_1TbmA1Fh1LRw8QtvMI34zrZO
+      unit_amount: 21599
+    HUF:
+      id: price_1TbmA1Fh1LRw8QtvMulBcDmW
+      unit_amount: 1028849
+    NOK:
+      id: price_1TbmA2Fh1LRw8QtvNd1PRFgX
+      unit_amount: 31149
+    RON:
+      id: price_1TbmA2Fh1LRw8Qtv3qRHgGbG
+      unit_amount: 15149
+    SEK:
+      id: price_1TbmA2Fh1LRw8Qtvwh3QctFb
+      unit_amount: 31299
 small-breaks-strong-habits-t-shirt-black-xl:
   color: Black
   size: XL
   stripe_id: prod_UUYafya0V3o590
   stripe_prices:
     USD:
-      id: price_1TVZTBFh1LRw8QtvdRLrs1ns
-      unit_amount: 3399
+      id: price_1TbmA3Fh1LRw8QtvG7gaF4kU
+      unit_amount: 3349
     GBP:
       id: price_1TVZTCFh1LRw8QtvZC02QP7S
       unit_amount: 2499
+    EUR:
+      id: price_1TbmA4Fh1LRw8QtvaU1bUUvS
+      unit_amount: 2899
+    AUD:
+      id: price_1TbmA4Fh1LRw8QtvL1hejTq1
+      unit_amount: 4699
+    CAD:
+      id: price_1TbmA4Fh1LRw8QtvgLjmtdEf
+      unit_amount: 4649
+    NZD:
+      id: price_1TbmA5Fh1LRw8QtvGRVShvMJ
+      unit_amount: 5749
+    PLN:
+      id: price_1TbmA5Fh1LRw8QtvT64P1Hvy
+      unit_amount: 12249
+    UAH:
+      id: price_1TbmA6Fh1LRw8QtvfPQCyuSe
+      unit_amount: 149149
+    CZK:
+      id: price_1TbmA6Fh1LRw8QtvkWsy2dY4
+      unit_amount: 70149
+    DKK:
+      id: price_1TbmA6Fh1LRw8QtvkPPEJ2FO
+      unit_amount: 21599
+    HUF:
+      id: price_1TbmA6Fh1LRw8QtvEhXMW4Ha
+      unit_amount: 1028849
+    NOK:
+      id: price_1TbmA7Fh1LRw8QtvfSIfj0Fh
+      unit_amount: 31149
+    RON:
+      id: price_1TbmA7Fh1LRw8QtvQpVwRKEo
+      unit_amount: 15149
+    SEK:
+      id: price_1TbmA7Fh1LRw8QtvF1m4wpPk
+      unit_amount: 31299
 small-breaks-strong-habits-t-shirt-black-2xl:
   color: Black
   size: 2XL
   stripe_id: prod_UUYaif3443EhlF
   stripe_prices:
     USD:
-      id: price_1TVZTDFh1LRw8QtvBgwTTUni
-      unit_amount: 3699
+      id: price_1TbmA8Fh1LRw8QtviJbABoJl
+      unit_amount: 3649
     GBP:
       id: price_1TVZTDFh1LRw8QtvNCLRgZj6
       unit_amount: 2699
+    EUR:
+      id: price_1TbmA9Fh1LRw8QtvVfGA9o0C
+      unit_amount: 3149
+    AUD:
+      id: price_1TbmA9Fh1LRw8Qtvmya3oduU
+      unit_amount: 5049
+    CAD:
+      id: price_1TbmA9Fh1LRw8Qtv7H4XNJ6B
+      unit_amount: 5049
+    NZD:
+      id: price_1TbmAAFh1LRw8Qtv0AyAPvef
+      unit_amount: 6249
+    PLN:
+      id: price_1TbmAAFh1LRw8QtvYo73Qe5I
+      unit_amount: 13249
+    UAH:
+      id: price_1TbmAAFh1LRw8QtviR2tXG2n
+      unit_amount: 161049
+    CZK:
+      id: price_1TbmABFh1LRw8Qtve3OShWW8
+      unit_amount: 75799
+    DKK:
+      id: price_1TbmABFh1LRw8Qtv9rupH26o
+      unit_amount: 23349
+    HUF:
+      id: price_1TbmACFh1LRw8Qtv1y55DyLU
+      unit_amount: 1111249
+    NOK:
+      id: price_1TbmACFh1LRw8QtvJbyCMLdC
+      unit_amount: 33649
+    RON:
+      id: price_1TbmACFh1LRw8QtvvwpbwPYN
+      unit_amount: 16349
+    SEK:
+      id: price_1TbmADFh1LRw8Qtv7Kbezkd1
+      unit_amount: 33799
 small-breaks-strong-habits-t-shirt-black-3xl:
   color: Black
   size: 3XL
   stripe_id: prod_UUYaT3jGPwLFwH
   stripe_prices:
     USD:
-      id: price_1TVZTEFh1LRw8QtvBhgHDdJt
-      unit_amount: 3799
+      id: price_1TbmADFh1LRw8Qtv5S84tId8
+      unit_amount: 3749
     GBP:
       id: price_1TVZTFFh1LRw8Qtvjhy8XBgZ
       unit_amount: 2799
+    EUR:
+      id: price_1TbmAEFh1LRw8Qtv0h5BTf8p
+      unit_amount: 3249
+    AUD:
+      id: price_1TbmAEFh1LRw8QtvRArElXzc
+      unit_amount: 5249
+    CAD:
+      id: price_1TbmAEFh1LRw8Qtv2MWTtZUc
+      unit_amount: 5199
+    NZD:
+      id: price_1TbmAFFh1LRw8Qtvcn7zfE5D
+      unit_amount: 6449
+    PLN:
+      id: price_1TbmAFFh1LRw8Qtvl1wvGcmQ
+      unit_amount: 13749
+    UAH:
+      id: price_1TbmAFFh1LRw8QtvzgWvpImc
+      unit_amount: 167049
+    CZK:
+      id: price_1TbmAGFh1LRw8Qtvq3W1GJg9
+      unit_amount: 78599
+    DKK:
+      id: price_1TbmAGFh1LRw8QtvZadD9lI0
+      unit_amount: 24149
+    HUF:
+      id: price_1TbmAHFh1LRw8QtvNdyO4VCn
+      unit_amount: 1152399
+    NOK:
+      id: price_1TbmAHFh1LRw8QtvlHyGP9wg
+      unit_amount: 34899
+    RON:
+      id: price_1TbmAHFh1LRw8QtvRX4n5xyG
+      unit_amount: 16999
+    SEK:
+      id: price_1TbmAIFh1LRw8QtvPhTlWPBF
+      unit_amount: 35049
 small-breaks-strong-habits-t-shirt-aqua-s:
   color: Aqua
   size: S
   stripe_id: prod_UUYaLLm8h46MDR
   stripe_prices:
     USD:
-      id: price_1TVZTGFh1LRw8QtvSjb7tofP
-      unit_amount: 3399
+      id: price_1TbmAJFh1LRw8Qtv2lVVC5gn
+      unit_amount: 3349
     GBP:
       id: price_1TVZTGFh1LRw8Qtv2RPwEUJe
       unit_amount: 2499
+    EUR:
+      id: price_1TbmAJFh1LRw8QtvTURTzwec
+      unit_amount: 2899
+    AUD:
+      id: price_1TbmAJFh1LRw8QtvrTbyBye9
+      unit_amount: 4699
+    CAD:
+      id: price_1TbmAJFh1LRw8QtvCJk6msqj
+      unit_amount: 4649
+    NZD:
+      id: price_1TbmAKFh1LRw8Qtvii6frMyQ
+      unit_amount: 5749
+    PLN:
+      id: price_1TbmAKFh1LRw8QtvOVgvV0nG
+      unit_amount: 12249
+    UAH:
+      id: price_1TbmAKFh1LRw8QtvSYCeF6aq
+      unit_amount: 149149
+    CZK:
+      id: price_1TbmALFh1LRw8QtvymYOZecv
+      unit_amount: 70149
+    DKK:
+      id: price_1TbmALFh1LRw8QtvqLxnqv0t
+      unit_amount: 21599
+    HUF:
+      id: price_1TbmALFh1LRw8QtvXD36kcBB
+      unit_amount: 1028849
+    NOK:
+      id: price_1TbmAMFh1LRw8QtvkmdemNl7
+      unit_amount: 31149
+    RON:
+      id: price_1TbmAMFh1LRw8QtvIUKywiFw
+      unit_amount: 15149
+    SEK:
+      id: price_1TbmAMFh1LRw8QtvluTOisO6
+      unit_amount: 31299
 small-breaks-strong-habits-t-shirt-aqua-m:
   color: Aqua
   size: M
   stripe_id: prod_UUYa1di7coZVjF
   stripe_prices:
     USD:
-      id: price_1TVZTHFh1LRw8QtvTW35OssT
-      unit_amount: 3399
+      id: price_1TbmANFh1LRw8QtvHgAYl7Ef
+      unit_amount: 3349
     GBP:
       id: price_1TVZTIFh1LRw8QtvkPudCAwO
       unit_amount: 2499
+    EUR:
+      id: price_1TbmAOFh1LRw8Qtvcjz09chk
+      unit_amount: 2899
+    AUD:
+      id: price_1TbmAOFh1LRw8Qtvbog40gTR
+      unit_amount: 4699
+    CAD:
+      id: price_1TbmAOFh1LRw8QtvSKEqOuU9
+      unit_amount: 4649
+    NZD:
+      id: price_1TbmAPFh1LRw8Qtvzt1y9rtP
+      unit_amount: 5749
+    PLN:
+      id: price_1TbmAPFh1LRw8QtvFw5TrU7v
+      unit_amount: 12249
+    UAH:
+      id: price_1TbmAPFh1LRw8QtvoVzQj25Y
+      unit_amount: 149149
+    CZK:
+      id: price_1TbmAQFh1LRw8Qtvf78zweLY
+      unit_amount: 70149
+    DKK:
+      id: price_1TbmAQFh1LRw8QtvdLfjIX2n
+      unit_amount: 21599
+    HUF:
+      id: price_1TbmAQFh1LRw8QtvOViwTREU
+      unit_amount: 1028849
+    NOK:
+      id: price_1TbmARFh1LRw8Qtv6vDKzVGt
+      unit_amount: 31149
+    RON:
+      id: price_1TbmARFh1LRw8QtvshDtIk3f
+      unit_amount: 15149
+    SEK:
+      id: price_1TbmARFh1LRw8QtvJ6wVMoOM
+      unit_amount: 31299
 small-breaks-strong-habits-t-shirt-aqua-l:
   color: Aqua
   size: L
   stripe_id: prod_UUYapJyNYY2Ib7
   stripe_prices:
     USD:
-      id: price_1TVZTJFh1LRw8QtvF6rRxNh2
-      unit_amount: 3399
+      id: price_1TbmASFh1LRw8QtvxVT92qF7
+      unit_amount: 3349
     GBP:
       id: price_1TVZTKFh1LRw8QtvjUvgoaqB
       unit_amount: 2499
+    EUR:
+      id: price_1TbmATFh1LRw8QtvR5QbWUyJ
+      unit_amount: 2899
+    AUD:
+      id: price_1TbmATFh1LRw8Qtv4SZWchdh
+      unit_amount: 4699
+    CAD:
+      id: price_1TbmATFh1LRw8QtvO40TzckL
+      unit_amount: 4649
+    NZD:
+      id: price_1TbmAUFh1LRw8QtvvQQjFxqx
+      unit_amount: 5749
+    PLN:
+      id: price_1TbmAUFh1LRw8QtvPglz6Cue
+      unit_amount: 12249
+    UAH:
+      id: price_1TbmAUFh1LRw8QtvG2HlBNyl
+      unit_amount: 149149
+    CZK:
+      id: price_1TbmAVFh1LRw8QtvfFFnjyww
+      unit_amount: 70149
+    DKK:
+      id: price_1TbmAVFh1LRw8QtvAsr4i50m
+      unit_amount: 21599
+    HUF:
+      id: price_1TbmAVFh1LRw8Qtvec3BYjKr
+      unit_amount: 1028849
+    NOK:
+      id: price_1TbmAWFh1LRw8QtvgUNFEd7o
+      unit_amount: 31149
+    RON:
+      id: price_1TbmAWFh1LRw8Qtvr6pVuphS
+      unit_amount: 15149
+    SEK:
+      id: price_1TbmAWFh1LRw8Qtv6zu8GNxA
+      unit_amount: 31299
 small-breaks-strong-habits-t-shirt-aqua-xl:
   color: Aqua
   size: XL
   stripe_id: prod_UUYaoiz7plqfIH
   stripe_prices:
     USD:
-      id: price_1TVZTLFh1LRw8QtvrYJwyY7R
-      unit_amount: 3399
+      id: price_1TbmAXFh1LRw8QtvXe20sK2N
+      unit_amount: 3349
     GBP:
       id: price_1TVZTLFh1LRw8QtvWUh8hgFE
       unit_amount: 2499
+    EUR:
+      id: price_1TbmAYFh1LRw8QtvnkxZJlU6
+      unit_amount: 2899
+    AUD:
+      id: price_1TbmAYFh1LRw8Qtv50A7rkg8
+      unit_amount: 4699
+    CAD:
+      id: price_1TbmAYFh1LRw8QtvZaHrrHxa
+      unit_amount: 4649
+    NZD:
+      id: price_1TbmAZFh1LRw8Qtv4CCWeRRW
+      unit_amount: 5749
+    PLN:
+      id: price_1TbmAZFh1LRw8QtvQmelfcIN
+      unit_amount: 12249
+    UAH:
+      id: price_1TbmAZFh1LRw8QtvCvP3iU2S
+      unit_amount: 149149
+    CZK:
+      id: price_1TbmAaFh1LRw8Qtv0TcCsQ1T
+      unit_amount: 70149
+    DKK:
+      id: price_1TbmAaFh1LRw8QtvpRrvXuRX
+      unit_amount: 21599
+    HUF:
+      id: price_1TbmAaFh1LRw8QtvlK7ytsq8
+      unit_amount: 1028849
+    NOK:
+      id: price_1TbmAbFh1LRw8Qtv5ijdItXS
+      unit_amount: 31149
+    RON:
+      id: price_1TbmAbFh1LRw8QtvHCMFDpwy
+      unit_amount: 15149
+    SEK:
+      id: price_1TbmAbFh1LRw8QtvLVIWIVhd
+      unit_amount: 31299
 small-breaks-strong-habits-t-shirt-aqua-2xl:
   color: Aqua
   size: 2XL
   stripe_id: prod_UUYaYTg4E9BDqM
   stripe_prices:
     USD:
-      id: price_1TVZTMFh1LRw8Qtv85eGTaet
-      unit_amount: 3699
+      id: price_1TbmAcFh1LRw8QtvZB4DHeRk
+      unit_amount: 3649
     GBP:
       id: price_1TVZTNFh1LRw8Qtv7chXbJO5
       unit_amount: 2699
+    EUR:
+      id: price_1TbmAdFh1LRw8QtvUa30zz68
+      unit_amount: 3149
+    AUD:
+      id: price_1TbmAdFh1LRw8QtvLkbi5too
+      unit_amount: 5049
+    CAD:
+      id: price_1TbmAdFh1LRw8QtvAgrjPXBW
+      unit_amount: 5049
+    NZD:
+      id: price_1TbmAdFh1LRw8QtvfDpwXWpP
+      unit_amount: 6249
+    PLN:
+      id: price_1TbmAeFh1LRw8QtvwGAx0Rdc
+      unit_amount: 13249
+    UAH:
+      id: price_1TbmAeFh1LRw8Qtv8JfSU7jc
+      unit_amount: 161049
+    CZK:
+      id: price_1TbmAeFh1LRw8Qtv58cCW0TI
+      unit_amount: 75799
+    DKK:
+      id: price_1TbmAfFh1LRw8QtvmYoEqirE
+      unit_amount: 23349
+    HUF:
+      id: price_1TbmAfFh1LRw8Qtv8ujzbxQU
+      unit_amount: 1111249
+    NOK:
+      id: price_1TbmAgFh1LRw8QtvgFHTgCil
+      unit_amount: 33649
+    RON:
+      id: price_1TbmAgFh1LRw8QtviWuONwSY
+      unit_amount: 16349
+    SEK:
+      id: price_1TbmAgFh1LRw8Qtv8auXDuX4
+      unit_amount: 33799
 small-breaks-strong-habits-t-shirt-aqua-3xl:
   color: Aqua
   size: 3XL
   stripe_id: prod_UUYa0ljLF23pnN
   stripe_prices:
     USD:
-      id: price_1TVZTOFh1LRw8Qtv273XwGoZ
-      unit_amount: 3799
+      id: price_1TbmAhFh1LRw8QtvxXz0YfQs
+      unit_amount: 3749
     GBP:
       id: price_1TVZTOFh1LRw8Qtv9AIYtZDt
       unit_amount: 2799
+    EUR:
+      id: price_1TbmAiFh1LRw8QtvwjPWEWoZ
+      unit_amount: 3249
+    AUD:
+      id: price_1TbmAiFh1LRw8QtvtiR3ZSEm
+      unit_amount: 5249
+    CAD:
+      id: price_1TbmAiFh1LRw8QtvdhyNrtEQ
+      unit_amount: 5199
+    NZD:
+      id: price_1TbmAjFh1LRw8QtvbGszJIdf
+      unit_amount: 6449
+    PLN:
+      id: price_1TbmAjFh1LRw8QtvVCjpb7q6
+      unit_amount: 13749
+    UAH:
+      id: price_1TbmAjFh1LRw8Qtvy99WdGym
+      unit_amount: 167049
+    CZK:
+      id: price_1TbmAkFh1LRw8QtvqHK9xL91
+      unit_amount: 78599
+    DKK:
+      id: price_1TbmAkFh1LRw8QtvHUcvJy4k
+      unit_amount: 24149
+    HUF:
+      id: price_1TbmAkFh1LRw8QtvzGYJwIhA
+      unit_amount: 1152399
+    NOK:
+      id: price_1TbmAkFh1LRw8QtvFhOXlHW2
+      unit_amount: 34899
+    RON:
+      id: price_1TbmAlFh1LRw8QtvvXPucrbd
+      unit_amount: 16999
+    SEK:
+      id: price_1TbmAlFh1LRw8QtvjOJnm20x
+      unit_amount: 35049
 small-breaks-strong-habits-t-shirt-leaf-s:
   color: Leaf
   size: S
   stripe_id: prod_UUYaB1jtigssVk
   stripe_prices:
     USD:
-      id: price_1TVZTPFh1LRw8QtvQc2B2MGJ
-      unit_amount: 3399
+      id: price_1TbmAmFh1LRw8QtvCuwYFTW0
+      unit_amount: 3349
     GBP:
       id: price_1TVZTQFh1LRw8Qtv76rt7JcC
       unit_amount: 2499
+    EUR:
+      id: price_1TbmAnFh1LRw8QtvrAGSjRHP
+      unit_amount: 2899
+    AUD:
+      id: price_1TbmAnFh1LRw8QtvNPsT6klD
+      unit_amount: 4699
+    CAD:
+      id: price_1TbmAnFh1LRw8Qtvb5BAqIRC
+      unit_amount: 4649
+    NZD:
+      id: price_1TbmAnFh1LRw8QtvEWAlMa6d
+      unit_amount: 5749
+    PLN:
+      id: price_1TbmAoFh1LRw8Qtv3njsE97a
+      unit_amount: 12249
+    UAH:
+      id: price_1TbmAoFh1LRw8QtvEBmUBqN1
+      unit_amount: 149149
+    CZK:
+      id: price_1TbmApFh1LRw8QtvWBEJkn8v
+      unit_amount: 70149
+    DKK:
+      id: price_1TbmApFh1LRw8QtvnHiixvEC
+      unit_amount: 21599
+    HUF:
+      id: price_1TbmApFh1LRw8QtvjDLBX599
+      unit_amount: 1028849
+    NOK:
+      id: price_1TbmApFh1LRw8QtveVpQPmNB
+      unit_amount: 31149
+    RON:
+      id: price_1TbmAqFh1LRw8QtvhTjDYEvC
+      unit_amount: 15149
+    SEK:
+      id: price_1TbmAqFh1LRw8QtvmdAdWrjY
+      unit_amount: 31299
 small-breaks-strong-habits-t-shirt-leaf-m:
   color: Leaf
   size: M
   stripe_id: prod_UUYaXXD5Ebm2kH
   stripe_prices:
     USD:
-      id: price_1TVZTRFh1LRw8QtvyLPOmwdP
-      unit_amount: 3399
+      id: price_1TbmArFh1LRw8QtvfVgjBQ9R
+      unit_amount: 3349
     GBP:
       id: price_1TVZTRFh1LRw8QtvluhqcZ1U
       unit_amount: 2499
+    EUR:
+      id: price_1TbmArFh1LRw8Qtvd9nkpvRJ
+      unit_amount: 2899
+    AUD:
+      id: price_1TbmAsFh1LRw8QtvtLd0DcC6
+      unit_amount: 4699
+    CAD:
+      id: price_1TbmAsFh1LRw8QtvccHleh2O
+      unit_amount: 4649
+    NZD:
+      id: price_1TbmAsFh1LRw8QtvR536APNY
+      unit_amount: 5749
+    PLN:
+      id: price_1TbmAtFh1LRw8QtvJkRQy9IP
+      unit_amount: 12249
+    UAH:
+      id: price_1TbmAtFh1LRw8QtvGu0t5yHr
+      unit_amount: 149149
+    CZK:
+      id: price_1TbmAtFh1LRw8Qtvm7D1EH0J
+      unit_amount: 70149
+    DKK:
+      id: price_1TbmAuFh1LRw8QtvjuKi8PUl
+      unit_amount: 21599
+    HUF:
+      id: price_1TbmAuFh1LRw8Qtvec1oewVo
+      unit_amount: 1028849
+    NOK:
+      id: price_1TbmAuFh1LRw8QtvcSe2lytI
+      unit_amount: 31149
+    RON:
+      id: price_1TbmAuFh1LRw8Qtva7uWN6ww
+      unit_amount: 15149
+    SEK:
+      id: price_1TbmAvFh1LRw8QtvsjpLIqFl
+      unit_amount: 31299
 small-breaks-strong-habits-t-shirt-leaf-l:
   color: Leaf
   size: L
   stripe_id: prod_UUYaGqyIZobqc8
   stripe_prices:
     USD:
-      id: price_1TVZTSFh1LRw8QtvMR9sz021
-      unit_amount: 3399
+      id: price_1TbmAwFh1LRw8QtvUsy1nOQR
+      unit_amount: 3349
     GBP:
       id: price_1TVZTTFh1LRw8QtvxUnZXnyB
       unit_amount: 2499
+    EUR:
+      id: price_1TbmAwFh1LRw8QtvKbnfrxmv
+      unit_amount: 2899
+    AUD:
+      id: price_1TbmAwFh1LRw8QtvQ3D6dO4w
+      unit_amount: 4699
+    CAD:
+      id: price_1TbmAxFh1LRw8QtvB4wKQXzw
+      unit_amount: 4649
+    NZD:
+      id: price_1TbmAxFh1LRw8QtvD7vCZA1Q
+      unit_amount: 5749
+    PLN:
+      id: price_1TbmAxFh1LRw8QtvJ4uRd7gj
+      unit_amount: 12249
+    UAH:
+      id: price_1TbmAyFh1LRw8QtvgSkF3nxi
+      unit_amount: 149149
+    CZK:
+      id: price_1TbmAyFh1LRw8QtvRvYLnHtA
+      unit_amount: 70149
+    DKK:
+      id: price_1TbmAyFh1LRw8QtvWo1IdYo9
+      unit_amount: 21599
+    HUF:
+      id: price_1TbmAzFh1LRw8QtvdHaxve7x
+      unit_amount: 1028849
+    NOK:
+      id: price_1TbmAzFh1LRw8QtvsExP9Pt6
+      unit_amount: 31149
+    RON:
+      id: price_1TbmAzFh1LRw8Qtv6qMqJyPU
+      unit_amount: 15149
+    SEK:
+      id: price_1TbmB0Fh1LRw8Qtv8YWl4Id3
+      unit_amount: 31299
 small-breaks-strong-habits-t-shirt-leaf-xl:
   color: Leaf
   size: XL
   stripe_id: prod_UUYa0uEP7o3bko
   stripe_prices:
     USD:
-      id: price_1TVZTUFh1LRw8QtvrZ5NtFar
-      unit_amount: 3399
+      id: price_1TbmB1Fh1LRw8QtvZQmsJkgP
+      unit_amount: 3349
     GBP:
       id: price_1TVZTVFh1LRw8Qtv8GQazqhT
       unit_amount: 2499
+    EUR:
+      id: price_1TbmB1Fh1LRw8QtvU7NkPYEL
+      unit_amount: 2899
+    AUD:
+      id: price_1TbmB1Fh1LRw8Qtv7IRqB1s6
+      unit_amount: 4699
+    CAD:
+      id: price_1TbmB2Fh1LRw8QtvnCFBEvW7
+      unit_amount: 4649
+    NZD:
+      id: price_1TbmB2Fh1LRw8Qtv36qtUv6u
+      unit_amount: 5749
+    PLN:
+      id: price_1TbmB2Fh1LRw8Qtv7NU7QlKo
+      unit_amount: 12249
+    UAH:
+      id: price_1TbmB3Fh1LRw8QtvtsgDbOVw
+      unit_amount: 149149
+    CZK:
+      id: price_1TbmB3Fh1LRw8Qtvc7CHsvcF
+      unit_amount: 70149
+    DKK:
+      id: price_1TbmB3Fh1LRw8QtvitG9Cz3P
+      unit_amount: 21599
+    HUF:
+      id: price_1TbmB4Fh1LRw8QtvzHOMU4Lz
+      unit_amount: 1028849
+    NOK:
+      id: price_1TbmB4Fh1LRw8QtvVD2KBAnu
+      unit_amount: 31149
+    RON:
+      id: price_1TbmB4Fh1LRw8Qtv5PW6HFl1
+      unit_amount: 15149
+    SEK:
+      id: price_1TbmB4Fh1LRw8Qtvd7iB5Y5s
+      unit_amount: 31299
 small-breaks-strong-habits-t-shirt-leaf-2xl:
   color: Leaf
   size: 2XL
   stripe_id: prod_UUYawte5qYlxPy
   stripe_prices:
     USD:
-      id: price_1TVZTWFh1LRw8QtvqIhHvcTF
-      unit_amount: 3699
+      id: price_1TbmB6Fh1LRw8QtvaKSVgpGL
+      unit_amount: 3649
     GBP:
       id: price_1TVZTWFh1LRw8QtvYuWa2xQR
       unit_amount: 2699
+    EUR:
+      id: price_1TbmB6Fh1LRw8Qtv7BVigZZx
+      unit_amount: 3149
+    AUD:
+      id: price_1TbmB6Fh1LRw8Qtv2KL0SDzZ
+      unit_amount: 5049
+    CAD:
+      id: price_1TbmB7Fh1LRw8QtvAPWOHncY
+      unit_amount: 5049
+    NZD:
+      id: price_1TbmB7Fh1LRw8Qtvzad1sRHZ
+      unit_amount: 6249
+    PLN:
+      id: price_1TbmB7Fh1LRw8Qtv2MmIc99g
+      unit_amount: 13249
+    UAH:
+      id: price_1TbmB7Fh1LRw8QtvXhzmeMRL
+      unit_amount: 161049
+    CZK:
+      id: price_1TbmB8Fh1LRw8QtviQEqCghK
+      unit_amount: 75799
+    DKK:
+      id: price_1TbmB8Fh1LRw8QtvsWCqXVbI
+      unit_amount: 23349
+    HUF:
+      id: price_1TbmB8Fh1LRw8QtvrNzUXuBx
+      unit_amount: 1111249
+    NOK:
+      id: price_1TbmB9Fh1LRw8Qtv6I0cIBv9
+      unit_amount: 33649
+    RON:
+      id: price_1TbmB9Fh1LRw8Qtvq7wHcNaM
+      unit_amount: 16349
+    SEK:
+      id: price_1TbmB9Fh1LRw8QtvpkATSA3u
+      unit_amount: 33799
 small-breaks-strong-habits-t-shirt-leaf-3xl:
   color: Leaf
   size: 3XL
   stripe_id: prod_UUYasaROv2b6zk
   stripe_prices:
     USD:
-      id: price_1TVZTXFh1LRw8QtvhCLe461w
-      unit_amount: 3799
+      id: price_1TbmBAFh1LRw8QtvRAtyNyYN
+      unit_amount: 3749
     GBP:
       id: price_1TVZTYFh1LRw8QtvjR7uEaCu
       unit_amount: 2799
+    EUR:
+      id: price_1TbmBBFh1LRw8Qtvci6StTpi
+      unit_amount: 3249
+    AUD:
+      id: price_1TbmBBFh1LRw8QtvizXrn31C
+      unit_amount: 5249
+    CAD:
+      id: price_1TbmBBFh1LRw8QtvxZvKFECG
+      unit_amount: 5199
+    NZD:
+      id: price_1TbmBCFh1LRw8QtvuS7s619r
+      unit_amount: 6449
+    PLN:
+      id: price_1TbmBCFh1LRw8Qtv1nWTuhYk
+      unit_amount: 13749
+    UAH:
+      id: price_1TbmBDFh1LRw8QtvriRbObFq
+      unit_amount: 167049
+    CZK:
+      id: price_1TbmBDFh1LRw8QtvnkcKrTxF
+      unit_amount: 78599
+    DKK:
+      id: price_1TbmBDFh1LRw8QtvBcw9Nhyn
+      unit_amount: 24149
+    HUF:
+      id: price_1TbmBEFh1LRw8QtvH2foDTyc
+      unit_amount: 1152399
+    NOK:
+      id: price_1TbmBEFh1LRw8QtvvSiTnk75
+      unit_amount: 34899
+    RON:
+      id: price_1TbmBEFh1LRw8QtvwmrqsZhc
+      unit_amount: 16999
+    SEK:
+      id: price_1TbmBFFh1LRw8QtvMROrhThM
+      unit_amount: 35049
 small-breaks-strong-habits-t-shirt-true_royal-s:
   color: True Royal
   size: S
   stripe_id: prod_UUYaYXGtItNqTQ
   stripe_prices:
     USD:
-      id: price_1TVZTZFh1LRw8Qtvb1mTVPxO
-      unit_amount: 3399
+      id: price_1TbmBGFh1LRw8QtvShkDrnaa
+      unit_amount: 3349
     GBP:
       id: price_1TVZTZFh1LRw8Qtvk5DtpjDG
       unit_amount: 2499
+    EUR:
+      id: price_1TbmBGFh1LRw8QtvyiI6whGk
+      unit_amount: 2899
+    AUD:
+      id: price_1TbmBGFh1LRw8QtvsAqxWhF7
+      unit_amount: 4699
+    CAD:
+      id: price_1TbmBHFh1LRw8QtvWsl4NNhZ
+      unit_amount: 4649
+    NZD:
+      id: price_1TbmBHFh1LRw8Qtvjq5D39qN
+      unit_amount: 5749
+    PLN:
+      id: price_1TbmBHFh1LRw8Qtvnz1XcvpL
+      unit_amount: 12249
+    UAH:
+      id: price_1TbmBIFh1LRw8QtvQvut7dks
+      unit_amount: 149149
+    CZK:
+      id: price_1TbmBIFh1LRw8QtvurtvxxvU
+      unit_amount: 70149
+    DKK:
+      id: price_1TbmBIFh1LRw8QtvwSw3r0Cg
+      unit_amount: 21599
+    HUF:
+      id: price_1TbmBIFh1LRw8Qtvv7TSBbaV
+      unit_amount: 1028849
+    NOK:
+      id: price_1TbmBJFh1LRw8Qtv0Mp9AIgs
+      unit_amount: 31149
+    RON:
+      id: price_1TbmBJFh1LRw8Qtv2Y9nW65x
+      unit_amount: 15149
+    SEK:
+      id: price_1TbmBKFh1LRw8QtvL0yF3RMQ
+      unit_amount: 31299
 small-breaks-strong-habits-t-shirt-true_royal-m:
   color: True Royal
   size: M
   stripe_id: prod_UUYaiUrLM9g310
   stripe_prices:
     USD:
-      id: price_1TVZTaFh1LRw8QtvNsRM0Qd4
-      unit_amount: 3399
+      id: price_1TbmBLFh1LRw8QtvuxEmu7Wz
+      unit_amount: 3349
     GBP:
       id: price_1TVZTbFh1LRw8QtvFfd4aqa4
       unit_amount: 2499
+    EUR:
+      id: price_1TbmBLFh1LRw8QtvugXtMGID
+      unit_amount: 2899
+    AUD:
+      id: price_1TbmBLFh1LRw8QtvUhPJFNQV
+      unit_amount: 4699
+    CAD:
+      id: price_1TbmBMFh1LRw8QtvEawY2X6P
+      unit_amount: 4649
+    NZD:
+      id: price_1TbmBMFh1LRw8QtvLWCrMuot
+      unit_amount: 5749
+    PLN:
+      id: price_1TbmBMFh1LRw8Qtv86E9i5Gz
+      unit_amount: 12249
+    UAH:
+      id: price_1TbmBNFh1LRw8QtvGWS9NYhI
+      unit_amount: 149149
+    CZK:
+      id: price_1TbmBNFh1LRw8Qtv1aYUDf4T
+      unit_amount: 70149
+    DKK:
+      id: price_1TbmBNFh1LRw8QtvddE5Gyw1
+      unit_amount: 21599
+    HUF:
+      id: price_1TbmBOFh1LRw8QtvzRxVK7hu
+      unit_amount: 1028849
+    NOK:
+      id: price_1TbmBOFh1LRw8Qtvsj1LbQ6F
+      unit_amount: 31149
+    RON:
+      id: price_1TbmBOFh1LRw8QtvBUXr7wCo
+      unit_amount: 15149
+    SEK:
+      id: price_1TbmBPFh1LRw8Qtv50mCG4Go
+      unit_amount: 31299
 small-breaks-strong-habits-t-shirt-true_royal-l:
   color: True Royal
   size: L
   stripe_id: prod_UUYaIbiM3nadht
   stripe_prices:
     USD:
-      id: price_1TVZTcFh1LRw8QtvuQvp70jP
-      unit_amount: 3399
+      id: price_1TbmBPFh1LRw8QtvMe1vnko6
+      unit_amount: 3349
     GBP:
       id: price_1TVZTcFh1LRw8QtvM9agLsgT
       unit_amount: 2499
+    EUR:
+      id: price_1TbmBQFh1LRw8Qtv6qO8uyKm
+      unit_amount: 2899
+    AUD:
+      id: price_1TbmBQFh1LRw8QtvBMk9eI12
+      unit_amount: 4699
+    CAD:
+      id: price_1TbmBQFh1LRw8QtvLF8cLHrM
+      unit_amount: 4649
+    NZD:
+      id: price_1TbmBRFh1LRw8Qtvc4gwtSbY
+      unit_amount: 5749
+    PLN:
+      id: price_1TbmBRFh1LRw8Qtv9iYQ1HfJ
+      unit_amount: 12249
+    UAH:
+      id: price_1TbmBSFh1LRw8QtvEUlGuqBn
+      unit_amount: 149149
+    CZK:
+      id: price_1TbmBSFh1LRw8QtvuY0nOWYM
+      unit_amount: 70149
+    DKK:
+      id: price_1TbmBSFh1LRw8QtvzO6em8V4
+      unit_amount: 21599
+    HUF:
+      id: price_1TbmBTFh1LRw8QtvRDMt4UEb
+      unit_amount: 1028849
+    NOK:
+      id: price_1TbmBTFh1LRw8QtvvyEIxsgQ
+      unit_amount: 31149
+    RON:
+      id: price_1TbmBTFh1LRw8Qtvaa7cbUmJ
+      unit_amount: 15149
+    SEK:
+      id: price_1TbmBUFh1LRw8Qtvv6fSDaCn
+      unit_amount: 31299
 small-breaks-strong-habits-t-shirt-true_royal-xl:
   color: True Royal
   size: XL
   stripe_id: prod_UUYaufEBE99ytj
   stripe_prices:
     USD:
-      id: price_1TVZTeFh1LRw8QtvbsQBMJl2
-      unit_amount: 3399
+      id: price_1TbmBVFh1LRw8QtvGyxRwvf9
+      unit_amount: 3349
     GBP:
       id: price_1TVZTeFh1LRw8Qtv5P40aQFR
       unit_amount: 2499
+    EUR:
+      id: price_1TbmBVFh1LRw8QtvkO6c057x
+      unit_amount: 2899
+    AUD:
+      id: price_1TbmBVFh1LRw8QtvZg0TIr5k
+      unit_amount: 4699
+    CAD:
+      id: price_1TbmBWFh1LRw8QtvadcziKYk
+      unit_amount: 4649
+    NZD:
+      id: price_1TbmBWFh1LRw8QtvTVVx9xkc
+      unit_amount: 5749
+    PLN:
+      id: price_1TbmBWFh1LRw8QtvUiGmxXO5
+      unit_amount: 12249
+    UAH:
+      id: price_1TbmBWFh1LRw8QtvIxZkal0j
+      unit_amount: 149149
+    CZK:
+      id: price_1TbmBXFh1LRw8Qtv6FIKfzS8
+      unit_amount: 70149
+    DKK:
+      id: price_1TbmBXFh1LRw8QtvIk0ncPvn
+      unit_amount: 21599
+    HUF:
+      id: price_1TbmBXFh1LRw8Qtvcu2xfefe
+      unit_amount: 1028849
+    NOK:
+      id: price_1TbmBYFh1LRw8QtvwboZlQwM
+      unit_amount: 31149
+    RON:
+      id: price_1TbmBYFh1LRw8QtvKr812JTM
+      unit_amount: 15149
+    SEK:
+      id: price_1TbmBYFh1LRw8QtvN22oYAPj
+      unit_amount: 31299
 small-breaks-strong-habits-t-shirt-true_royal-2xl:
   color: True Royal
   size: 2XL
   stripe_id: prod_UUYaiZoGRN2tMb
   stripe_prices:
     USD:
-      id: price_1TVZTfFh1LRw8QtvSEh7Bgbt
-      unit_amount: 3699
+      id: price_1TbmBZFh1LRw8QtvNrSXTlj5
+      unit_amount: 3649
     GBP:
       id: price_1TVZTgFh1LRw8QtvZNSQyuwk
       unit_amount: 2699
+    EUR:
+      id: price_1TbmBaFh1LRw8QtvqrhEoY3w
+      unit_amount: 3149
+    AUD:
+      id: price_1TbmBaFh1LRw8QtvwQJ1J9yx
+      unit_amount: 5049
+    CAD:
+      id: price_1TbmBaFh1LRw8QtvqLvlHDxz
+      unit_amount: 5049
+    NZD:
+      id: price_1TbmBbFh1LRw8Qtv4pLECKj1
+      unit_amount: 6249
+    PLN:
+      id: price_1TbmBbFh1LRw8Qtvta9slAgE
+      unit_amount: 13249
+    UAH:
+      id: price_1TbmBbFh1LRw8QtvTJXkLcLW
+      unit_amount: 161049
+    CZK:
+      id: price_1TbmBbFh1LRw8QtvDaD9V8AG
+      unit_amount: 75799
+    DKK:
+      id: price_1TbmBcFh1LRw8Qtv4XM0TjnZ
+      unit_amount: 23349
+    HUF:
+      id: price_1TbmBcFh1LRw8Qtv1Nbe3Pwa
+      unit_amount: 1111249
+    NOK:
+      id: price_1TbmBcFh1LRw8Qtvzx6UK975
+      unit_amount: 33649
+    RON:
+      id: price_1TbmBdFh1LRw8QtvpcHv0GEN
+      unit_amount: 16349
+    SEK:
+      id: price_1TbmBdFh1LRw8QtvZqJUNMwU
+      unit_amount: 33799
 small-breaks-strong-habits-t-shirt-true_royal-3xl:
   color: True Royal
   size: 3XL
   stripe_id: prod_UUYa0QlNu4QG4m
   stripe_prices:
     USD:
-      id: price_1TVZThFh1LRw8QtvpT1hCe18
-      unit_amount: 3799
+      id: price_1TbmBeFh1LRw8Qtv19XeQojU
+      unit_amount: 3749
     GBP:
       id: price_1TVZThFh1LRw8QtvCMPe0zZ6
       unit_amount: 2799
+    EUR:
+      id: price_1TbmBeFh1LRw8QtvlRf403bW
+      unit_amount: 3249
+    AUD:
+      id: price_1TbmBfFh1LRw8QtvQWajzXCr
+      unit_amount: 5249
+    CAD:
+      id: price_1TbmBfFh1LRw8Qtv03Bveiw4
+      unit_amount: 5199
+    NZD:
+      id: price_1TbmBfFh1LRw8QtvxCdwRZd0
+      unit_amount: 6449
+    PLN:
+      id: price_1TbmBgFh1LRw8QtvxFO083ix
+      unit_amount: 13749
+    UAH:
+      id: price_1TbmBgFh1LRw8Qtv3AMobiGW
+      unit_amount: 167049
+    CZK:
+      id: price_1TbmBgFh1LRw8Qtv2V2uJ055
+      unit_amount: 78599
+    DKK:
+      id: price_1TbmBgFh1LRw8QtvGlvSpsBq
+      unit_amount: 24149
+    HUF:
+      id: price_1TbmBhFh1LRw8QtvNK5GC0CP
+      unit_amount: 1152399
+    NOK:
+      id: price_1TbmBhFh1LRw8QtvxsioIsnX
+      unit_amount: 34899
+    RON:
+      id: price_1TbmBhFh1LRw8QtvV2W2i2NC
+      unit_amount: 16999
+    SEK:
+      id: price_1TbmBiFh1LRw8Qtv1HGb79ZV
+      unit_amount: 35049

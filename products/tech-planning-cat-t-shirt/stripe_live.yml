@@ -4,44 +4,188 @@ tech-planning-cat-t-shirt-black-s:
   stripe_id: prod_URuwob4TGIMedf
   stripe_prices:
     USD:
-      id: price_1TT16aFh1LRw8QtvkzzPKMgo
-      unit_amount: 3299
+      id: price_1TbmBjFh1LRw8Qtv6Y9GWig9
+      unit_amount: 3249
     GBP:
       id: price_1TT16aFh1LRw8QtvdsbIFEo7
       unit_amount: 2399
+    EUR:
+      id: price_1TbmBjFh1LRw8QtvtHCYpneK
+      unit_amount: 2799
+    AUD:
+      id: price_1TbmBjFh1LRw8QtvlCH6FdzL
+      unit_amount: 4549
+    CAD:
+      id: price_1TbmBkFh1LRw8Qtvzb44OOWn
+      unit_amount: 4449
+    NZD:
+      id: price_1TbmBkFh1LRw8QtvSIoKY0eJ
+      unit_amount: 5549
+    PLN:
+      id: price_1TbmBkFh1LRw8QtvX8BGfw7p
+      unit_amount: 11749
+    UAH:
+      id: price_1TbmBlFh1LRw8QtvveaPRHE7
+      unit_amount: 143149
+    CZK:
+      id: price_1TbmBlFh1LRw8Qtv0VEt52pM
+      unit_amount: 67349
+    DKK:
+      id: price_1TbmBlFh1LRw8Qtv5Zl79bAx
+      unit_amount: 20749
+    HUF:
+      id: price_1TbmBmFh1LRw8QtvZLM7ia1r
+      unit_amount: 987699
+    NOK:
+      id: price_1TbmBmFh1LRw8QtvvZkjoxqU
+      unit_amount: 29949
+    RON:
+      id: price_1TbmBmFh1LRw8QtvHA41VPgf
+      unit_amount: 14549
+    SEK:
+      id: price_1TbmBnFh1LRw8Qtv3BltYBS5
+      unit_amount: 30049
 tech-planning-cat-t-shirt-black-m:
   color: Black
   size: M
   stripe_id: prod_URuwZID9P5KxWU
   stripe_prices:
     USD:
-      id: price_1TT16bFh1LRw8QtvAXDxq8m8
-      unit_amount: 3299
+      id: price_1TbmBoFh1LRw8Qtvb1GOIl3z
+      unit_amount: 3249
     GBP:
       id: price_1TT16bFh1LRw8QtvtfaLhnmB
       unit_amount: 2399
+    EUR:
+      id: price_1TbmBoFh1LRw8QtvAj7NLl3Z
+      unit_amount: 2799
+    AUD:
+      id: price_1TbmBpFh1LRw8QtvwbKkXveg
+      unit_amount: 4549
+    CAD:
+      id: price_1TbmBqFh1LRw8QtvI5YqiyBm
+      unit_amount: 4449
+    NZD:
+      id: price_1TbmBqFh1LRw8QtvlwNJKP9W
+      unit_amount: 5549
+    PLN:
+      id: price_1TbmBqFh1LRw8QtvgFMyYiFP
+      unit_amount: 11749
+    UAH:
+      id: price_1TbmBrFh1LRw8QtvmS8VxBL7
+      unit_amount: 143149
+    CZK:
+      id: price_1TbmBrFh1LRw8QtvHsJCjOJX
+      unit_amount: 67349
+    DKK:
+      id: price_1TbmBrFh1LRw8QtvToRwRbyL
+      unit_amount: 20749
+    HUF:
+      id: price_1TbmBrFh1LRw8QtvvadBrs0A
+      unit_amount: 987699
+    NOK:
+      id: price_1TbmBsFh1LRw8Qtv0lq8sxBm
+      unit_amount: 29949
+    RON:
+      id: price_1TbmBsFh1LRw8QtvKmlPMlao
+      unit_amount: 14549
+    SEK:
+      id: price_1TbmBsFh1LRw8QtvtzM6OBz2
+      unit_amount: 30049
 tech-planning-cat-t-shirt-black-l:
   color: Black
   size: L
   stripe_id: prod_URuwjqyLOP1RNJ
   stripe_prices:
     USD:
-      id: price_1TT16cFh1LRw8QtvdWtaKGuB
-      unit_amount: 3299
+      id: price_1TbmBtFh1LRw8QtvM9QoQqwD
+      unit_amount: 3249
     GBP:
       id: price_1TT16cFh1LRw8QtveTo0H1j9
       unit_amount: 2399
+    EUR:
+      id: price_1TbmBuFh1LRw8QtvPrz5Wc7Z
+      unit_amount: 2799
+    AUD:
+      id: price_1TbmBuFh1LRw8QtvwtiEGUdG
+      unit_amount: 4549
+    CAD:
+      id: price_1TbmBuFh1LRw8QtvvyTrB8U7
+      unit_amount: 4449
+    NZD:
+      id: price_1TbmBvFh1LRw8QtvbnTmMeMy
+      unit_amount: 5549
+    PLN:
+      id: price_1TbmBvFh1LRw8Qtv7bW1XBtP
+      unit_amount: 11749
+    UAH:
+      id: price_1TbmBwFh1LRw8QtvU34QkKQp
+      unit_amount: 143149
+    CZK:
+      id: price_1TbmBwFh1LRw8Qtvajed5MwT
+      unit_amount: 67349
+    DKK:
+      id: price_1TbmBwFh1LRw8QtvLV8es4vm
+      unit_amount: 20749
+    HUF:
+      id: price_1TbmBxFh1LRw8Qtv9fdi7s5a
+      unit_amount: 987699
+    NOK:
+      id: price_1TbmBxFh1LRw8QtvN5HcDs4r
+      unit_amount: 29949
+    RON:
+      id: price_1TbmBxFh1LRw8QtvrnBKwhsC
+      unit_amount: 14549
+    SEK:
+      id: price_1TbmBxFh1LRw8QtvYkjOGzCG
+      unit_amount: 30049
 tech-planning-cat-t-shirt-black-xl:
   color: Black
   size: XL
   stripe_id: prod_URuw8jFGQvgCEN
   stripe_prices:
     USD:
-      id: price_1TT16cFh1LRw8QtvStinZWjd
-      unit_amount: 3299
+      id: price_1TbmBzFh1LRw8Qtvak220fmy
+      unit_amount: 3249
     GBP:
       id: price_1TT16dFh1LRw8QtvwZBJ0j68
       unit_amount: 2399
+    EUR:
+      id: price_1TbmBzFh1LRw8QtvknvYXj6u
+      unit_amount: 2799
+    AUD:
+      id: price_1TbmBzFh1LRw8Qtvdf1wPRE5
+      unit_amount: 4549
+    CAD:
+      id: price_1TbmC0Fh1LRw8QtvSyxlgIik
+      unit_amount: 4449
+    NZD:
+      id: price_1TbmC0Fh1LRw8QtvucUltnGl
+      unit_amount: 5549
+    PLN:
+      id: price_1TbmC0Fh1LRw8Qtv7uYy2JuV
+      unit_amount: 11749
+    UAH:
+      id: price_1TbmC1Fh1LRw8QtvKbTM0m5S
+      unit_amount: 143149
+    CZK:
+      id: price_1TbmC1Fh1LRw8QtvfqpipWto
+      unit_amount: 67349
+    DKK:
+      id: price_1TbmC1Fh1LRw8Qtvrgk604S5
+      unit_amount: 20749
+    HUF:
+      id: price_1TbmC1Fh1LRw8QtvPsXS9H8a
+      unit_amount: 987699
+    NOK:
+      id: price_1TbmC2Fh1LRw8QtvSQCnQOf5
+      unit_amount: 29949
+    RON:
+      id: price_1TbmC2Fh1LRw8QtveGkzsdtm
+      unit_amount: 14549
+    SEK:
+      id: price_1TbmC2Fh1LRw8QtvRgtYXNvR
+      unit_amount: 30049
 tech-planning-cat-t-shirt-black-2xl:
   color: Black
   size: 2XL
@@ -53,61 +197,277 @@ tech-planning-cat-t-shirt-black-2xl:
     GBP:
       id: price_1TT16eFh1LRw8Qtv9J4bW1tC
       unit_amount: 2599
+    EUR:
+      id: price_1TbmC3Fh1LRw8QtvXYmkQXma
+      unit_amount: 3049
+    AUD:
+      id: price_1TbmC3Fh1LRw8QtvabEVLI6g
+      unit_amount: 4899
+    CAD:
+      id: price_1TbmC4Fh1LRw8QtvTRqgrjLu
+      unit_amount: 4849
+    NZD:
+      id: price_1TbmC4Fh1LRw8Qtvm35jJqOv
+      unit_amount: 5999
+    PLN:
+      id: price_1TbmC4Fh1LRw8QtvK3aD9n8N
+      unit_amount: 12749
+    UAH:
+      id: price_1TbmC5Fh1LRw8Qtv50alb23v
+      unit_amount: 155099
+    CZK:
+      id: price_1TbmC5Fh1LRw8QtvvUAaGRe5
+      unit_amount: 72949
+    DKK:
+      id: price_1TbmC6Fh1LRw8QtvOTgwx4b4
+      unit_amount: 22449
+    HUF:
+      id: price_1TbmC6Fh1LRw8QtvMmzj25ht
+      unit_amount: 1070049
+    NOK:
+      id: price_1TbmC6Fh1LRw8QtvAYWfqDZ7
+      unit_amount: 32449
+    RON:
+      id: price_1TbmC7Fh1LRw8QtvHBPFWNFw
+      unit_amount: 15749
+    SEK:
+      id: price_1TbmC7Fh1LRw8QtvElVOhJGO
+      unit_amount: 32549
 tech-planning-cat-t-shirt-black-3xl:
   color: Black
   size: 3XL
   stripe_id: prod_URuwgS68OZO3Z6
   stripe_prices:
     USD:
-      id: price_1TT16eFh1LRw8Qtv5606bfBg
-      unit_amount: 3699
+      id: price_1TbmC8Fh1LRw8QtvACxCzNAG
+      unit_amount: 3649
     GBP:
       id: price_1TT16fFh1LRw8QtvsgynePfz
       unit_amount: 2699
+    EUR:
+      id: price_1TbmC8Fh1LRw8QtvXXyaWNKm
+      unit_amount: 3149
+    AUD:
+      id: price_1TbmC9Fh1LRw8QtvjOGiCdTM
+      unit_amount: 5049
+    CAD:
+      id: price_1TbmC9Fh1LRw8QtvSBhSal1e
+      unit_amount: 5049
+    NZD:
+      id: price_1TbmC9Fh1LRw8QtvnhTfm5Zs
+      unit_amount: 6249
+    PLN:
+      id: price_1TbmC9Fh1LRw8QtvB6nkJw7S
+      unit_amount: 13249
+    UAH:
+      id: price_1TbmCAFh1LRw8QtvuAzfL1bC
+      unit_amount: 161049
+    CZK:
+      id: price_1TbmCAFh1LRw8QtvJ8MLKIjl
+      unit_amount: 75799
+    DKK:
+      id: price_1TbmCBFh1LRw8Qtv4ZSbQrKs
+      unit_amount: 23349
+    HUF:
+      id: price_1TbmCBFh1LRw8QtvbVA8B2m5
+      unit_amount: 1111249
+    NOK:
+      id: price_1TbmCBFh1LRw8QtvHxSmBkTB
+      unit_amount: 33649
+    RON:
+      id: price_1TbmCCFh1LRw8QtvcXOgt4FC
+      unit_amount: 16349
+    SEK:
+      id: price_1TbmCCFh1LRw8QtvUGDeZUj7
+      unit_amount: 33799
 tech-planning-cat-t-shirt-navy-s:
   color: Navy
   size: S
   stripe_id: prod_URuw3SlDntkejK
   stripe_prices:
     USD:
-      id: price_1TT16fFh1LRw8QtvPntyCSKo
-      unit_amount: 3299
+      id: price_1TbmCDFh1LRw8QtvQCGdAY26
+      unit_amount: 3249
     GBP:
       id: price_1TT16fFh1LRw8QtvEzdu4hvd
       unit_amount: 2399
+    EUR:
+      id: price_1TbmCEFh1LRw8QtvvPSwIPHG
+      unit_amount: 2799
+    AUD:
+      id: price_1TbmCEFh1LRw8QtvXVzQFjZv
+      unit_amount: 4549
+    CAD:
+      id: price_1TbmCEFh1LRw8QtvgqhYxTf7
+      unit_amount: 4449
+    NZD:
+      id: price_1TbmCFFh1LRw8QtvevJ8YyRI
+      unit_amount: 5549
+    PLN:
+      id: price_1TbmCFFh1LRw8QtvvsUEyyGo
+      unit_amount: 11749
+    UAH:
+      id: price_1TbmCFFh1LRw8Qtvv6hzBy9a
+      unit_amount: 143149
+    CZK:
+      id: price_1TbmCGFh1LRw8QtvSWfdVKWH
+      unit_amount: 67349
+    DKK:
+      id: price_1TbmCGFh1LRw8Qtva00BFqjp
+      unit_amount: 20749
+    HUF:
+      id: price_1TbmCGFh1LRw8QtvPj76e3mg
+      unit_amount: 987699
+    NOK:
+      id: price_1TbmCHFh1LRw8QtvClFnU9tn
+      unit_amount: 29949
+    RON:
+      id: price_1TbmCHFh1LRw8QtvYcNfDadi
+      unit_amount: 14549
+    SEK:
+      id: price_1TbmCHFh1LRw8Qtv66afwlQZ
+      unit_amount: 30049
 tech-planning-cat-t-shirt-navy-m:
   color: Navy
   size: M
   stripe_id: prod_URuwx8vyQRXi9N
   stripe_prices:
     USD:
-      id: price_1TT16gFh1LRw8QtvJQqjp1DW
-      unit_amount: 3299
+      id: price_1TbmCIFh1LRw8QtvXjXIoLjC
+      unit_amount: 3249
     GBP:
       id: price_1TT16gFh1LRw8QtvdgdFQCNH
       unit_amount: 2399
+    EUR:
+      id: price_1TbmCJFh1LRw8Qtvj302i5S3
+      unit_amount: 2799
+    AUD:
+      id: price_1TbmCJFh1LRw8QtvSRMbVnjP
+      unit_amount: 4549
+    CAD:
+      id: price_1TbmCKFh1LRw8Qtvby9YMmG8
+      unit_amount: 4449
+    NZD:
+      id: price_1TbmCKFh1LRw8QtvIRLc6ECe
+      unit_amount: 5549
+    PLN:
+      id: price_1TbmCKFh1LRw8QtvjSCpmFoe
+      unit_amount: 11749
+    UAH:
+      id: price_1TbmCLFh1LRw8QtvYj96G54c
+      unit_amount: 143149
+    CZK:
+      id: price_1TbmCLFh1LRw8QtvYs6XdT9H
+      unit_amount: 67349
+    DKK:
+      id: price_1TbmCLFh1LRw8Qtv50e97v39
+      unit_amount: 20749
+    HUF:
+      id: price_1TbmCMFh1LRw8Qtv6UFmRl7U
+      unit_amount: 987699
+    NOK:
+      id: price_1TbmCMFh1LRw8QtvpJpByK04
+      unit_amount: 29949
+    RON:
+      id: price_1TbmCMFh1LRw8QtvE2LoFdqW
+      unit_amount: 14549
+    SEK:
+      id: price_1TbmCMFh1LRw8QtvFyHnUfVt
+      unit_amount: 30049
 tech-planning-cat-t-shirt-navy-l:
   color: Navy
   size: L
   stripe_id: prod_URuwpbA4LMG0P4
   stripe_prices:
     USD:
-      id: price_1TT16hFh1LRw8QtvBKSTSFgV
-      unit_amount: 3299
+      id: price_1TbmCNFh1LRw8Qtvkh5t7aO4
+      unit_amount: 3249
     GBP:
       id: price_1TT16hFh1LRw8QtvLWDCIUph
       unit_amount: 2399
+    EUR:
+      id: price_1TbmCOFh1LRw8QtvPtXhpg1s
+      unit_amount: 2799
+    AUD:
+      id: price_1TbmCOFh1LRw8QtvvuzqCaZq
+      unit_amount: 4549
+    CAD:
+      id: price_1TbmCOFh1LRw8QtvS4sLca4R
+      unit_amount: 4449
+    NZD:
+      id: price_1TbmCPFh1LRw8Qtv63oo83Xl
+      unit_amount: 5549
+    PLN:
+      id: price_1TbmCPFh1LRw8QtvDenyHynJ
+      unit_amount: 11749
+    UAH:
+      id: price_1TbmCQFh1LRw8Qtvaw6jzC3S
+      unit_amount: 143149
+    CZK:
+      id: price_1TbmCQFh1LRw8Qtvdb1zPETi
+      unit_amount: 67349
+    DKK:
+      id: price_1TbmCQFh1LRw8Qtv65KMkvmg
+      unit_amount: 20749
+    HUF:
+      id: price_1TbmCQFh1LRw8QtvVZjN2etv
+      unit_amount: 987699
+    NOK:
+      id: price_1TbmCRFh1LRw8QtvuGODeQ1R
+      unit_amount: 29949
+    RON:
+      id: price_1TbmCRFh1LRw8QtvtjfO2IMH
+      unit_amount: 14549
+    SEK:
+      id: price_1TbmCRFh1LRw8QtvwRI5jGiI
+      unit_amount: 30049
 tech-planning-cat-t-shirt-navy-xl:
   color: Navy
   size: XL
   stripe_id: prod_URuwL9ZqPwpm88
   stripe_prices:
     USD:
-      id: price_1TT16iFh1LRw8QtvLSp0gPSF
-      unit_amount: 3299
+      id: price_1TbmCTFh1LRw8QtvDuLUMaSc
+      unit_amount: 3249
     GBP:
       id: price_1TT16iFh1LRw8QtvCH1Jb0Zu
       unit_amount: 2399
+    EUR:
+      id: price_1TbmCTFh1LRw8QtvxSOD4BHZ
+      unit_amount: 2799
+    AUD:
+      id: price_1TbmCTFh1LRw8QtvjpnhekRI
+      unit_amount: 4549
+    CAD:
+      id: price_1TbmCUFh1LRw8Qtvg2N2BbIt
+      unit_amount: 4449
+    NZD:
+      id: price_1TbmCUFh1LRw8QtveLSaF3X2
+      unit_amount: 5549
+    PLN:
+      id: price_1TbmCVFh1LRw8QtvdexbF40M
+      unit_amount: 11749
+    UAH:
+      id: price_1TbmCVFh1LRw8Qtvr3cMENKE
+      unit_amount: 143149
+    CZK:
+      id: price_1TbmCVFh1LRw8QtvwoyO5seR
+      unit_amount: 67349
+    DKK:
+      id: price_1TbmCWFh1LRw8QtvcUYiZddl
+      unit_amount: 20749
+    HUF:
+      id: price_1TbmCWFh1LRw8QtvnoaowMbF
+      unit_amount: 987699
+    NOK:
+      id: price_1TbmCWFh1LRw8Qtv7FVAbFLe
+      unit_amount: 29949
+    RON:
+      id: price_1TbmCXFh1LRw8Qtvl0sf3HO5
+      unit_amount: 14549
+    SEK:
+      id: price_1TbmCXFh1LRw8QtvaIUPXIia
+      unit_amount: 30049
 tech-planning-cat-t-shirt-navy-2xl:
   color: Navy
   size: 2XL
@@ -119,61 +479,277 @@ tech-planning-cat-t-shirt-navy-2xl:
     GBP:
       id: price_1TT16jFh1LRw8Qtv4AJNygHd
       unit_amount: 2599
+    EUR:
+      id: price_1TbmCYFh1LRw8QtvpnVZTUqX
+      unit_amount: 3049
+    AUD:
+      id: price_1TbmCYFh1LRw8Qtvq1aQAynR
+      unit_amount: 4899
+    CAD:
+      id: price_1TbmCYFh1LRw8QtvnCH2erNM
+      unit_amount: 4849
+    NZD:
+      id: price_1TbmCYFh1LRw8QtvpqZw9Hvh
+      unit_amount: 5999
+    PLN:
+      id: price_1TbmCZFh1LRw8Qtv863gskwo
+      unit_amount: 12749
+    UAH:
+      id: price_1TbmCZFh1LRw8Qtvn6A03ZgW
+      unit_amount: 155099
+    CZK:
+      id: price_1TbmCZFh1LRw8QtvrRxy2acv
+      unit_amount: 72949
+    DKK:
+      id: price_1TbmCaFh1LRw8QtvtNCsLDWL
+      unit_amount: 22449
+    HUF:
+      id: price_1TbmCaFh1LRw8QtvAuG8e6CQ
+      unit_amount: 1070049
+    NOK:
+      id: price_1TbmCaFh1LRw8QtveBRG9VmH
+      unit_amount: 32449
+    RON:
+      id: price_1TbmCbFh1LRw8QtvenoOIAcZ
+      unit_amount: 15749
+    SEK:
+      id: price_1TbmCbFh1LRw8QtvVNCiF2rw
+      unit_amount: 32549
 tech-planning-cat-t-shirt-navy-3xl:
   color: Navy
   size: 3XL
   stripe_id: prod_URuwbuFdQf2RUe
   stripe_prices:
     USD:
-      id: price_1TT16kFh1LRw8Qtv6Y64zk6u
-      unit_amount: 3699
+      id: price_1TbmCcFh1LRw8QtvF7g6CJJf
+      unit_amount: 3649
     GBP:
       id: price_1TT16kFh1LRw8QtvQVQTQoBF
       unit_amount: 2699
+    EUR:
+      id: price_1TbmCdFh1LRw8QtvaCIgAFK5
+      unit_amount: 3149
+    AUD:
+      id: price_1TbmCdFh1LRw8QtvWnlURAg7
+      unit_amount: 5049
+    CAD:
+      id: price_1TbmCdFh1LRw8QtvtmSkNri5
+      unit_amount: 5049
+    NZD:
+      id: price_1TbmCeFh1LRw8Qtv8ensKPzp
+      unit_amount: 6249
+    PLN:
+      id: price_1TbmCeFh1LRw8QtvEK0Kx5Vs
+      unit_amount: 13249
+    UAH:
+      id: price_1TbmCeFh1LRw8QtvQmNg6Ysc
+      unit_amount: 161049
+    CZK:
+      id: price_1TbmCfFh1LRw8QtvsKaIgyg3
+      unit_amount: 75799
+    DKK:
+      id: price_1TbmCfFh1LRw8QtvQ2Ws1tM0
+      unit_amount: 23349
+    HUF:
+      id: price_1TbmCfFh1LRw8QtvDGODqBu8
+      unit_amount: 1111249
+    NOK:
+      id: price_1TbmCgFh1LRw8Qtv46LdoUy1
+      unit_amount: 33649
+    RON:
+      id: price_1TbmCgFh1LRw8Qtv442AjlJp
+      unit_amount: 16349
+    SEK:
+      id: price_1TbmCgFh1LRw8Qtvp4aLTnlk
+      unit_amount: 33799
 tech-planning-cat-t-shirt-irish_green-s:
   color: Irish Green
   size: S
   stripe_id: prod_URuwt9XiUTbQE5
   stripe_prices:
     USD:
-      id: price_1TT16kFh1LRw8QtvrT58lUYp
-      unit_amount: 3299
+      id: price_1TbmChFh1LRw8QtvuSv0LpMF
+      unit_amount: 3249
     GBP:
       id: price_1TT16lFh1LRw8Qtv52LMC8Mq
       unit_amount: 2399
+    EUR:
+      id: price_1TbmCiFh1LRw8QtvE1QmJU7s
+      unit_amount: 2799
+    AUD:
+      id: price_1TbmCiFh1LRw8QtvMBuV0yTy
+      unit_amount: 4549
+    CAD:
+      id: price_1TbmCjFh1LRw8QtvtTQNmMil
+      unit_amount: 4449
+    NZD:
+      id: price_1TbmCjFh1LRw8Qtv9y0BXqJG
+      unit_amount: 5549
+    PLN:
+      id: price_1TbmCjFh1LRw8Qtv4udE7HR9
+      unit_amount: 11749
+    UAH:
+      id: price_1TbmCkFh1LRw8QtvJCi7lgl2
+      unit_amount: 143149
+    CZK:
+      id: price_1TbmCkFh1LRw8Qtv1Y65FcjY
+      unit_amount: 67349
+    DKK:
+      id: price_1TbmCkFh1LRw8QtvKAPc5jMg
+      unit_amount: 20749
+    HUF:
+      id: price_1TbmClFh1LRw8QtvtsPZCHl1
+      unit_amount: 987699
+    NOK:
+      id: price_1TbmClFh1LRw8QtvOvwzR4OY
+      unit_amount: 29949
+    RON:
+      id: price_1TbmClFh1LRw8Qtv2YU5B6On
+      unit_amount: 14549
+    SEK:
+      id: price_1TbmCmFh1LRw8QtvZAIlkK74
+      unit_amount: 30049
 tech-planning-cat-t-shirt-irish_green-m:
   color: Irish Green
   size: M
   stripe_id: prod_URuwqVkEeYixhX
   stripe_prices:
     USD:
-      id: price_1TT16lFh1LRw8Qtv0AD10H4R
-      unit_amount: 3299
+      id: price_1TbmCnFh1LRw8QtvSLktARVD
+      unit_amount: 3249
     GBP:
       id: price_1TT16mFh1LRw8QtvAPoQWQ26
       unit_amount: 2399
+    EUR:
+      id: price_1TbmCnFh1LRw8QtvwYRwUpto
+      unit_amount: 2799
+    AUD:
+      id: price_1TbmCnFh1LRw8Qtv7IBW8rM8
+      unit_amount: 4549
+    CAD:
+      id: price_1TbmCoFh1LRw8QtvspCeudCa
+      unit_amount: 4449
+    NZD:
+      id: price_1TbmCoFh1LRw8QtviMZKDIMc
+      unit_amount: 5549
+    PLN:
+      id: price_1TbmCoFh1LRw8Qtvbe0RffAx
+      unit_amount: 11749
+    UAH:
+      id: price_1TbmCpFh1LRw8QtvgJum8JRm
+      unit_amount: 143149
+    CZK:
+      id: price_1TbmCpFh1LRw8QtvZboofGLE
+      unit_amount: 67349
+    DKK:
+      id: price_1TbmCpFh1LRw8QtvAJjKQka0
+      unit_amount: 20749
+    HUF:
+      id: price_1TbmCqFh1LRw8QtvDuAq0XnE
+      unit_amount: 987699
+    NOK:
+      id: price_1TbmCqFh1LRw8Qtvvy76NjJp
+      unit_amount: 29949
+    RON:
+      id: price_1TbmCrFh1LRw8QtvAOzAXlez
+      unit_amount: 14549
+    SEK:
+      id: price_1TbmCrFh1LRw8QtvXn6u9ovi
+      unit_amount: 30049
 tech-planning-cat-t-shirt-irish_green-l:
   color: Irish Green
   size: L
   stripe_id: prod_URuwg6Is6TH6gM
   stripe_prices:
     USD:
-      id: price_1TT16mFh1LRw8Qtv3h9OSfvb
-      unit_amount: 3299
+      id: price_1TbmCsFh1LRw8QtvFDiW6poZ
+      unit_amount: 3249
     GBP:
       id: price_1TT16mFh1LRw8QtvIQYa6RoP
       unit_amount: 2399
+    EUR:
+      id: price_1TbmCsFh1LRw8Qtvk1PVC1aN
+      unit_amount: 2799
+    AUD:
+      id: price_1TbmCtFh1LRw8QtvSLAZBN5z
+      unit_amount: 4549
+    CAD:
+      id: price_1TbmCtFh1LRw8QtvbvYfF7hc
+      unit_amount: 4449
+    NZD:
+      id: price_1TbmCuFh1LRw8QtvbJcZ1Dyz
+      unit_amount: 5549
+    PLN:
+      id: price_1TbmCuFh1LRw8QtvAf8JK1ub
+      unit_amount: 11749
+    UAH:
+      id: price_1TbmCuFh1LRw8Qtvd6xYGAx1
+      unit_amount: 143149
+    CZK:
+      id: price_1TbmCuFh1LRw8QtvafNzVfNd
+      unit_amount: 67349
+    DKK:
+      id: price_1TbmCvFh1LRw8QtvXGZwslNJ
+      unit_amount: 20749
+    HUF:
+      id: price_1TbmCvFh1LRw8QtvEU5CuVFc
+      unit_amount: 987699
+    NOK:
+      id: price_1TbmCvFh1LRw8Qtv4kfhHTRe
+      unit_amount: 29949
+    RON:
+      id: price_1TbmCwFh1LRw8QtvIqHTIdxz
+      unit_amount: 14549
+    SEK:
+      id: price_1TbmCwFh1LRw8QtvFJLBRiw9
+      unit_amount: 30049
 tech-planning-cat-t-shirt-irish_green-xl:
   color: Irish Green
   size: XL
   stripe_id: prod_URuwuBjQOx8TQJ
   stripe_prices:
     USD:
-      id: price_1TT16nFh1LRw8QtvbOSXUKug
-      unit_amount: 3299
+      id: price_1TbmCxFh1LRw8QtvJDvzgW6f
+      unit_amount: 3249
     GBP:
       id: price_1TT16nFh1LRw8QtveIKumT51
       unit_amount: 2399
+    EUR:
+      id: price_1TbmCxFh1LRw8QtvlnIawnSf
+      unit_amount: 2799
+    AUD:
+      id: price_1TbmCyFh1LRw8Qtv7T8OQqgx
+      unit_amount: 4549
+    CAD:
+      id: price_1TbmCyFh1LRw8QtvwatZ6SxH
+      unit_amount: 4449
+    NZD:
+      id: price_1TbmCyFh1LRw8Qtv4Rf5LRBf
+      unit_amount: 5549
+    PLN:
+      id: price_1TbmCzFh1LRw8Qtv0r1ewJIP
+      unit_amount: 11749
+    UAH:
+      id: price_1TbmCzFh1LRw8QtvFc20vrb1
+      unit_amount: 143149
+    CZK:
+      id: price_1TbmCzFh1LRw8QtvtvJv7ISc
+      unit_amount: 67349
+    DKK:
+      id: price_1TbmD0Fh1LRw8QtvkIZonz3d
+      unit_amount: 20749
+    HUF:
+      id: price_1TbmD0Fh1LRw8QtvXuirk9KQ
+      unit_amount: 987699
+    NOK:
+      id: price_1TbmD0Fh1LRw8QtvAxhRA8PH
+      unit_amount: 29949
+    RON:
+      id: price_1TbmD0Fh1LRw8Qtv1xUbq9rT
+      unit_amount: 14549
+    SEK:
+      id: price_1TbmD1Fh1LRw8QtvRd0nNMFL
+      unit_amount: 30049
 tech-planning-cat-t-shirt-irish_green-2xl:
   color: Irish Green
   size: 2XL
@@ -185,61 +761,277 @@ tech-planning-cat-t-shirt-irish_green-2xl:
     GBP:
       id: price_1TT16oFh1LRw8QtvLAd8XBFI
       unit_amount: 2599
+    EUR:
+      id: price_1TbmD1Fh1LRw8QtvkMG4sd1D
+      unit_amount: 3049
+    AUD:
+      id: price_1TbmD2Fh1LRw8QtvtpdbjYWJ
+      unit_amount: 4899
+    CAD:
+      id: price_1TbmD2Fh1LRw8QtvQpnBDmAT
+      unit_amount: 4849
+    NZD:
+      id: price_1TbmD2Fh1LRw8QtvVQbRnJ30
+      unit_amount: 5999
+    PLN:
+      id: price_1TbmD3Fh1LRw8Qtv20Syaj9y
+      unit_amount: 12749
+    UAH:
+      id: price_1TbmD3Fh1LRw8QtvcDAbCZHW
+      unit_amount: 155099
+    CZK:
+      id: price_1TbmD3Fh1LRw8QtvYbCNTAHB
+      unit_amount: 72949
+    DKK:
+      id: price_1TbmD3Fh1LRw8QtvvpihkV6V
+      unit_amount: 22449
+    HUF:
+      id: price_1TbmD4Fh1LRw8Qtvyt7MFsLu
+      unit_amount: 1070049
+    NOK:
+      id: price_1TbmD4Fh1LRw8QtvuuTrNNNE
+      unit_amount: 32449
+    RON:
+      id: price_1TbmD4Fh1LRw8Qtv1d3sPOEw
+      unit_amount: 15749
+    SEK:
+      id: price_1TbmD5Fh1LRw8QtvVd0N0Z5m
+      unit_amount: 32549
 tech-planning-cat-t-shirt-irish_green-3xl:
   color: Irish Green
   size: 3XL
   stripe_id: prod_URuw1jUy5Osius
   stripe_prices:
     USD:
-      id: price_1TT16pFh1LRw8QtvW3A3H3T9
-      unit_amount: 3699
+      id: price_1TbmD6Fh1LRw8QtvC3uiplvq
+      unit_amount: 3649
     GBP:
       id: price_1TT16pFh1LRw8Qtvfp7UwjOH
       unit_amount: 2699
+    EUR:
+      id: price_1TbmD6Fh1LRw8Qtvj3yi5MwJ
+      unit_amount: 3149
+    AUD:
+      id: price_1TbmD6Fh1LRw8QtvbPU7cJ1P
+      unit_amount: 5049
+    CAD:
+      id: price_1TbmD7Fh1LRw8QtvBcBVlxtH
+      unit_amount: 5049
+    NZD:
+      id: price_1TbmD7Fh1LRw8Qtvo5OhQvXJ
+      unit_amount: 6249
+    PLN:
+      id: price_1TbmD7Fh1LRw8QtvqSnNQxNy
+      unit_amount: 13249
+    UAH:
+      id: price_1TbmD8Fh1LRw8QtvNAYsEhJR
+      unit_amount: 161049
+    CZK:
+      id: price_1TbmD8Fh1LRw8QtvDx5aVFQl
+      unit_amount: 75799
+    DKK:
+      id: price_1TbmD8Fh1LRw8QtvkgOUwktC
+      unit_amount: 23349
+    HUF:
+      id: price_1TbmD8Fh1LRw8QtvbUDCc0nR
+      unit_amount: 1111249
+    NOK:
+      id: price_1TbmD9Fh1LRw8QtvgoFeiiUI
+      unit_amount: 33649
+    RON:
+      id: price_1TbmD9Fh1LRw8Qtv9l8jcxoM
+      unit_amount: 16349
+    SEK:
+      id: price_1TbmDAFh1LRw8QtvX2EQjogO
+      unit_amount: 33799
 tech-planning-cat-t-shirt-natural-s:
   color: Natural
   size: S
   stripe_id: prod_URuwfAiPJdnvNk
   stripe_prices:
     USD:
-      id: price_1TT16qFh1LRw8QtvmkwohBgS
-      unit_amount: 3299
+      id: price_1TbmDBFh1LRw8Qtv4LW80W21
+      unit_amount: 3249
     GBP:
       id: price_1TT16qFh1LRw8QtvN2SnHteM
       unit_amount: 2399
+    EUR:
+      id: price_1TbmDBFh1LRw8Qtvr9MjkFtm
+      unit_amount: 2799
+    AUD:
+      id: price_1TbmDBFh1LRw8QtvUUwYdFMj
+      unit_amount: 4549
+    CAD:
+      id: price_1TbmDCFh1LRw8QtviaJF1Lnl
+      unit_amount: 4449
+    NZD:
+      id: price_1TbmDCFh1LRw8QtvOnpjhJgA
+      unit_amount: 5549
+    PLN:
+      id: price_1TbmDCFh1LRw8Qtv4pyBUyT9
+      unit_amount: 11749
+    UAH:
+      id: price_1TbmDDFh1LRw8QtvFv45B4tZ
+      unit_amount: 143149
+    CZK:
+      id: price_1TbmDDFh1LRw8QtvjvGsDoBF
+      unit_amount: 67349
+    DKK:
+      id: price_1TbmDDFh1LRw8Qtv76qWe0U0
+      unit_amount: 20749
+    HUF:
+      id: price_1TbmDDFh1LRw8Qtv2J5oTpuM
+      unit_amount: 987699
+    NOK:
+      id: price_1TbmDEFh1LRw8QtvW1lQRQpk
+      unit_amount: 29949
+    RON:
+      id: price_1TbmDEFh1LRw8QtvfE4IYswq
+      unit_amount: 14549
+    SEK:
+      id: price_1TbmDEFh1LRw8QtvpKw7yXod
+      unit_amount: 30049
 tech-planning-cat-t-shirt-natural-m:
   color: Natural
   size: M
   stripe_id: prod_URuwyHzjoBO5rX
   stripe_prices:
     USD:
-      id: price_1TT16rFh1LRw8QtvKe6iz9HU
-      unit_amount: 3299
+      id: price_1TbmDFFh1LRw8QtvLEauHO5U
+      unit_amount: 3249
     GBP:
       id: price_1TT16rFh1LRw8QtvMtD8GUUy
       unit_amount: 2399
+    EUR:
+      id: price_1TbmDGFh1LRw8QtvN0Eld7tf
+      unit_amount: 2799
+    AUD:
+      id: price_1TbmDGFh1LRw8Qtv461CYMTC
+      unit_amount: 4549
+    CAD:
+      id: price_1TbmDGFh1LRw8QtvK2jR25nl
+      unit_amount: 4449
+    NZD:
+      id: price_1TbmDHFh1LRw8Qtvsc8wrNZS
+      unit_amount: 5549
+    PLN:
+      id: price_1TbmDHFh1LRw8QtvmyOjbnid
+      unit_amount: 11749
+    UAH:
+      id: price_1TbmDHFh1LRw8QtvHHK3JCWe
+      unit_amount: 143149
+    CZK:
+      id: price_1TbmDIFh1LRw8Qtv5RAGtrcA
+      unit_amount: 67349
+    DKK:
+      id: price_1TbmDIFh1LRw8QtvZauwCChW
+      unit_amount: 20749
+    HUF:
+      id: price_1TbmDIFh1LRw8QtvvYMaI2Ub
+      unit_amount: 987699
+    NOK:
+      id: price_1TbmDJFh1LRw8QtvuBvNpirp
+      unit_amount: 29949
+    RON:
+      id: price_1TbmDJFh1LRw8QtvX4s1oIcf
+      unit_amount: 14549
+    SEK:
+      id: price_1TbmDJFh1LRw8QtvVVlCcRYF
+      unit_amount: 30049
 tech-planning-cat-t-shirt-natural-l:
   color: Natural
   size: L
   stripe_id: prod_URuwssD8DnpNrf
   stripe_prices:
     USD:
-      id: price_1TT16sFh1LRw8Qtv49l2j6J0
-      unit_amount: 3299
+      id: price_1TbmDKFh1LRw8QtvDmOSi0Xy
+      unit_amount: 3249
     GBP:
       id: price_1TT16sFh1LRw8QtvHRIzPidr
       unit_amount: 2399
+    EUR:
+      id: price_1TbmDLFh1LRw8QtvMazH3aNR
+      unit_amount: 2799
+    AUD:
+      id: price_1TbmDLFh1LRw8QtvJ35xISR4
+      unit_amount: 4549
+    CAD:
+      id: price_1TbmDLFh1LRw8QtvdRhXO57D
+      unit_amount: 4449
+    NZD:
+      id: price_1TbmDMFh1LRw8QtvlTZIBLYZ
+      unit_amount: 5549
+    PLN:
+      id: price_1TbmDMFh1LRw8QtvhhLqkuhJ
+      unit_amount: 11749
+    UAH:
+      id: price_1TbmDMFh1LRw8QtvwNIBrhRN
+      unit_amount: 143149
+    CZK:
+      id: price_1TbmDMFh1LRw8QtvSS9Gwrsb
+      unit_amount: 67349
+    DKK:
+      id: price_1TbmDNFh1LRw8QtvXiNAEe8Q
+      unit_amount: 20749
+    HUF:
+      id: price_1TbmDNFh1LRw8QtvXvrdYpRe
+      unit_amount: 987699
+    NOK:
+      id: price_1TbmDNFh1LRw8QtvyKIeZqUq
+      unit_amount: 29949
+    RON:
+      id: price_1TbmDOFh1LRw8QtvsyvxRgHb
+      unit_amount: 14549
+    SEK:
+      id: price_1TbmDOFh1LRw8QtvwWwspCYo
+      unit_amount: 30049
 tech-planning-cat-t-shirt-natural-xl:
   color: Natural
   size: XL
   stripe_id: prod_URuw5iVFpswsEz
   stripe_prices:
     USD:
-      id: price_1TT16sFh1LRw8QtvoCaCcEaR
-      unit_amount: 3299
+      id: price_1TbmDPFh1LRw8Qtv5nlfUrzD
+      unit_amount: 3249
     GBP:
       id: price_1TT16tFh1LRw8QtvxPupeQeZ
       unit_amount: 2399
+    EUR:
+      id: price_1TbmDQFh1LRw8QtvC2olLrzu
+      unit_amount: 2799
+    AUD:
+      id: price_1TbmDQFh1LRw8Qtv3mNvXYn1
+      unit_amount: 4549
+    CAD:
+      id: price_1TbmDRFh1LRw8QtvDXyV7XyJ
+      unit_amount: 4449
+    NZD:
+      id: price_1TbmDRFh1LRw8Qtvn7kowLxm
+      unit_amount: 5549
+    PLN:
+      id: price_1TbmDRFh1LRw8QtvntrpBKOU
+      unit_amount: 11749
+    UAH:
+      id: price_1TbmDSFh1LRw8QtvRe8sZ70w
+      unit_amount: 143149
+    CZK:
+      id: price_1TbmDSFh1LRw8QtvHGQxOB0v
+      unit_amount: 67349
+    DKK:
+      id: price_1TbmDSFh1LRw8QtvyTBMCaIB
+      unit_amount: 20749
+    HUF:
+      id: price_1TbmDTFh1LRw8QtvvboHlRcF
+      unit_amount: 987699
+    NOK:
+      id: price_1TbmDTFh1LRw8Qtvxgvpi1qD
+      unit_amount: 29949
+    RON:
+      id: price_1TbmDTFh1LRw8QtvnYzk7RBz
+      unit_amount: 14549
+    SEK:
+      id: price_1TbmDUFh1LRw8QtvygO9Awrg
+      unit_amount: 30049
 tech-planning-cat-t-shirt-natural-2xl:
   color: Natural
   size: 2XL
@@ -251,14 +1043,86 @@ tech-planning-cat-t-shirt-natural-2xl:
     GBP:
       id: price_1TT16uFh1LRw8Qtv8YBcR1EU
       unit_amount: 2599
+    EUR:
+      id: price_1TbmDUFh1LRw8Qtvyd1biYGT
+      unit_amount: 3049
+    AUD:
+      id: price_1TbmDVFh1LRw8QtvveNZqRfH
+      unit_amount: 4899
+    CAD:
+      id: price_1TbmDWFh1LRw8Qtv6YP6N94E
+      unit_amount: 4849
+    NZD:
+      id: price_1TbmDWFh1LRw8Qtvjty7w8hZ
+      unit_amount: 5999
+    PLN:
+      id: price_1TbmDWFh1LRw8QtvhGFqTrNM
+      unit_amount: 12749
+    UAH:
+      id: price_1TbmDXFh1LRw8QtvGUrHMy3S
+      unit_amount: 155099
+    CZK:
+      id: price_1TbmDXFh1LRw8QtvwEouYDHD
+      unit_amount: 72949
+    DKK:
+      id: price_1TbmDXFh1LRw8QtvR8vYNOFy
+      unit_amount: 22449
+    HUF:
+      id: price_1TbmDYFh1LRw8QtvwuUAwPhZ
+      unit_amount: 1070049
+    NOK:
+      id: price_1TbmDYFh1LRw8QtvRSDUjyto
+      unit_amount: 32449
+    RON:
+      id: price_1TbmDYFh1LRw8QtvY9eNivWe
+      unit_amount: 15749
+    SEK:
+      id: price_1TbmDZFh1LRw8QtveaSbBFpl
+      unit_amount: 32549
 tech-planning-cat-t-shirt-natural-3xl:
   color: Natural
   size: 3XL
   stripe_id: prod_URuwX6Og6XYnxu
   stripe_prices:
     USD:
-      id: price_1TT16uFh1LRw8Qtv8cPtwp47
-      unit_amount: 3699
+      id: price_1TbmDaFh1LRw8QtvEOAN9THb
+      unit_amount: 3649
     GBP:
       id: price_1TT16vFh1LRw8QtvaCTMF2xk
       unit_amount: 2699
+    EUR:
+      id: price_1TbmDaFh1LRw8QtvFVxzCVTJ
+      unit_amount: 3149
+    AUD:
+      id: price_1TbmDbFh1LRw8QtvRrnulRtB
+      unit_amount: 5049
+    CAD:
+      id: price_1TbmDbFh1LRw8Qtv99Uc66z5
+      unit_amount: 5049
+    NZD:
+      id: price_1TbmDbFh1LRw8QtvfdMUAunL
+      unit_amount: 6249
+    PLN:
+      id: price_1TbmDcFh1LRw8QtvVvi5OKCa
+      unit_amount: 13249
+    UAH:
+      id: price_1TbmDcFh1LRw8QtvOqO2SECw
+      unit_amount: 161049
+    CZK:
+      id: price_1TbmDdFh1LRw8Qtv0c2fAgI1
+      unit_amount: 75799
+    DKK:
+      id: price_1TbmDdFh1LRw8Qtvu8wb8vVM
+      unit_amount: 23349
+    HUF:
+      id: price_1TbmDdFh1LRw8Qtvw5Pox0H2
+      unit_amount: 1111249
+    NOK:
+      id: price_1TbmDeFh1LRw8QtveSiBSvhU
+      unit_amount: 33649
+    RON:
+      id: price_1TbmDeFh1LRw8Qtvaf5RvKxk
+      unit_amount: 16349
+    SEK:
+      id: price_1TbmDeFh1LRw8QtvEyHnjCcP
+      unit_amount: 33799

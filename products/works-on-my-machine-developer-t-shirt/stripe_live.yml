@@ -3,58 +3,274 @@ works-on-my-machine-developer-t-shirt-s:
   stripe_id: prod_URuwFg1Tsq61Rg
   stripe_prices:
     USD:
-      id: price_1TT16aFh1LRw8Qtvg9DX6rkc
-      unit_amount: 3399
+      id: price_1TbmEeFh1LRw8Qtvh2iEDG6C
+      unit_amount: 3349
     GBP:
       id: price_1TT16aFh1LRw8QtvEgF9hlat
       unit_amount: 2499
+    EUR:
+      id: price_1TbmEeFh1LRw8QtvRyLNNYt1
+      unit_amount: 2899
+    AUD:
+      id: price_1TbmEfFh1LRw8Qtv5SQ5vQg1
+      unit_amount: 4699
+    CAD:
+      id: price_1TbmEfFh1LRw8QtvH8UVCwZk
+      unit_amount: 4649
+    NZD:
+      id: price_1TbmEfFh1LRw8QtvTPgE75Ih
+      unit_amount: 5749
+    PLN:
+      id: price_1TbmEgFh1LRw8Qtv58F9zuWP
+      unit_amount: 12249
+    UAH:
+      id: price_1TbmEgFh1LRw8QtvEvThQ2Ra
+      unit_amount: 149149
+    CZK:
+      id: price_1TbmEgFh1LRw8QtvWDJgmDot
+      unit_amount: 70149
+    DKK:
+      id: price_1TbmEhFh1LRw8QtvQE73hsEx
+      unit_amount: 21599
+    HUF:
+      id: price_1TbmEhFh1LRw8QtvKktF86Sd
+      unit_amount: 1028849
+    NOK:
+      id: price_1TbmEiFh1LRw8QtvmmEhiTCd
+      unit_amount: 31149
+    RON:
+      id: price_1TbmEiFh1LRw8QtvwpTfjzr9
+      unit_amount: 15149
+    SEK:
+      id: price_1TbmEiFh1LRw8QtvZ2Gs19L9
+      unit_amount: 31299
 works-on-my-machine-developer-t-shirt-m:
   size: M
   stripe_id: prod_URuwbnVQSLcaR5
   stripe_prices:
     USD:
-      id: price_1TT16bFh1LRw8QtvhJaLieZ9
-      unit_amount: 3399
+      id: price_1TbmEjFh1LRw8QtvHpZzdcwO
+      unit_amount: 3349
     GBP:
       id: price_1TT16bFh1LRw8Qtv5yZpKL0p
       unit_amount: 2499
+    EUR:
+      id: price_1TbmEjFh1LRw8QtvVjKYrsTD
+      unit_amount: 2899
+    AUD:
+      id: price_1TbmEkFh1LRw8QtvnCdLXpAM
+      unit_amount: 4699
+    CAD:
+      id: price_1TbmEkFh1LRw8Qtvyzme2WCY
+      unit_amount: 4649
+    NZD:
+      id: price_1TbmEkFh1LRw8Qtvz77wUnZE
+      unit_amount: 5749
+    PLN:
+      id: price_1TbmElFh1LRw8QtvobnIUya5
+      unit_amount: 12249
+    UAH:
+      id: price_1TbmElFh1LRw8QtvSdu2CyHU
+      unit_amount: 149149
+    CZK:
+      id: price_1TbmElFh1LRw8QtvfjMgFNDN
+      unit_amount: 70149
+    DKK:
+      id: price_1TbmEmFh1LRw8Qtvc9bACipl
+      unit_amount: 21599
+    HUF:
+      id: price_1TbmEmFh1LRw8QtvnoDUafqa
+      unit_amount: 1028849
+    NOK:
+      id: price_1TbmEnFh1LRw8QtvYGrU4AWn
+      unit_amount: 31149
+    RON:
+      id: price_1TbmEnFh1LRw8QtvIcwf9921
+      unit_amount: 15149
+    SEK:
+      id: price_1TbmEnFh1LRw8QtvZfKkpZNF
+      unit_amount: 31299
 works-on-my-machine-developer-t-shirt-l:
   size: L
   stripe_id: prod_URuwHTXSQLdfeo
   stripe_prices:
     USD:
-      id: price_1TT16bFh1LRw8Qtv2VN2RV8a
-      unit_amount: 3399
+      id: price_1TbmEoFh1LRw8QtvENX962b9
+      unit_amount: 3349
     GBP:
       id: price_1TT16cFh1LRw8Qtv9bUzmjNW
       unit_amount: 2499
+    EUR:
+      id: price_1TbmEpFh1LRw8Qtvwho7BRqS
+      unit_amount: 2899
+    AUD:
+      id: price_1TbmEpFh1LRw8QtvwpGamo15
+      unit_amount: 4699
+    CAD:
+      id: price_1TbmEpFh1LRw8QtvoXYlfSdF
+      unit_amount: 4649
+    NZD:
+      id: price_1TbmEqFh1LRw8QtvQKAmu9uX
+      unit_amount: 5749
+    PLN:
+      id: price_1TbmEqFh1LRw8Qtv2edrhbgK
+      unit_amount: 12249
+    UAH:
+      id: price_1TbmEqFh1LRw8QtvkHBiyrMg
+      unit_amount: 149149
+    CZK:
+      id: price_1TbmErFh1LRw8QtvGjnG0dt7
+      unit_amount: 70149
+    DKK:
+      id: price_1TbmErFh1LRw8QtvN8GHmxfP
+      unit_amount: 21599
+    HUF:
+      id: price_1TbmErFh1LRw8Qtvu0WXUH7x
+      unit_amount: 1028849
+    NOK:
+      id: price_1TbmEsFh1LRw8Qtvpv2kUx4e
+      unit_amount: 31149
+    RON:
+      id: price_1TbmEsFh1LRw8QtvjbOkdscX
+      unit_amount: 15149
+    SEK:
+      id: price_1TbmEsFh1LRw8QtvKjTrPPMK
+      unit_amount: 31299
 works-on-my-machine-developer-t-shirt-xl:
   size: XL
   stripe_id: prod_URuwc1d3lLrMRe
   stripe_prices:
     USD:
-      id: price_1TT16cFh1LRw8QtvR6J1hpKq
-      unit_amount: 3399
+      id: price_1TbmEtFh1LRw8QtvqCNjxYPh
+      unit_amount: 3349
     GBP:
       id: price_1TT16dFh1LRw8QtvBFGZXfWs
       unit_amount: 2499
+    EUR:
+      id: price_1TbmEuFh1LRw8QtvYOzUCHs8
+      unit_amount: 2899
+    AUD:
+      id: price_1TbmEuFh1LRw8QtvCctpOR5p
+      unit_amount: 4699
+    CAD:
+      id: price_1TbmEuFh1LRw8QtvynVEYz4B
+      unit_amount: 4649
+    NZD:
+      id: price_1TbmEvFh1LRw8Qtv2KFpVcPY
+      unit_amount: 5749
+    PLN:
+      id: price_1TbmEvFh1LRw8QtvWORxO17e
+      unit_amount: 12249
+    UAH:
+      id: price_1TbmEvFh1LRw8Qtvhza2p9Ap
+      unit_amount: 149149
+    CZK:
+      id: price_1TbmEwFh1LRw8QtvG8iVW5h3
+      unit_amount: 70149
+    DKK:
+      id: price_1TbmEwFh1LRw8Qtvhoozmcxz
+      unit_amount: 21599
+    HUF:
+      id: price_1TbmEwFh1LRw8QtvDeQwgxRv
+      unit_amount: 1028849
+    NOK:
+      id: price_1TbmExFh1LRw8QtvqvFsdfvS
+      unit_amount: 31149
+    RON:
+      id: price_1TbmExFh1LRw8QtvANHPaWxz
+      unit_amount: 15149
+    SEK:
+      id: price_1TbmExFh1LRw8Qtv3p7duuAS
+      unit_amount: 31299
 works-on-my-machine-developer-t-shirt-2xl:
   size: 2XL
   stripe_id: prod_URuwWuR4o9icpW
   stripe_prices:
     USD:
-      id: price_1TT16dFh1LRw8QtvNkVEH9OW
-      unit_amount: 3699
+      id: price_1TbmEyFh1LRw8Qtvf6DirWtQ
+      unit_amount: 3649
     GBP:
       id: price_1TT16eFh1LRw8QtvBV7tDPlz
       unit_amount: 2699
+    EUR:
+      id: price_1TbmEzFh1LRw8Qtv59dh7tSv
+      unit_amount: 3149
+    AUD:
+      id: price_1TbmEzFh1LRw8QtviGyJnTmK
+      unit_amount: 5049
+    CAD:
+      id: price_1TbmEzFh1LRw8QtvprrywthQ
+      unit_amount: 5049
+    NZD:
+      id: price_1TbmF0Fh1LRw8QtvE5aH3UrU
+      unit_amount: 6249
+    PLN:
+      id: price_1TbmF0Fh1LRw8QtvBPadX8jh
+      unit_amount: 13249
+    UAH:
+      id: price_1TbmF0Fh1LRw8QtvbB3kQvFf
+      unit_amount: 161049
+    CZK:
+      id: price_1TbmF0Fh1LRw8QtvmQsQXn4r
+      unit_amount: 75799
+    DKK:
+      id: price_1TbmF1Fh1LRw8QtvUnLZYqay
+      unit_amount: 23349
+    HUF:
+      id: price_1TbmF1Fh1LRw8QtvjQIzhMFo
+      unit_amount: 1111249
+    NOK:
+      id: price_1TbmF1Fh1LRw8QtvzNzej1UI
+      unit_amount: 33649
+    RON:
+      id: price_1TbmF2Fh1LRw8QtvsDsijGne
+      unit_amount: 16349
+    SEK:
+      id: price_1TbmF2Fh1LRw8QtvHcDiqAm9
+      unit_amount: 33799
 works-on-my-machine-developer-t-shirt-3xl:
   size: 3XL
   stripe_id: prod_URuwCasFkQZIlX
   stripe_prices:
     USD:
-      id: price_1TT16eFh1LRw8QtvcUHnd9Ro
-      unit_amount: 3799
+      id: price_1TbmF3Fh1LRw8Qtv44cdc7Uo
+      unit_amount: 3749
     GBP:
       id: price_1TT16fFh1LRw8QtvdZLoRXMl
       unit_amount: 2799
+    EUR:
+      id: price_1TbmF3Fh1LRw8QtvlZE6mdUr
+      unit_amount: 3249
+    AUD:
+      id: price_1TbmF4Fh1LRw8Qtvu8nmukeU
+      unit_amount: 5249
+    CAD:
+      id: price_1TbmF4Fh1LRw8QtvbGAqUpD7
+      unit_amount: 5199
+    NZD:
+      id: price_1TbmF4Fh1LRw8Qtvtx4DRU44
+      unit_amount: 6449
+    PLN:
+      id: price_1TbmF5Fh1LRw8QtvUmZldaS2
+      unit_amount: 13749
+    UAH:
+      id: price_1TbmF5Fh1LRw8QtvqfIesbnT
+      unit_amount: 167049
+    CZK:
+      id: price_1TbmF5Fh1LRw8QtvKOzx7WVR
+      unit_amount: 78599
+    DKK:
+      id: price_1TbmF6Fh1LRw8QtvVF5QM14M
+      unit_amount: 24149
+    HUF:
+      id: price_1TbmF6Fh1LRw8QtvQ3iZcPwi
+      unit_amount: 1152399
+    NOK:
+      id: price_1TbmF6Fh1LRw8QtvumSTw3VN
+      unit_amount: 34899
+    RON:
+      id: price_1TbmF7Fh1LRw8QtvMzFrkMqy
+      unit_amount: 16999
+    SEK:
+      id: price_1TbmF7Fh1LRw8Qtvk3VR92aS
+      unit_amount: 35049
