@@ -25,11 +25,13 @@ export function saveStripeProductVariants(pk, data) {
 }
 
 export async function createStripePrice(stripeProductVariant, stripe, currency, unit_amount) {
-  const stripePrice = await stripe.prices.create({
-    currency: currency.toLowerCase(),
-    unit_amount,
-    product: stripeProductVariant.stripe_id,
-  });
+  const stripePrice = await stripeRequest(() =>
+    stripe.prices.create({
+      currency: currency.toLowerCase(),
+      unit_amount,
+      product: stripeProductVariant.stripe_id,
+    })
+  );
   stripeProductVariant.stripe_prices[currency] = {id: stripePrice.id, unit_amount};
 }
 
@@ -70,17 +72,22 @@ export function searchArchivedPrice(sortedPrices, unitAmount) {
 
 export async function updateAllStripeProductPrices() {
   const productDirs = fs.readdirSync(productsDir, {withFileTypes: true})
-      .filter((entry) => entry.isDirectory())
-      .map((entry) => entry.name);
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => entry.name);
 
-  await Promise.all(productDirs.map((pk) => updateStripeProductPrices(pk)))
+  for (const pk of productDirs) {
+    console.log(`Updating Stripe prices for product: ${pk}`);
+    await updateStripeProductPrices(pk);
+  }
 }
 
 export async function updateStripeProductPrices(pk) {
   const product = getProduct(pk);
   const variants = getProductVariants(product);
   const stripeVariants = getStripeProductVariants(pk);
-  const stripe = new Stripe(site.stripeApiSecretKey);
+  const stripe = new Stripe(site.stripeApiSecretKey, {
+    maxNetworkRetries: 3,
+  });
 
   for (const pvk in variants) {
     const variant = variants[pvk];
@@ -96,7 +103,9 @@ export async function updateStripeProductPrices(pk) {
     const stripeVariant = stripeVariants[pvk];
     if (stripeVariant) {
       console.log('Updating Stripe product variant:', stripeVariant);
-      const stripeResponse = await stripe.products.update(stripeVariant.stripe_id, data);
+      const stripeResponse = await stripeRequest(() =>
+        stripe.products.update(stripeVariant.stripe_id, data)
+      );
       console.log('Updated Stripe product variant:', stripeResponse.id);
       const archivedPrices = getArchivedPrices(pk, pvk);
       console.log('archivedPrices:', archivedPrices);
@@ -114,11 +123,15 @@ export async function updateStripeProductPrices(pk) {
           if (stripePrice.unit_amount !== unit_amount) {
             archivedPrices[currency] ||= [];
             archivedPrices[currency].push(stripePrice);
-            await stripe.prices.update(stripePrice.id, {active: false});
+            await stripeRequest(() =>
+              stripe.prices.update(stripePrice.id, {active: false})
+            );
 
             const matchedArchivedPrice = searchArchivedPrice(archivedPrices[currency] || [], unit_amount);
             if (matchedArchivedPrice) {
-              await stripe.prices.update(matchedArchivedPrice.id, {active: true});
+              await stripeRequest(() =>
+                stripe.prices.update(matchedArchivedPrice.id, {active: true})
+              );
               stripeVariant.stripe_prices[currency] = matchedArchivedPrice;
             } else {
               await createStripePrice(stripeVariant, stripe, currency, unit_amount);
@@ -133,7 +146,9 @@ export async function updateStripeProductPrices(pk) {
       saveArchivedPrices(pk, pvk, archivedPrices);
 
     } else {
-      const productVariant = await stripe.products.create(data);
+      const productVariant = await stripeRequest(() =>
+        stripe.products.create(data)
+      );
       const pvData = {};
       if (variant.color) {
         pvData.color = variant.color;
@@ -154,4 +169,51 @@ export async function updateStripeProductPrices(pk) {
   };
 
   saveStripeProductVariants(pk, stripeVariants);
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+// Stripe rate limiter restricts the number of API requests per second as follows:
+// production: 100 req/sec
+// test: 25 req/sec
+//
+// production -> 15ms
+// test -> 60ms
+const STRIPE_RATE_LIMIT_DELAY = env === 'production' ? 15 : 60;
+
+async function stripeRequest(fn, retries = 5) {
+  let attempt = 0;
+
+  while (true) {
+    try {
+      const result = await fn();
+
+      // throttle between requests
+      await sleep(STRIPE_RATE_LIMIT_DELAY);
+
+      return result;
+
+    } catch (err) {
+      const isRateLimit =
+        err?.type === 'StripeRateLimitError' ||
+        err?.code === 'rate_limit' ||
+        err?.statusCode === 429;
+
+      if (!isRateLimit || attempt >= retries) {
+        throw err;
+      }
+
+      const delay = 1000 * (attempt + 1);
+
+      console.log(
+        `Stripe rate limit exceeded. Retrying in ${delay}ms...`
+      );
+
+      await sleep(delay);
+
+      attempt++;
+    }
+  }
 }

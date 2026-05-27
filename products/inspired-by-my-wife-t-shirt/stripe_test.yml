@@ -8,6 +8,42 @@ inspired-by-my-wife-t-shirt-s:
     GBP:
       id: price_1TRxzCFh1LRw8QtvRsmg1axi
       unit_amount: 2399
+    EUR:
+      id: price_1TbjoyFh1LRw8QtvIMsOzDcN
+      unit_amount: 2799
+    AUD:
+      id: price_1TbjoyFh1LRw8QtvZ0dhHYFM
+      unit_amount: 4499
+    CAD:
+      id: price_1TbjozFh1LRw8QtvyipcMg2q
+      unit_amount: 4499
+    NZD:
+      id: price_1TbjozFh1LRw8QtvquJrCT8A
+      unit_amount: 5599
+    PLN:
+      id: price_1TbjozFh1LRw8Qtvt0EApRZc
+      unit_amount: 11899
+    UAH:
+      id: price_1Tbjp0Fh1LRw8QtvHjOGt2Ff
+      unit_amount: 144599
+    CZK:
+      id: price_1Tbjp1Fh1LRw8QtvDwXp5nN7
+      unit_amount: 67999
+    DKK:
+      id: price_1Tbjp1Fh1LRw8Qtv7mMQaVGA
+      unit_amount: 20899
+    HUF:
+      id: price_1Tbjp2Fh1LRw8QtvteiwDbh0
+      unit_amount: 997599
+    NOK:
+      id: price_1Tbjp2Fh1LRw8QtvgdjXDH2o
+      unit_amount: 30199
+    RON:
+      id: price_1Tbjp2Fh1LRw8QtvNPJAXNXC
+      unit_amount: 14699
+    SEK:
+      id: price_1Tbjp3Fh1LRw8QtvQ5qPTSdk
+      unit_amount: 30299
 inspired-by-my-wife-t-shirt-m:
   size: M
   stripe_id: prod_UQpeyLxKH7tVfy
@@ -18,6 +54,42 @@ inspired-by-my-wife-t-shirt-m:
     GBP:
       id: price_1TRxzDFh1LRw8Qtv7EKnbML1
       unit_amount: 2399
+    EUR:
+      id: price_1Tbjp4Fh1LRw8QtvuNfJ4J3D
+      unit_amount: 2799
+    AUD:
+      id: price_1Tbjp5Fh1LRw8Qtv83zfopnQ
+      unit_amount: 4499
+    CAD:
+      id: price_1Tbjp5Fh1LRw8QtvK9xTnqE0
+      unit_amount: 4499
+    NZD:
+      id: price_1Tbjp5Fh1LRw8Qtv8lSGa58U
+      unit_amount: 5599
+    PLN:
+      id: price_1Tbjp6Fh1LRw8QtvOHt2tEjC
+      unit_amount: 11899
+    UAH:
+      id: price_1Tbjp6Fh1LRw8QtvyMkZkKaH
+      unit_amount: 144599
+    CZK:
+      id: price_1Tbjp7Fh1LRw8Qtvesc5IuCB
+      unit_amount: 67999
+    DKK:
+      id: price_1Tbjp7Fh1LRw8QtvOpyJQew2
+      unit_amount: 20899
+    HUF:
+      id: price_1Tbjp8Fh1LRw8Qtvg9JQW57n
+      unit_amount: 997599
+    NOK:
+      id: price_1Tbjp8Fh1LRw8QtvqUma9LWP
+      unit_amount: 30199
+    RON:
+      id: price_1Tbjp9Fh1LRw8QtvRCdDTkfP
+      unit_amount: 14699
+    SEK:
+      id: price_1Tbjp9Fh1LRw8Qtv7wMH0U7d
+      unit_amount: 30299
 inspired-by-my-wife-t-shirt-l:
   size: L
   stripe_id: prod_UQpeUbgh8ooVl8
@@ -28,6 +100,42 @@ inspired-by-my-wife-t-shirt-l:
     GBP:
       id: price_1TRxzEFh1LRw8Qtv2Mbv6b6D
       unit_amount: 2399
+    EUR:
+      id: price_1TbjpAFh1LRw8QtvQlYSZH2a
+      unit_amount: 2799
+    AUD:
+      id: price_1TbjpBFh1LRw8QtvRn4ToKy0
+      unit_amount: 4499
+    CAD:
+      id: price_1TbjpBFh1LRw8QtvjMIYzh0y
+      unit_amount: 4499
+    NZD:
+      id: price_1TbjpBFh1LRw8QtvPwXfhz0J
+      unit_amount: 5599
+    PLN:
+      id: price_1TbjpCFh1LRw8Qtv0LWftFfR
+      unit_amount: 11899
+    UAH:
+      id: price_1TbjpCFh1LRw8Qtvta8B59Hl
+      unit_amount: 144599
+    CZK:
+      id: price_1TbjpDFh1LRw8Qtva6AtWaBn
+      unit_amount: 67999
+    DKK:
+      id: price_1TbjpDFh1LRw8QtvIfQxO3jn
+      unit_amount: 20899
+    HUF:
+      id: price_1TbjpDFh1LRw8Qtv98VR1doi
+      unit_amount: 997599
+    NOK:
+      id: price_1TbjpFFh1LRw8QtvsryE1MSy
+      unit_amount: 30199
+    RON:
+      id: price_1TbjpFFh1LRw8QtvGOiXMkOi
+      unit_amount: 14699
+    SEK:
+      id: price_1TbjpGFh1LRw8Qtvwq3wnsGc
+      unit_amount: 30299
 inspired-by-my-wife-t-shirt-xl:
   size: XL
   stripe_id: prod_UQpekdT7w1Gf7p
@@ -38,16 +146,88 @@ inspired-by-my-wife-t-shirt-xl:
     GBP:
       id: price_1TRxzFFh1LRw8Qtvr5vTLOaQ
       unit_amount: 2399
+    EUR:
+      id: price_1TbjpGFh1LRw8Qtvj59JE4DL
+      unit_amount: 2799
+    AUD:
+      id: price_1TbjpHFh1LRw8Qtv4LakIwgF
+      unit_amount: 4499
+    CAD:
+      id: price_1TbjpHFh1LRw8QtvyRvv4Hr7
+      unit_amount: 4499
+    NZD:
+      id: price_1TbjpIFh1LRw8QtvjeMpXWBp
+      unit_amount: 5599
+    PLN:
+      id: price_1TbjpIFh1LRw8QtvsR7XZI39
+      unit_amount: 11899
+    UAH:
+      id: price_1TbjpJFh1LRw8QtvPgUBjFhi
+      unit_amount: 144599
+    CZK:
+      id: price_1TbjpJFh1LRw8QtvZmKvb5Gd
+      unit_amount: 67999
+    DKK:
+      id: price_1TbjpJFh1LRw8QtvpBGpxq2p
+      unit_amount: 20899
+    HUF:
+      id: price_1TbjpKFh1LRw8QtvqQMbbkjR
+      unit_amount: 997599
+    NOK:
+      id: price_1TbjpKFh1LRw8QtvIUtwi0PJ
+      unit_amount: 30199
+    RON:
+      id: price_1TbjpLFh1LRw8Qtv2K3SZAzj
+      unit_amount: 14699
+    SEK:
+      id: price_1TbjpLFh1LRw8QtvRNLOSGor
+      unit_amount: 30299
 inspired-by-my-wife-t-shirt-2xl:
   size: 2XL
   stripe_id: prod_UQpegZpuB0yT1q
   stripe_prices:
     USD:
-      id: price_1TSjMxFh1LRw8QtvsCPnboII
-      unit_amount: 3599
+      id: price_1TRxzGFh1LRw8Qtv5qz9I5oF
+      unit_amount: 3499
     GBP:
       id: price_1TRxzGFh1LRw8QtvvckgvunS
       unit_amount: 2599
+    EUR:
+      id: price_1TbjpMFh1LRw8QtvXCS34HLB
+      unit_amount: 2999
+    AUD:
+      id: price_1TbjpMFh1LRw8QtvGcCNxFPs
+      unit_amount: 4899
+    CAD:
+      id: price_1TbjpNFh1LRw8Qtv4W5YXfya
+      unit_amount: 4899
+    NZD:
+      id: price_1TbjpNFh1LRw8QtvQurNqHbE
+      unit_amount: 5999
+    PLN:
+      id: price_1TbjpOFh1LRw8QtvQd3dtLMR
+      unit_amount: 12899
+    UAH:
+      id: price_1TbjpOFh1LRw8Qtv6bWMfQUT
+      unit_amount: 156599
+    CZK:
+      id: price_1TbjpOFh1LRw8Qtv7E9Ai2DJ
+      unit_amount: 73699
+    DKK:
+      id: price_1TbjpPFh1LRw8QtvghJ4KgoE
+      unit_amount: 22699
+    HUF:
+      id: price_1TbjpPFh1LRw8Qtvwhv1b6JZ
+      unit_amount: 1080699
+    NOK:
+      id: price_1TbjpPFh1LRw8QtvHzPWDFau
+      unit_amount: 32699
+    RON:
+      id: price_1TbjpQFh1LRw8QtvHp22QCUo
+      unit_amount: 15899
+    SEK:
+      id: price_1TbjpQFh1LRw8Qtv6nJues5a
+      unit_amount: 32899
 inspired-by-my-wife-t-shirt-3xl:
   size: 3XL
   stripe_id: prod_UQpekCCL4rS9hg
@@ -58,3 +238,39 @@ inspired-by-my-wife-t-shirt-3xl:
     GBP:
       id: price_1TRxzHFh1LRw8Qtv5LRKbBET
       unit_amount: 2699
+    EUR:
+      id: price_1TbjpRFh1LRw8Qtv4on3lFJA
+      unit_amount: 3199
+    AUD:
+      id: price_1TbjpSFh1LRw8Qtvr8Szxsst
+      unit_amount: 5099
+    CAD:
+      id: price_1TbjpSFh1LRw8QtvTTpVK5OD
+      unit_amount: 5099
+    NZD:
+      id: price_1TbjpSFh1LRw8Qtv3G1AGUul
+      unit_amount: 6299
+    PLN:
+      id: price_1TbjpTFh1LRw8QtvQ7qcyyOq
+      unit_amount: 13399
+    UAH:
+      id: price_1TbjpTFh1LRw8Qtvrpdbksoy
+      unit_amount: 162699
+    CZK:
+      id: price_1TbjpUFh1LRw8QtvYAOyQ8yZ
+      unit_amount: 76499
+    DKK:
+      id: price_1TbjpUFh1LRw8Qtv2s1hM7H2
+      unit_amount: 23499
+    HUF:
+      id: price_1TbjpUFh1LRw8Qtv0nOYc2lL
+      unit_amount: 1122299
+    NOK:
+      id: price_1TbjpVFh1LRw8Qtv5j8ZuKnx
+      unit_amount: 33999
+    RON:
+      id: price_1TbjpVFh1LRw8QtvOAq5di23
+      unit_amount: 16499
+    SEK:
+      id: price_1TbjpVFh1LRw8QtvN0nznQUL
+      unit_amount: 34099

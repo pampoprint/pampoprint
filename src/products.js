@@ -229,7 +229,8 @@ export function updateProductPrices(pk, exchRates) {
 
   updaateProductCompareAtPrices(productData, exchRates);
 
-  console.log(`Writing ${filePath}...`);
+  const relativePath = path.relative(process.cwd(), filePath);
+  console.log(`Writing ${relativePath}...`);
   writeYamlFile(filePath, productData);
 }
 
