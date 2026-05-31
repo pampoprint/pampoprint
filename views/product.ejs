@@ -77,6 +77,11 @@
   </div>
 </section>
 <%- serializeProduct(product) %>
+
+<% if (product.related_products?.length) { %>
+  <%- include('templates/products/related_products') %>
+<% } %>
+
 <% if (product.reviews.length > 0) { %>
 <%- include('templates/products/reviews') %>
 <% } %>
