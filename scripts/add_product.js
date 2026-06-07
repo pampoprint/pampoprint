@@ -62,10 +62,10 @@ price_rounding_cents: [49, 99]
 fs.writeFileSync(path.join(folderPath, 'info.yml'), infoYmlContent);
 fs.writeFileSync(path.join(folderPath, 'description.txt'), '');
 
-const imagesDirPath = path.join(productsFolder, pk, 'images', 'main');
-fs.mkdirSync(imagesDirPath, { recursive: true });
+const imagesDirPath = path.join(productsFolder, pk, 'images');
+fs.mkdirSync(imagesDirPath);
 
 const descImagesDirPath = path.join(productsFolder, pk, 'images', 'description');
-fs.mkdirSync(descImagesDirPath, { recursive: true });
+fs.mkdirSync(descImagesDirPath, {recursive: true});
 
 console.log(`Created folder and files for productKey: ${pk}`);
