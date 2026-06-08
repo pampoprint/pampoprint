@@ -183,10 +183,9 @@ CONFIG=theme/orange.yml ENV=test npm run dev
 ```sh
 /products
 ├── /<product-handle>
+│   ├── /images/
 │   ├── info.yml
-│   ├── description.txt
-│   ├── /images/main
-│   └── /images/description
+│   └── description.txt
 ```
 
 ---
@@ -194,7 +193,7 @@ CONFIG=theme/orange.yml ENV=test npm run dev
 ## ➕ Add a Product
 
 ```sh
-node scripts/add_product.js foldable-cat-hammock
+npm run add-product foldable-cat-hammock
 ```
 
 ---
