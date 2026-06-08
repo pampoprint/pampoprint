@@ -65,7 +65,7 @@ fs.writeFileSync(path.join(folderPath, 'description.txt'), '');
 const imagesDirPath = path.join(productsFolder, pk, 'images');
 fs.mkdirSync(imagesDirPath);
 
-const descImagesDirPath = path.join(productsFolder, pk, 'images', 'description');
-fs.mkdirSync(descImagesDirPath, {recursive: true});
+// const descImagesDirPath = path.join(productsFolder, pk, 'images', 'description');
+// fs.mkdirSync(descImagesDirPath, {recursive: true});
 
 console.log(`Created folder and files for productKey: ${pk}`);
