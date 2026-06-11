@@ -1,5 +1,5 @@
 <div class="bg-white rounded-2xl cursor-pointer hover:-translate-y-2 transition-all relative">
-  <a href="/products/<%= product.pk %>.html">
+  <a href="<%- localizeUrl('/products/' + product.pk + '.html') %>">
     <% if (product.out_of_stock) { %>
       <%- include('out_of_stock_badge') %>
     <% } else if (product.sale) { %>
