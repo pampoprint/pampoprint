@@ -31,6 +31,8 @@ about: |-
 defaultCountry: UK
 currencyUnit: GBP
 locale: en-GB
+defaultLanguage: 'en'
+supportedLanguages: [en, de, fr, nl, es, it, pt, pl, uk]
 supportedCurrencies: [USD, GBP, EUR, AUD, CAD, NZD, PLN, UAH, CZK, DKK, HUF, NOK, RON, SEK]
 supportedCountries: [
   AU, # Australia
