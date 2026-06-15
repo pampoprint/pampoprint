@@ -137,6 +137,10 @@ app.get('/success.html', (_req, res) => {
   res.render('success');
 });
 
+app.get('/btcpay-payment-status.html', (_req, res) => {
+  res.render('btcpay-payment-status');
+});
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
