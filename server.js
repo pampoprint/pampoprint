@@ -50,6 +50,7 @@ app.use((req, res, next) => {
   const langURLPrefix = isDefaultLang ? '' : `/${language}`;
   res.locals.langURLPrefix = langURLPrefix;
   config.domainWithLang = `${config.domain}${langURLPrefix}`;
+  res.locals.homepageLink = isDefaultLang ? '/' : `/${language}`;
 
   res.locals.localizeUrl = (path, lang = language) => {
     if (lang === config.defaultLanguage) {

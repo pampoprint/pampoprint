@@ -59,6 +59,7 @@ async function generateStaticSite(language) {
   const locals = {...glabalLocals, language};
   const isDefaultLang = language === defaultLang;
   locals.langURLPrefix = isDefaultLang ? '' : `/${language}`;
+  locals.homepageLink = isDefaultLang ? '/' : `/${language}`;
   locals.localizeUrl = (path, lang = language) => {
     if (lang === defaultLang) {
       return path;
