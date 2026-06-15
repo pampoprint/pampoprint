@@ -52,6 +52,7 @@ const pages = [
   {route: 'cart', output: 'cart.html'},
   {route: 'blogs', output: 'blogs.html'},
   {route: 'success', output: 'success.html'},
+  {route: 'btcpay-payment-status', output: 'btcpay-payment-status.html'},
 ];
 
 async function generateStaticSite(language) {
