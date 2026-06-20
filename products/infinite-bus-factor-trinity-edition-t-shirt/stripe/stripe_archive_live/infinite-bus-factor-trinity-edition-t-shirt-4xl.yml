@@ -1,6 +1,8 @@
 USD:
   - id: price_1Tg1AbFh1LRw8Qtvi6MaCPHD
     unit_amount: 4249
+  - id: price_1ThSywFh1LRw8QtvSKY3csVp
+    unit_amount: 4299
   - id: price_1Tbm8hFh1LRw8QtvlLfEtOFO
     unit_amount: 4349
   - id: price_1TbOTKFh1LRw8QtvKGiOnmLO
@@ -8,6 +10,8 @@ USD:
 PLN:
   - id: price_1Tbm8iFh1LRw8Qtv1zuzPhMk
     unit_amount: 15649
+  - id: price_1TjMRdFh1LRw8QtvOuesB4Y1
+    unit_amount: 15699
   - id: price_1Tg1AcFh1LRw8QtvK8PrWoXG
     unit_amount: 15749
 UAH:
@@ -17,6 +21,8 @@ UAH:
     unit_amount: 190899
   - id: price_1ThSyzFh1LRw8QtvWt8tUVOc
     unit_amount: 192199
+  - id: price_1TjMReFh1LRw8Qtvt54ye4Vx
+    unit_amount: 192349
   - id: price_1TiiXaFh1LRw8QtvkRqKGBAC
     unit_amount: 192449
 CZK:
@@ -29,6 +35,8 @@ CZK:
   - id: price_1Tbm8jFh1LRw8QtvtzFoMuqs
     unit_amount: 89849
 HUF:
+  - id: price_1TjMRfFh1LRw8Qtvl9DyDApO
+    unit_amount: 1292749
   - id: price_1TiiXbFh1LRw8QtvF2mzkfEz
     unit_amount: 1303899
   - id: price_1ThSz0Fh1LRw8Qtv7A51zFjB
@@ -44,11 +52,15 @@ NOK:
     unit_amount: 40349
   - id: price_1ThSz1Fh1LRw8QtvsXS0LP6G
     unit_amount: 40749
+  - id: price_1ThSz1Fh1LRw8QtvsXS0LP6G
+    unit_amount: 40749
   - id: price_1TiiXcFh1LRw8Qtv5ogyYPWY
     unit_amount: 40849
 SEK:
   - id: price_1Tbm8lFh1LRw8QtvidxDDJSb
     unit_amount: 40049
+  - id: price_1TjMRgFh1LRw8QtvLnDmaeLp
+    unit_amount: 40249
   - id: price_1Tg1AfFh1LRw8QtvhQoBSrNU
     unit_amount: 40399
   - id: price_1TiiXdFh1LRw8QtvxzUIFgoT
@@ -58,6 +70,8 @@ SEK:
 AUD:
   - id: price_1Tbm8hFh1LRw8QtvSr76Txaf
     unit_amount: 6049
+  - id: price_1TiiXYFh1LRw8Qtvpo2Hkq0H
+    unit_amount: 6099
   - id: price_1ThSyxFh1LRw8QtvtddCVfNE
     unit_amount: 6149
 CAD:
@@ -65,6 +79,8 @@ CAD:
     unit_amount: 5949
   - id: price_1ThSyyFh1LRw8Qtv6W5jAKo6
     unit_amount: 5999
+  - id: price_1TiiXZFh1LRw8Qtv8KAzB7BJ
+    unit_amount: 6049
 NZD:
   - id: price_1Tbm8iFh1LRw8QtvPCRVHIDs
     unit_amount: 7349
@@ -76,3 +92,6 @@ EUR:
 RON:
   - id: price_1Tbm8kFh1LRw8Qtv1TxBomVC
     unit_amount: 19449
+DKK:
+  - id: price_1Tbm8jFh1LRw8QtvdMKhn7pr
+    unit_amount: 27649
