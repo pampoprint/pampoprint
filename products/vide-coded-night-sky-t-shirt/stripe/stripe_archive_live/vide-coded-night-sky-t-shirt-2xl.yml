@@ -1,4 +1,6 @@
 USD:
+  - id: price_1TkMYSFh1LRw8QtvpQABqVk7
+    unit_amount: 3549
   - id: price_1TbmEZFh1LRw8QtvVoozAfik
     unit_amount: 3649
   - id: price_1TVTT5Fh1LRw8QtvDVKIcrIc
@@ -10,11 +12,15 @@ USD:
 AUD:
   - id: price_1TbmEZFh1LRw8Qtv5ph7sFIl
     unit_amount: 5049
+  - id: price_1TkMYSFh1LRw8Qtvkd2rt9t6
+    unit_amount: 5099
   - id: price_1Tg1FsFh1LRw8QtvZE2Ekulx
     unit_amount: 5149
 UAH:
   - id: price_1TkMYTFh1LRw8QtvzaR8B5zw
     unit_amount: 160349
+  - id: price_1TkpjaFh1LRw8QtvV434uKeu
+    unit_amount: 160449
   - id: price_1Tg1FtFh1LRw8QtvrO4p8R67
     unit_amount: 160749
   - id: price_1TbmEbFh1LRw8QtvM6i7T689
@@ -26,6 +32,8 @@ UAH:
   - id: price_1TiidPFh1LRw8QtvJ7mpqvys
     unit_amount: 162349
 CZK:
+  - id: price_1TkMYTFh1LRw8QtvXYhmGZGf
+    unit_amount: 75349
   - id: price_1TjMVtFh1LRw8QtvrgbYEDvX
     unit_amount: 75399
   - id: price_1TiidPFh1LRw8QtvohfjsB2g
@@ -39,6 +47,8 @@ CZK:
 HUF:
   - id: price_1TjMVuFh1LRw8Qtv9UGt08uJ
     unit_amount: 1090749
+  - id: price_1TkpjbFh1LRw8Qtvmk8AXuLM
+    unit_amount: 1096549
   - id: price_1TkMYUFh1LRw8QtvcLlZ6hsa
     unit_amount: 1096999
   - id: price_1TiidQFh1LRw8Qtv8TtCNzZo
@@ -60,7 +70,11 @@ NOK:
     unit_amount: 34399
   - id: price_1TiidQFh1LRw8Qtv5pJ5CKjt
     unit_amount: 34449
+  - id: price_1TkMYVFh1LRw8QtvCgrqrhyA
+    unit_amount: 34649
 RON:
+  - id: price_1TbmEdFh1LRw8QtvZIw0rYsh
+    unit_amount: 16349
   - id: price_1TbmEdFh1LRw8QtvZIw0rYsh
     unit_amount: 16349
   - id: price_1Tg1FvFh1LRw8QtvSZBYzySD
@@ -74,15 +88,30 @@ SEK:
     unit_amount: 34099
   - id: price_1TiidRFh1LRw8QtvkGljHaOJ
     unit_amount: 34149
+  - id: price_1TkMYVFh1LRw8QtvHjCSPhwC
+    unit_amount: 34249
   - id: price_1ThT6HFh1LRw8QtvdKpoOScL
     unit_amount: 34299
 PLN:
   - id: price_1TbmEbFh1LRw8QtvgNFi3xQj
     unit_amount: 13249
+  - id: price_1TbmEbFh1LRw8QtvgNFi3xQj
+    unit_amount: 13249
   - id: price_1ThT6DFh1LRw8QtvIbaSlKrd
     unit_amount: 13299
 DKK:
+  - id: price_1TkMYUFh1LRw8QtvRczuOnwo
+    unit_amount: 23249
   - id: price_1TjMVuFh1LRw8QtvL57UKNOy
     unit_amount: 23299
   - id: price_1TbmEcFh1LRw8Qtv6KMThKOj
     unit_amount: 23349
+EUR:
+  - id: price_1TbmEZFh1LRw8QtvplISc2mC
+    unit_amount: 3149
+CAD:
+  - id: price_1TbmEaFh1LRw8QtvsyEOprVu
+    unit_amount: 5049
+NZD:
+  - id: price_1TbmEaFh1LRw8QtvB0ABs2vP
+    unit_amount: 6249
