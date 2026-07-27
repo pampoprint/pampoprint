@@ -24,9 +24,9 @@ price:
     NZD: 57.49
     PLN: 126.49
     UAH: 1493.49
-    CZK: 706.99
+    CZK: 707.49
     DKK: 218.49
-    HUF: 10607.49
+    HUF: 10566.99
     NOK: 319.49
     RON: 153.49
     SEK: 323.49
@@ -39,9 +39,9 @@ price:
     NZD: 57.49
     PLN: 126.49
     UAH: 1493.49
-    CZK: 706.99
+    CZK: 707.49
     DKK: 218.49
-    HUF: 10607.49
+    HUF: 10566.99
     NOK: 319.49
     RON: 153.49
     SEK: 323.49
@@ -54,9 +54,9 @@ price:
     NZD: 57.49
     PLN: 126.49
     UAH: 1493.49
-    CZK: 706.99
+    CZK: 707.49
     DKK: 218.49
-    HUF: 10607.49
+    HUF: 10566.99
     NOK: 319.49
     RON: 153.49
     SEK: 323.49
@@ -69,9 +69,9 @@ price:
     NZD: 57.49
     PLN: 126.49
     UAH: 1493.49
-    CZK: 706.99
+    CZK: 707.49
     DKK: 218.49
-    HUF: 10607.49
+    HUF: 10566.99
     NOK: 319.49
     RON: 153.49
     SEK: 323.49
@@ -86,8 +86,8 @@ price:
     UAH: 1553.49
     CZK: 735.49
     DKK: 227.49
-    HUF: 11031.49
-    NOK: 331.99
+    HUF: 10989.99
+    NOK: 332.49
     RON: 159.49
     SEK: 336.49
   2XL:
@@ -99,15 +99,15 @@ price:
     NZD: 64.49
     PLN: 141.49
     UAH: 1672.49
-    CZK: 791.99
+    CZK: 792.49
     DKK: 244.49
-    HUF: 11880.49
-    NOK: 357.49
+    HUF: 11835.49
+    NOK: 357.99
     RON: 171.49
     SEK: 362.49
   3XL:
     GBP: 29.99
-    USD: 39.99
+    USD: 40.49
     EUR: 35.49
     AUD: 57.49
     CAD: 56.49
@@ -116,10 +116,10 @@ price:
     UAH: 1792.49
     CZK: 848.49
     DKK: 262.49
-    HUF: 12729.49
-    NOK: 382.99
+    HUF: 12681.49
+    NOK: 383.49
     RON: 183.99
-    SEK: 388.49
+    SEK: 387.99
   4XL:
     GBP: 31.99
     USD: 42.49
@@ -128,13 +128,13 @@ price:
     CAD: 60.49
     NZD: 73.49
     PLN: 161.99
-    UAH: 1911.49
-    CZK: 904.99
+    UAH: 1911.99
+    CZK: 905.49
     DKK: 279.49
-    HUF: 13578.49
-    NOK: 408.49
+    HUF: 13526.99
+    NOK: 408.99
     RON: 196.49
-    SEK: 414.49
+    SEK: 413.99
   5XL:
     GBP: 33.99
     USD: 45.49
@@ -144,12 +144,12 @@ price:
     NZD: 78.49
     PLN: 171.99
     UAH: 2031.49
-    CZK: 961.49
+    CZK: 961.99
     DKK: 297.49
-    HUF: 14427.49
-    NOK: 433.99
+    HUF: 14372.49
+    NOK: 434.49
     RON: 208.49
-    SEK: 440.49
+    SEK: 439.49
 compare_at_price_offset: 5
 price_rounding_cents:
   - 49
@@ -157,7 +157,7 @@ price_rounding_cents:
 compare_at_price:
   XS:
     GBP: 29.99
-    USD: 39.99
+    USD: 40.49
     EUR: 35.49
     AUD: 57.49
     CAD: 56.49
@@ -166,13 +166,13 @@ compare_at_price:
     UAH: 1792.49
     CZK: 848.49
     DKK: 262.49
-    HUF: 12729.49
-    NOK: 382.99
+    HUF: 12681.49
+    NOK: 383.49
     RON: 183.99
-    SEK: 388.49
+    SEK: 387.99
   S:
     GBP: 29.99
-    USD: 39.99
+    USD: 40.49
     EUR: 35.49
     AUD: 57.49
     CAD: 56.49
@@ -181,13 +181,13 @@ compare_at_price:
     UAH: 1792.49
     CZK: 848.49
     DKK: 262.49
-    HUF: 12729.49
-    NOK: 382.99
+    HUF: 12681.49
+    NOK: 383.49
     RON: 183.99
-    SEK: 388.49
+    SEK: 387.99
   M:
     GBP: 29.99
-    USD: 39.99
+    USD: 40.49
     EUR: 35.49
     AUD: 57.49
     CAD: 56.49
@@ -196,13 +196,13 @@ compare_at_price:
     UAH: 1792.49
     CZK: 848.49
     DKK: 262.49
-    HUF: 12729.49
-    NOK: 382.99
+    HUF: 12681.49
+    NOK: 383.49
     RON: 183.99
-    SEK: 388.49
+    SEK: 387.99
   L:
     GBP: 29.99
-    USD: 39.99
+    USD: 40.49
     EUR: 35.49
     AUD: 57.49
     CAD: 56.49
@@ -211,10 +211,10 @@ compare_at_price:
     UAH: 1792.49
     CZK: 848.49
     DKK: 262.49
-    HUF: 12729.49
-    NOK: 382.99
+    HUF: 12681.49
+    NOK: 383.49
     RON: 183.99
-    SEK: 388.49
+    SEK: 387.99
   XL:
     GBP: 30.99
     USD: 41.49
@@ -223,43 +223,43 @@ compare_at_price:
     CAD: 58.49
     NZD: 71.49
     PLN: 156.99
-    UAH: 1851.99
-    CZK: 876.49
+    UAH: 1852.49
+    CZK: 877.49
     DKK: 270.99
-    HUF: 13153.99
-    NOK: 395.49
+    HUF: 13103.99
+    NOK: 396.49
     RON: 189.99
-    SEK: 401.49
+    SEK: 400.99
   2XL:
     GBP: 32.99
-    USD: 43.99
+    USD: 44.49
     EUR: 38.49
     AUD: 62.99
-    CAD: 61.99
+    CAD: 62.49
     NZD: 75.99
     PLN: 166.99
     UAH: 1971.49
     CZK: 933.49
     DKK: 288.49
-    HUF: 14002.49
-    NOK: 421.49
+    HUF: 13949.49
+    NOK: 421.99
     RON: 202.49
-    SEK: 427.49
+    SEK: 426.99
   3XL:
     GBP: 34.99
     USD: 46.49
     EUR: 40.99
     AUD: 66.99
-    CAD: 65.49
+    CAD: 65.99
     NZD: 80.49
-    PLN: 176.99
-    UAH: 2090.99
-    CZK: 989.99
+    PLN: 177.49
+    UAH: 2091.49
+    CZK: 990.49
     DKK: 305.99
-    HUF: 14851.49
-    NOK: 446.99
+    HUF: 14795.49
+    NOK: 447.49
     RON: 214.49
-    SEK: 453.49
+    SEK: 452.49
   4XL:
     GBP: 36.99
     USD: 49.49
@@ -269,24 +269,24 @@ compare_at_price:
     NZD: 85.49
     PLN: 187.49
     UAH: 2210.49
-    CZK: 1046.49
+    CZK: 1046.99
     DKK: 323.49
-    HUF: 15700.49
-    NOK: 472.49
+    HUF: 15641.49
+    NOK: 472.99
     RON: 226.49
-    SEK: 479.49
+    SEK: 478.49
   5XL:
     GBP: 38.99
-    USD: 51.99
+    USD: 52.49
     EUR: 45.49
     AUD: 74.49
     CAD: 73.49
     NZD: 89.99
     PLN: 197.49
-    UAH: 2329.99
-    CZK: 1102.99
-    DKK: 340.49
-    HUF: 16549.49
-    NOK: 497.99
+    UAH: 2330.49
+    CZK: 1103.49
+    DKK: 340.99
+    HUF: 16486.99
+    NOK: 498.49
     RON: 238.99
-    SEK: 505.49
+    SEK: 504.49
