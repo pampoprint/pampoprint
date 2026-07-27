@@ -222,7 +222,7 @@ stripeArchivePriceDelayHours: 24
 Sync products and prices:
 
 ```sh
-ENV=test npm run sync-stripe
+ENV=test npm run stripe:sync
 ```
 
 Add into `config/production.yml`
@@ -236,7 +236,7 @@ stripeArchivePriceDelayHours: 24
 ```
 
 ```sh
-ENV=prod npm run sync-stripe
+ENV=prod npm run stripe:sync
 ```
 
 ### Archiving old Stripe Prices
