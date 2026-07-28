@@ -39,6 +39,9 @@ UAH:
     unit_amount: 148849
   - id: price_1TbliKFh1LRw8QtvThBQUT8F
     unit_amount: 149149
+  - id: price_1TxU4jFh1LRw8QtvGKKHHppB
+    unit_amount: 149349
+    inactive_after: '2026-07-29T18:16:52.329Z'
   - id: price_1ThSfFFh1LRw8QtvMGu0g6Di
     unit_amount: 150149
   - id: price_1TjMC8Fh1LRw8QtviuzaLL7g
@@ -66,7 +69,9 @@ CZK:
     unit_amount: 70149
   - id: price_1TxU4jFh1LRw8QtvV0aQq96E
     unit_amount: 70699
-    inactive_after: '2026-07-28T17:37:14.423Z'
+  - id: price_1TxsSkFh1LRw8QtvwRapHB89
+    unit_amount: 70749
+    inactive_after: '2026-07-29T18:16:52.600Z'
   - id: price_1TbjoEFh1LRw8Qtv1CT1aqDc
     unit_amount: 70899
   - id: price_1Tvi52Fh1LRw8QtvF6fvukdi
@@ -99,9 +104,11 @@ HUF:
     unit_amount: 1028849
   - id: price_1TbjoFFh1LRw8QtvqS4YZShg
     unit_amount: 1039199
+  - id: price_1TxsSkFh1LRw8Qtv5rsigq0h
+    unit_amount: 1056699
+    inactive_after: '2026-07-29T18:16:52.873Z'
   - id: price_1TxU4lFh1LRw8QtvZqickjMm
     unit_amount: 1060749
-    inactive_after: '2026-07-28T17:37:14.698Z'
   - id: price_1Tvi54Fh1LRw8QtvcFY94Fhr
     unit_amount: 1064099
 NOK:
@@ -117,6 +124,9 @@ NOK:
     unit_amount: 31849
   - id: price_1Tii3tFh1LRw8Qtv4KTsaOqe
     unit_amount: 31949
+  - id: price_1Tii3tFh1LRw8Qtv4KTsaOqe
+    unit_amount: 31949
+    inactive_after: '2026-07-29T18:16:53.148Z'
   - id: price_1TkMCaFh1LRw8QtvYz2GphAk
     unit_amount: 32049
   - id: price_1Tvi55Fh1LRw8Qtv1BmqzMFj
@@ -128,8 +138,9 @@ RON:
     unit_amount: 15149
   - id: price_1Tg0x5Fh1LRw8QtvpigQ3hvi
     unit_amount: 15199
-  - id: price_1TbjoGFh1LRw8QtveJdGgYl1
-    unit_amount: 15299
+  - id: price_1TxU4mFh1LRw8QtvJQtIka1o
+    unit_amount: 15349
+    inactive_after: '2026-07-29T18:16:53.429Z'
   - id: price_1Tvi56Fh1LRw8QtvK92LiZSt
     unit_amount: 15449
 SEK:
@@ -147,6 +158,9 @@ SEK:
     unit_amount: 31649
   - id: price_1ThSfKFh1LRw8QtvioNfwppN
     unit_amount: 31749
+  - id: price_1TxU4mFh1LRw8Qtv3vF31DD1
+    unit_amount: 32349
+    inactive_after: '2026-07-29T18:16:53.704Z'
   - id: price_1Tvi57Fh1LRw8QtvRc80lOdH
     unit_amount: 32549
 AUD:
