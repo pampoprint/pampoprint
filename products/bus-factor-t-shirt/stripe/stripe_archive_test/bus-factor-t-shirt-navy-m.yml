@@ -3,7 +3,6 @@ USD:
     unit_amount: 3149
   - id: price_1Tblb9Fh1LRw8Qtv5ntLLsoo
     unit_amount: 3249
-    inactive_after: '2026-07-29T18:15:03.203Z'
   - id: price_1TVTSIFh1LRw8QtvP2Z68PC1
     unit_amount: 3266
   - id: price_1TRxzIFh1LRw8QtvWb84DyDi
@@ -17,21 +16,20 @@ AUD:
     unit_amount: 4599
   - id: price_1ThSa6Fh1LRw8Qtv8lob9Ebp
     unit_amount: 4599
-    inactive_after: '2026-07-29T18:15:03.549Z'
   - id: price_1TvhwWFh1LRw8QtvNh9wb1RR
     unit_amount: 4649
 CAD:
   - id: price_1TblbAFh1LRw8Qtvh7iirWqH
     unit_amount: 4449
-  - id: price_1TbjkDFh1LRw8QtvIU4cgb4y
-    unit_amount: 4499
-  - id: price_1TbjkDFh1LRw8QtvIU4cgb4y
-    unit_amount: 4499
-  - id: price_1TbjkDFh1LRw8QtvIU4cgb4y
-    unit_amount: 4499
   - id: price_1TihyYFh1LRw8QtvVZSaNbQe
     unit_amount: 4549
+  - id: price_1TihyYFh1LRw8QtvVZSaNbQe
+    unit_amount: 4549
+    inactive_after: '2026-10-30T19:14:58.118Z'
 NZD:
+  - id: price_1TblbBFh1LRw8QtvCNXqIhq8
+    unit_amount: 5549
+    inactive_after: '2026-10-30T19:14:58.378Z'
   - id: price_1TbjkDFh1LRw8Qtvu0tN4Vo9
     unit_amount: 5599
 PLN:
@@ -49,6 +47,9 @@ PLN:
     unit_amount: 11849
   - id: price_1TbjkEFh1LRw8QtvCFM1EAq9
     unit_amount: 11899
+  - id: price_1TxTzpFh1LRw8QtvsANqoHlC
+    unit_amount: 12149
+    inactive_after: '2026-10-30T19:14:58.635Z'
   - id: price_1TvhwYFh1LRw8QtvDC5zX1mQ
     unit_amount: 12249
 UAH:
@@ -62,7 +63,9 @@ UAH:
     unit_amount: 143149
   - id: price_1TxTzqFh1LRw8QtvwaOjH7hx
     unit_amount: 143349
-    inactive_after: '2026-07-29T18:15:03.855Z'
+  - id: price_1TyFWuFh1LRw8QtvggcZRSme
+    unit_amount: 143549
+    inactive_after: '2026-10-30T19:14:58.888Z'
   - id: price_1ThSa8Fh1LRw8QtvEXurs6uo
     unit_amount: 144149
   - id: price_1TjM8kFh1LRw8QtvszHAe8jC
@@ -86,11 +89,13 @@ CZK:
     unit_amount: 67249
   - id: price_1TblbDFh1LRw8QtvJy2izqAT
     unit_amount: 67349
+  - id: price_1TyFWuFh1LRw8Qtv5tYv90GW
+    unit_amount: 67749
+    inactive_after: '2026-10-30T19:14:59.185Z'
   - id: price_1TxTzqFh1LRw8QtvmH1zTAzc
     unit_amount: 67849
   - id: price_1TxsRnFh1LRw8QtvIntesz0P
     unit_amount: 67899
-    inactive_after: '2026-07-29T18:15:04.170Z'
   - id: price_1TbjkFFh1LRw8QtvP9OGsCS4
     unit_amount: 67999
   - id: price_1TvhwaFh1LRw8QtvgfVJOaqs
@@ -102,6 +107,9 @@ DKK:
     unit_amount: 20749
   - id: price_1TbjkFFh1LRw8QtvbCc4jGSQ
     unit_amount: 20899
+  - id: price_1TxTzrFh1LRw8QtvnzWEMJya
+    unit_amount: 20949
+    inactive_after: '2026-10-30T19:14:59.431Z'
   - id: price_1TvhwbFh1LRw8Qtv2u2S4uuc
     unit_amount: 21099
 HUF:
@@ -121,9 +129,11 @@ HUF:
     unit_amount: 987699
   - id: price_1TbjkFFh1LRw8Qtv9X6bxN0t
     unit_amount: 997599
+  - id: price_1TyFWuFh1LRw8QtvoSV9ituu
+    unit_amount: 1009149
+    inactive_after: '2026-10-30T19:14:59.697Z'
   - id: price_1TxsRnFh1LRw8Qtv99FZvMgD
     unit_amount: 1014449
-    inactive_after: '2026-07-29T18:15:04.572Z'
   - id: price_1TxTzsFh1LRw8QtvOdjMynX3
     unit_amount: 1018249
   - id: price_1TvhwcFh1LRw8Qtv9WqkjIwm
@@ -143,17 +153,21 @@ NOK:
     unit_amount: 30649
   - id: price_1TihycFh1LRw8QtvvLfyB67t
     unit_amount: 30649
-    inactive_after: '2026-07-29T18:15:04.849Z'
   - id: price_1TkM8RFh1LRw8Qtvl5MRXun8
     unit_amount: 30749
+  - id: price_1TyFWvFh1LRw8QtvhGBsPqCu
+    unit_amount: 30849
+    inactive_after: '2026-10-30T19:14:59.959Z'
   - id: price_1TvhwdFh1LRw8QtvOqdBJf3k
     unit_amount: 31199
 RON:
   - id: price_1TblbHFh1LRw8Qtvh5aTliOg
     unit_amount: 14549
+  - id: price_1TbjkGFh1LRw8Qtv6MmfiFEK
+    unit_amount: 14699
+    inactive_after: '2026-10-30T19:15:00.204Z'
   - id: price_1TxTztFh1LRw8QtvCBqlGrZP
     unit_amount: 14749
-    inactive_after: '2026-07-29T18:15:05.128Z'
   - id: price_1TvhwdFh1LRw8QtvR93dPoKt
     unit_amount: 14849
 SEK:
@@ -173,6 +187,9 @@ SEK:
     unit_amount: 30449
   - id: price_1ThSaBFh1LRw8QtvOvBa8mlD
     unit_amount: 30499
+  - id: price_1TxsRnFh1LRw8Qtv2RWjS5ZL
+    unit_amount: 31049
+    inactive_after: '2026-10-30T19:15:00.467Z'
   - id: price_1TxTztFh1LRw8QtvVvExIIJd
     unit_amount: 31099
   - id: price_1TvhweFh1LRw8Qtv7Kg3ibgt
