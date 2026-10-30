@@ -4,11 +4,9 @@ USD:
 AUD:
   - id: price_1Tbm8XFh1LRw8QtvwukNws0J
     unit_amount: 5249
-  - id: price_1ThSyhFh1LRw8Qtv7XJTZnPi
-    unit_amount: 5349
-  - id: price_1ThSyhFh1LRw8Qtv7XJTZnPi
-    unit_amount: 5349
-    inactive_after: '2026-10-30T19:29:51.139Z'
+  - id: price_1Tg1ARFh1LRw8Qtv7ro2VYZw
+    unit_amount: 5299
+    inactive_after: '2026-10-31T18:12:23.853Z'
   - id: price_1TviXRFh1LRw8Qtv3P9flamR
     unit_amount: 5399
 CAD:
@@ -38,6 +36,9 @@ UAH:
     unit_amount: 168399
   - id: price_1TviXTFh1LRw8QtvVjOnud6S
     unit_amount: 168499
+  - id: price_1UVz1HFh1LRw8QtvRLLyb2Q5
+    unit_amount: 169649
+    inactive_after: '2026-10-31T18:12:24.063Z'
 CZK:
   - id: price_1TkMTdFh1LRw8QtvQFZKIVp8
     unit_amount: 78149
@@ -60,6 +61,9 @@ CZK:
     unit_amount: 79249
   - id: price_1TviXUFh1LRw8QtvzdqcokeV
     unit_amount: 79749
+  - id: price_1UVz1IFh1LRw8QtvGTJW54En
+    unit_amount: 81449
+    inactive_after: '2026-10-31T18:12:24.266Z'
 HUF:
   - id: price_1TjMRVFh1LRw8QtvMTn2mqGv
     unit_amount: 1131149
@@ -84,7 +88,13 @@ HUF:
     unit_amount: 1188049
   - id: price_1TviXWFh1LRw8QtvciSbPvRy
     unit_amount: 1191849
+  - id: price_1UVz1IFh1LRw8QtvhHLpp0hN
+    unit_amount: 1226449
+    inactive_after: '2026-10-31T18:12:24.686Z'
 NOK:
+  - id: price_1UVz1IFh1LRw8QtvStJiAL4K
+    unit_amount: 34549
+    inactive_after: '2026-10-31T18:12:24.888Z'
   - id: price_1Tbm8aFh1LRw8Qtvs2HnfBss
     unit_amount: 34899
   - id: price_1Tg1ATFh1LRw8QtvpZhRMRdy
@@ -126,6 +136,9 @@ SEK:
     unit_amount: 36249
   - id: price_1TviXYFh1LRw8Qtv48YznCXF
     unit_amount: 36449
+  - id: price_1UVz1JFh1LRw8QtvenMVc70z
+    unit_amount: 36949
+    inactive_after: '2026-10-31T18:12:25.097Z'
 PLN:
   - id: price_1Tbm8YFh1LRw8QtvFVjCLA1N
     unit_amount: 13749
@@ -154,6 +167,9 @@ DKK:
     inactive_after: '2026-10-30T19:29:52.187Z'
   - id: price_1TviXVFh1LRw8QtvTDinhSSq
     unit_amount: 24599
+  - id: price_1UVz1IFh1LRw8QtvBAollvhK
+    unit_amount: 24999
+    inactive_after: '2026-10-31T18:12:24.473Z'
 RON:
   - id: price_1TjMRWFh1LRw8QtvUzyR2JWT
     unit_amount: 16949
