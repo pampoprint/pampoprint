@@ -4,7 +4,6 @@ USD:
 CAD:
   - id: price_1TbloSFh1LRw8Qtvj1FeOZHN
     unit_amount: 4649
-    inactive_after: '2026-11-11T11:37:28.253Z'
   - id: price_1TbjraFh1LRw8QtvVKL6dfBZ
     unit_amount: 4699
   - id: price_1TbjraFh1LRw8QtvVKL6dfBZ
@@ -37,7 +36,6 @@ PLN:
     unit_amount: 12749
   - id: price_1UXJRjFh1LRw8QtvProbPusN
     unit_amount: 13249
-    inactive_after: '2026-11-11T11:37:28.510Z'
 UAH:
   - id: price_1TkMFcFh1LRw8QtvI23ehq5l
     unit_amount: 148499
@@ -65,7 +63,9 @@ UAH:
     unit_amount: 151449
   - id: price_1UXJRjFh1LRw8QtvxXH8GFqv
     unit_amount: 152149
-    inactive_after: '2026-11-11T11:37:28.758Z'
+  - id: price_1UaDMiFh1LRw8QtvkVncauCM
+    unit_amount: 152249
+    inactive_after: '2026-11-12T22:04:43.904Z'
 CZK:
   - id: price_1TkqA1Fh1LRw8Qtviqs0sxh1
     unit_amount: 69749
@@ -91,11 +91,11 @@ CZK:
     unit_amount: 70899
   - id: price_1TviCCFh1LRw8QtviHkmSYRd
     unit_amount: 71149
-  - id: price_1UVyrDFh1LRw8QtvDg1PxVqd
-    unit_amount: 72749
+  - id: price_1UaDMjFh1LRw8QtvE6oEC4Ng
+    unit_amount: 72899
+    inactive_after: '2026-11-12T22:04:44.162Z'
   - id: price_1UXJRkFh1LRw8Qtvc1jlYzxb
     unit_amount: 73049
-    inactive_after: '2026-11-11T11:37:29.043Z'
 DKK:
   - id: price_1TjMFAFh1LRw8QtvNzCLuQM7
     unit_amount: 21549
@@ -109,11 +109,11 @@ DKK:
     unit_amount: 21849
   - id: price_1TviCDFh1LRw8QtvXG8qUxfq
     unit_amount: 21949
-  - id: price_1UVyrDFh1LRw8QtvI3x6lHfY
-    unit_amount: 22349
+  - id: price_1UaDMjFh1LRw8QtvLZB1M3p3
+    unit_amount: 22399
+    inactive_after: '2026-11-12T22:04:44.416Z'
   - id: price_1UXJRkFh1LRw8QtvWgNudNzY
     unit_amount: 22449
-    inactive_after: '2026-11-11T11:37:29.294Z'
 HUF:
   - id: price_1TjMFAFh1LRw8QtvimrHiDKA
     unit_amount: 1009899
@@ -139,21 +139,25 @@ HUF:
     unit_amount: 1060749
   - id: price_1TviCDFh1LRw8Qtvh376yKM3
     unit_amount: 1064099
+  - id: price_1UaDMjFh1LRw8QtvFWxr0cYN
+    unit_amount: 1085749
+    inactive_after: '2026-11-12T22:04:44.683Z'
   - id: price_1UVyrEFh1LRw8QtvWUrab9pl
     unit_amount: 1095049
   - id: price_1UXJRkFh1LRw8QtvJ5EBuh1s
     unit_amount: 1096549
-    inactive_after: '2026-11-11T11:37:29.546Z'
 NOK:
   - id: price_1UVyrEFh1LRw8QtvFbgcU7mO
     unit_amount: 30849
-    inactive_after: '2026-11-11T11:37:29.799Z'
   - id: price_1TbloWFh1LRw8QtvOhacuc0e
     unit_amount: 31149
   - id: price_1TbjrdFh1LRw8QtvSG6qB6HZ
     unit_amount: 31499
   - id: price_1TbjrdFh1LRw8QtvSG6qB6HZ
     unit_amount: 31499
+  - id: price_1UaDMkFh1LRw8QtvhyHwxVRT
+    unit_amount: 31549
+    inactive_after: '2026-11-12T22:04:44.929Z'
   - id: price_1ThSlrFh1LRw8QtvA1rQMLnF
     unit_amount: 31799
   - id: price_1TjMFBFh1LRw8QtvYXtIzDt7
@@ -185,7 +189,6 @@ RON:
     unit_amount: 15949
   - id: price_1UXJRkFh1LRw8QtvfqI1gfRZ
     unit_amount: 16049
-    inactive_after: '2026-11-11T11:37:30.150Z'
 SEK:
   - id: price_1TbloYFh1LRw8Qtv58v1pc1r
     unit_amount: 31299
@@ -209,7 +212,6 @@ SEK:
     unit_amount: 32549
   - id: price_1UXJRlFh1LRw8QtvZW18ac27
     unit_amount: 32849
-    inactive_after: '2026-11-11T11:37:30.397Z'
   - id: price_1UVyrFFh1LRw8QtvP9eUMqJj
     unit_amount: 32999
 AUD:
@@ -219,7 +221,6 @@ AUD:
     unit_amount: 4749
   - id: price_1Tg10hFh1LRw8QtveSgxBK26
     unit_amount: 4749
-    inactive_after: '2026-11-11T11:37:27.999Z'
   - id: price_1TviC8Fh1LRw8QtvlW23WJhZ
     unit_amount: 4799
 EUR:
