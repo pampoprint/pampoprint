@@ -13,75 +13,75 @@ price:
     EUR: 29.99
     AUD: 48.49
     CAD: 47.49
-    NZD: 59.49
+    NZD: 59.99
     PLN: 131.99
-    UAH: 1506.49
-    CZK: 729.49
+    UAH: 1502.99
+    CZK: 730.49
     DKK: 223.49
-    HUF: 10921.49
+    HUF: 10926.49
     NOK: 316.49
     RON: 159.99
-    SEK: 331.49
+    SEK: 332.49
   M:
     GBP: 24.99
     USD: 33.49
     EUR: 29.99
     AUD: 48.49
     CAD: 47.49
-    NZD: 59.49
+    NZD: 59.99
     PLN: 131.99
-    UAH: 1506.49
-    CZK: 729.49
+    UAH: 1502.99
+    CZK: 730.49
     DKK: 223.49
-    HUF: 10921.49
+    HUF: 10926.49
     NOK: 316.49
     RON: 159.99
-    SEK: 331.49
+    SEK: 332.49
   L:
     GBP: 24.99
     USD: 33.49
     EUR: 29.99
     AUD: 48.49
     CAD: 47.49
-    NZD: 59.49
+    NZD: 59.99
     PLN: 131.99
-    UAH: 1506.49
-    CZK: 729.49
+    UAH: 1502.99
+    CZK: 730.49
     DKK: 223.49
-    HUF: 10921.49
+    HUF: 10926.49
     NOK: 316.49
     RON: 159.99
-    SEK: 331.49
+    SEK: 332.49
   XL:
     GBP: 24.99
     USD: 33.49
     EUR: 29.99
     AUD: 48.49
     CAD: 47.49
-    NZD: 59.49
+    NZD: 59.99
     PLN: 131.99
-    UAH: 1506.49
-    CZK: 729.49
+    UAH: 1502.99
+    CZK: 730.49
     DKK: 223.49
-    HUF: 10921.49
+    HUF: 10926.49
     NOK: 316.49
     RON: 159.99
-    SEK: 331.49
+    SEK: 332.49
   2XL:
     GBP: 26.99
-    USD: 35.99
+    USD: 35.49
     EUR: 32.49
     AUD: 52.49
     CAD: 50.99
     NZD: 64.49
     PLN: 142.49
-    UAH: 1627.49
-    CZK: 787.49
+    UAH: 1623.49
+    CZK: 788.99
     DKK: 241.49
-    HUF: 11795.49
+    HUF: 11801.49
     NOK: 341.49
-    RON: 172.49
-    SEK: 357.99
+    RON: 172.99
+    SEK: 358.99
   3XL:
     GBP: 27.99
     USD: 37.49
@@ -90,13 +90,13 @@ price:
     CAD: 52.99
     NZD: 66.99
     PLN: 147.49
-    UAH: 1687.49
-    CZK: 816.99
+    UAH: 1683.49
+    CZK: 818.49
     DKK: 250.49
-    HUF: 12232.49
-    NOK: 354.49
+    HUF: 12238.49
+    NOK: 353.99
     RON: 179.49
-    SEK: 371.49
+    SEK: 372.49
 compare_at_price_offset: 4
 price_rounding_cents:
   - 49
@@ -110,13 +110,13 @@ compare_at_price:
     CAD: 54.49
     NZD: 69.49
     PLN: 152.99
-    UAH: 1747.99
-    CZK: 846.49
+    UAH: 1743.49
+    CZK: 847.49
     DKK: 259.49
-    HUF: 12669.99
-    NOK: 366.99
+    HUF: 12675.49
+    NOK: 366.49
     RON: 185.49
-    SEK: 384.49
+    SEK: 385.49
   M:
     GBP: 28.99
     USD: 38.49
@@ -125,13 +125,13 @@ compare_at_price:
     CAD: 54.49
     NZD: 69.49
     PLN: 152.99
-    UAH: 1747.99
-    CZK: 846.49
+    UAH: 1743.49
+    CZK: 847.49
     DKK: 259.49
-    HUF: 12669.99
-    NOK: 366.99
+    HUF: 12675.49
+    NOK: 366.49
     RON: 185.49
-    SEK: 384.49
+    SEK: 385.49
   L:
     GBP: 28.99
     USD: 38.49
@@ -140,13 +140,13 @@ compare_at_price:
     CAD: 54.49
     NZD: 69.49
     PLN: 152.99
-    UAH: 1747.99
-    CZK: 846.49
+    UAH: 1743.49
+    CZK: 847.49
     DKK: 259.49
-    HUF: 12669.99
-    NOK: 366.99
+    HUF: 12675.49
+    NOK: 366.49
     RON: 185.49
-    SEK: 384.49
+    SEK: 385.49
   XL:
     GBP: 28.99
     USD: 38.49
@@ -155,28 +155,28 @@ compare_at_price:
     CAD: 54.49
     NZD: 69.49
     PLN: 152.99
-    UAH: 1747.99
-    CZK: 846.49
+    UAH: 1743.49
+    CZK: 847.49
     DKK: 259.49
-    HUF: 12669.99
-    NOK: 366.99
+    HUF: 12675.49
+    NOK: 366.49
     RON: 185.49
-    SEK: 384.49
+    SEK: 385.49
   2XL:
     GBP: 30.99
-    USD: 41.49
+    USD: 40.99
     EUR: 37.49
     AUD: 60.49
     CAD: 58.49
-    NZD: 73.99
+    NZD: 74.49
     PLN: 163.49
-    UAH: 1868.49
-    CZK: 904.49
+    UAH: 1863.49
+    CZK: 905.99
     DKK: 277.49
-    HUF: 13543.99
-    NOK: 392.49
+    HUF: 13549.99
+    NOK: 391.99
     RON: 198.49
-    SEK: 410.99
+    SEK: 412.49
   3XL:
     GBP: 31.99
     USD: 42.49
@@ -184,11 +184,11 @@ compare_at_price:
     AUD: 62.49
     CAD: 60.49
     NZD: 76.49
-    PLN: 168.49
-    UAH: 1928.49
-    CZK: 933.49
+    PLN: 168.99
+    UAH: 1923.99
+    CZK: 935.49
     DKK: 286.49
-    HUF: 13980.99
-    NOK: 404.99
-    RON: 204.49
-    SEK: 424.49
+    HUF: 13987.49
+    NOK: 404.49
+    RON: 204.99
+    SEK: 425.49

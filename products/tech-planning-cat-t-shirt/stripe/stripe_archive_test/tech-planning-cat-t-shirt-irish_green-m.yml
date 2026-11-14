@@ -1,6 +1,7 @@
 USD:
-  - id: price_1TkMHBFh1LRw8QtvilLwR5X6
-    unit_amount: 3149
+  - id: price_1TxUAiFh1LRw8QtvxXH3zeVt
+    unit_amount: 3199
+    inactive_after: '2026-11-15T10:36:56.288Z'
   - id: price_1Tblr8Fh1LRw8QtvQWPrXAFR
     unit_amount: 3249
     inactive_after: '2026-11-14T20:38:42.662Z'
@@ -15,6 +16,9 @@ AUD:
     unit_amount: 4599
   - id: price_1ThSokFh1LRw8Qtvz9KwGS6q
     unit_amount: 4599
+  - id: price_1TviFPFh1LRw8QtvmSzj979r
+    unit_amount: 4649
+    inactive_after: '2026-11-15T10:36:56.559Z'
 CAD:
   - id: price_1TblrAFh1LRw8QtvDTyaQ9y2
     unit_amount: 4449
@@ -63,14 +67,15 @@ UAH:
     unit_amount: 143549
   - id: price_1ThSotFh1LRw8QtvJnqhCboe
     unit_amount: 144149
-  - id: price_1TjMGPFh1LRw8Qtv9de4VgTi
-    unit_amount: 144249
   - id: price_1TiiA7Fh1LRw8Qtv3aNWeQnW
     unit_amount: 144349
   - id: price_1TviFSFh1LRw8QtvzI0ZpG4F
     unit_amount: 144449
   - id: price_1Tbjt6Fh1LRw8QtvqDtZtw9g
     unit_amount: 144599
+  - id: price_1UbRF9Fh1LRw8QtvFgEwNxli
+    unit_amount: 144649
+    inactive_after: '2026-11-15T10:36:56.829Z'
   - id: price_1UVys5Fh1LRw8QtvzW142rVh
     unit_amount: 145349
   - id: price_1UXJSZFh1LRw8QtvDRHSKMwF
@@ -110,8 +115,9 @@ CZK:
     inactive_after: '2026-11-14T20:38:43.208Z'
   - id: price_1UaDNXFh1LRw8Qtvai6HRtU6
     unit_amount: 69999
-  - id: price_1UXJSZFh1LRw8QtvJc4NYkIW
-    unit_amount: 70149
+  - id: price_1UbRF9Fh1LRw8QtvXE9RSgXq
+    unit_amount: 70049
+    inactive_after: '2026-11-15T10:36:57.091Z'
 DKK:
   - id: price_1TkMHFFh1LRw8QtvFcf3awie
     unit_amount: 20649
@@ -157,6 +163,9 @@ HUF:
   - id: price_1UajdtFh1LRw8QtvBx20Y3Xe
     unit_amount: 1043349
     inactive_after: '2026-11-14T20:38:43.493Z'
+  - id: price_1UbRF9Fh1LRw8QtvyvsFKbFG
+    unit_amount: 1048449
+    inactive_after: '2026-11-15T10:36:57.362Z'
   - id: price_1UVys5Fh1LRw8QtvYJnlXUp6
     unit_amount: 1051199
   - id: price_1UXJSaFh1LRw8Qtvj7qrASZH
@@ -230,6 +239,9 @@ SEK:
     inactive_after: '2026-11-14T20:38:44.029Z'
   - id: price_1UVys6Fh1LRw8QtvSCtFOpPs
     unit_amount: 31649
+  - id: price_1UbRFAFh1LRw8QtvkpeMlePK
+    unit_amount: 31849
+    inactive_after: '2026-11-15T10:36:57.623Z'
 EUR:
   - id: price_1TkMHCFh1LRw8Qtv9ibGK9YU
     unit_amount: 2749
