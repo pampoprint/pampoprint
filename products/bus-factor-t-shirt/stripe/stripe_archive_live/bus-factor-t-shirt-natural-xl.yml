@@ -42,6 +42,9 @@ UAH:
     unit_amount: 143349
   - id: price_1TyFhBFh1LRw8QtvuIuDIPyz
     unit_amount: 143549
+  - id: price_1ThSw5Fh1LRw8QtvztWVu12F
+    unit_amount: 144149
+    inactive_after: '2026-11-18T20:08:12.229Z'
   - id: price_1TjMPrFh1LRw8Qtv4A8xARMy
     unit_amount: 144249
   - id: price_1TiiVVFh1LRw8QtvEGlZJP1Y
@@ -97,6 +100,9 @@ CZK:
     unit_amount: 70049
   - id: price_1UXIhpFh1LRw8QtvF4LI2GBD
     unit_amount: 70149
+  - id: price_1UcX45Fh1LRw8QtvtxoJAe4P
+    unit_amount: 70199
+    inactive_after: '2026-11-18T20:08:12.461Z'
 HUF:
   - id: price_1TjMPsFh1LRw8QtvArU1Q7Ko
     unit_amount: 969499
@@ -127,6 +133,9 @@ HUF:
   - id: price_1Ub22RFh1LRw8Qtv5ZHH4h3Y
     unit_amount: 1047249
     inactive_after: '2026-11-17T21:03:49.327Z'
+  - id: price_1UcX45Fh1LRw8Qtvcl239KnU
+    unit_amount: 1048949
+    inactive_after: '2026-11-18T20:08:12.947Z'
   - id: price_1UWKHGFh1LRw8QtvXq3PkpML
     unit_amount: 1049699
   - id: price_1UVz0DFh1LRw8Qtv9iSpj8MS
@@ -146,9 +155,9 @@ NOK:
     unit_amount: 29949
   - id: price_1Tg18QFh1LRw8QtvN7uYIAW5
     unit_amount: 30249
-  - id: price_1ThGSLFh1LRw8QtvZOskvOzj
-    unit_amount: 30449
-    inactive_after: '2026-11-17T21:03:49.585Z'
+  - id: price_1UaDXCFh1LRw8QtvX5aIltAb
+    unit_amount: 30349
+    inactive_after: '2026-11-18T20:08:13.198Z'
   - id: price_1ThSw8Fh1LRw8QtvQbZAdloK
     unit_amount: 30549
   - id: price_1ThSw8Fh1LRw8QtvQbZAdloK
@@ -227,8 +236,9 @@ DKK:
     unit_amount: 20949
   - id: price_1TviTbFh1LRw8QtvtxdEcHVX
     unit_amount: 21099
-  - id: price_1UaDXBFh1LRw8QtvcwAgOBav
-    unit_amount: 21499
+  - id: price_1UVz0DFh1LRw8Qtv96xT2L8c
+    unit_amount: 21449
+    inactive_after: '2026-11-18T20:08:12.698Z'
   - id: price_1UX8VsFh1LRw8QtvJWL02z7Y
     unit_amount: 21549
 RON:
@@ -240,8 +250,9 @@ RON:
     unit_amount: 14749
   - id: price_1TviTdFh1LRw8Qtvbq0HKbfj
     unit_amount: 14849
-  - id: price_1UXIhqFh1LRw8QtvgWKw4HKl
-    unit_amount: 15399
+  - id: price_1UVz0DFh1LRw8QtvQveBHqub
+    unit_amount: 15349
+    inactive_after: '2026-11-18T20:08:13.432Z'
 NZD:
   - id: price_1Tbm6WFh1LRw8QtvCu8GOY3C
     unit_amount: 5549
